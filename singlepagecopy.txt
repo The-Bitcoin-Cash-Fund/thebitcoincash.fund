@@ -1,0 +1,32 @@
+
+- What is The Bitcoin Cash Fund:
+The Bitcoin Cash Fund is an initiative being set up to fund marketing efforts aimed at increasing awareness, adoption and use of Bitcoin Cash.
+
+
+- What is Bitcoin Cash:
+Bitcoin Cash is a hard forked version of the Bitcoin blockchain featuring larger blocks, a new robust Difficulty Adjustment Algorithm, and removes controversial features like Segregated Witness and Replace-By-Fee. For more information, visit the website here: https://www.bitcoincash.org
+
+We believe Bitcoin Cash is the cryptocurrency that most closely matches the Bitcoin Satoshi Nakamoto originally designed, with on-chain scaling, reliably low fees and speedy confirmation times. Bitcoin Cash is simply the way Bitcoin used to work from 2009 up until the blocks became full in late 2016.
+
+
+When: The Bitcoin Cash fund was concieved in mid November 2017. See the original post at yours.org: https://www.yours.org/content/now-that-the-debate-is-over--lets-finally-make-some-progress-forward---35e74b0abdcc
+
+Response from the community was immediate and overwhelming, with over 13 BCH raised in donations in the first two days.
+
+
+Why: The individuals behind The Bitcoin Cash Fund believe that with the creation of Bitcoin Cash, and the cancelation of the SegWit2X scaling hardfork on the main Bitcoin blockchain, the time has come to focus our efforts on promotion instead of infighting. Bitcoin Cash is a fast, secure and low-fee payment system ready to scale and serve billions of people, today. The key to increasing Bitcoin Cash adoption is by increasing awareness and dispelling misconceptions. We aim to accomplish this through both targetted and broadly scoped marketing efforts.
+
+
+How: The Bitcoin Cash Fund intends to fund its marketing efforts entirely via donations from the community. A Bitcoin Cash address has been set up for this purpose. Those working on the fund are all volunteers, so 100% of donations go towards spreading the word about Bitcoin Cash!
+
+
+Who: The Bitcoin Cash Fund was originally conceived by long time community contributor Singularity. Since then, the Fund is being organized by a group of like-minded and multi-talented enthusiasts all very excited to spread adoption of Bitcoin Cash to all corners of the globe.
+
+
+Where: thebitcoincash.fund
+Be sure to sign up for email updates and follow us on social media to keep track of all the exciting developments in the coming weeks and months!
+
+Links:
+Twitter, Facebook, etc.
+Sign up for email updates: Here
+
