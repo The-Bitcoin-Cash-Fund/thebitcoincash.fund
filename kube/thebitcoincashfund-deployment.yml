@@ -1,0 +1,24 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: default
+  labels:
+    service: thebitcoincashfund
+  name: thebitcoincashfund
+spec:
+  replicas: 5
+  template:
+    metadata:
+      labels:
+        service: thebitcoincashfund
+    spec:
+      containers:
+      - image: zquestz/thebitcoincashfund:latest
+        imagePullPolicy: Always
+        name: thebitcoincashfund
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "64Mi"
+      restartPolicy: Always
