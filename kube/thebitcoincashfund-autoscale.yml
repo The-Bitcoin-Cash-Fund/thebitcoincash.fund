@@ -1,0 +1,13 @@
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: thebitcoincashfund
+  namespace: default
+spec:
+  scaleTargetRef:
+    apiVersion: extensions/v1beta1
+    kind: Deployment
+    name: thebitcoincashfund
+  minReplicas: 5
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 90
