@@ -1,0 +1,55 @@
+zh:
+  locale: zh_CN
+  title: 比特币现金基金
+  description: 加速发展比特币现金应用的社区基层项目
+  subhead: <strong>比特币现金基金</strong>是个非盈利组织，致力于把捐赠的资金分配于推广比特币现金的项目。
+  what_is_bch_title: 比特币现金是什么？
+  what_is_bch_answer1: 线上P2P全球数字货币系统
+  what_is_bch_answer2: 不受任何个人控制的去中心化式货币
+  what_is_bch_answer3: 安全、高速、廉价的支付系统
+  mission_title: 我们的愿景
+  mission_lead: 我们的愿景是让比特币现金在五年内为十亿用户者服务。
+  mission_text: >
+    <p>任何人或团队都可以向比特币现金基金提出资助的申请。为了确保让资金
+    分配能够获得最大成效，所有申请将依据成本、影响力以及SMART法则等多
+    个方面来进行评估。</p>
+    <p>我们希望所有接受资助的社区成员，能够发挥主人翁的精神，做到善始善终。</p>
+  donate_title: 捐赠
+  donate_text: 这是比特币现金基金的官方钱包地址，只需复制、或者二维码扫描至您最常用的钱包来进行捐赠。我们欢迎不管来自何方的捐款。
+  team_title: 团队介绍
+  team_role_board_member: 委员
+  team_role_executive_director: 执行董事
+  team_ian_descoteaux_bio: >
+    2010年进入比特币领域，建立了矿厂，从事挖矿事业至今。
+  team_paul_wasensteiner_bio: >
+    2011年进入了比特币领域，于2017年11月创办了比特币现金基金
+  team_haipo_yang_bio: >
+    创建了非常成功的ViaBTC矿池，也曾经在ZeusMiner带领了他们的研发组。
+  advisors_title: 我们的顾问们
+  advisors_jack_liu_bio: >
+    曾经是OKCoin集团的首席策略总监，也曾经参与创建OKEx以及OKLink。
+  advisors_roger_ver_bio: >
+    世界上第一位比特币相关创业公司的投资者，从2011年初至今一直致力于此。
+  advisors_peter_rizun_bio: >
+    现任Bitcoin Unlimited 的首席科学家，致力于研究比特币扩容瓶颈的问题。
+  advisors_mike_komaransky_bio: >
+    自2010年以来的比特币投资者以及倡导者，迈克曾经是DRW的合伙人，也曾于2014 年至2017年6月在Cumberland Mining担任交易主管。
+  stay_informed_title: 保持联络
+  stay_informed_email_placeholder: name@example.com
+  stay_informed_subscribe_button: 订阅
+  sponsors_title: 赞助商
+  sponsors_text: >
+    这些企业赞助商与我们拥有相同的愿景，也正致力于迅速推广比特币现金的应用。
+  get_in_touch_title: 与我们联系
+  get_in_touch_name_placeholder: 姓名
+  get_in_touch_email_placeholder: 电邮
+  get_in_touch_message_placeholder: 消息正文
+  get_in_touch_send_button: 发送
+  more_to_come_title: 更多消息，敬请期待
+  more_to_come_text: >
+    此基金虽然刚刚成立，工作却已有了巨大进展，然而还会有更多进展带给大家，请密切留意！
+  more_to_come_learn: 了解详情
+  more_to_come_article_title: "新闻发布：比特币现金基金 – 公告1"
+  more_to_come_article_url: "https://www.yours.org/content/bch---bcf-----1-f77c64360217/"
+  more_to_come_participate: 如何加入基金以及寻求项目资助
+  copyright_text: 版权所有 &copy; 2017比特币现金基金
