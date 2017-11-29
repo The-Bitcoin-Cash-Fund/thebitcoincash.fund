@@ -1,0 +1,54 @@
+ja:
+  locale: ja-JP
+  title: ビットコインキャッシュ基金
+  description: ビットコインキャッシュを普及させる事を目的に設立された、コミュニティが主体の草の根運動プロジェクトです。
+  subhead: <strong>ビットコインキャッシュ基金</strong> は、ビットコインキャッシュを普及することが目的の非営利団体です。主な運営活動は、集めた寄付金を最適なプロジェクトへ配布して支援することです。
+  what_is_bch_title: ビットコインキャッシュとは？
+  what_is_bch_answer1: 人と人をオンラインを通してつなぐグローバルデジタルキャッシュシステムです。
+  what_is_bch_answer2: 特定の人物や組織によって制御されない分散型通貨です。
+  what_is_bch_answer3: 安全、高速かつ低コストの決済システムです。
+  mission_title: 我々の使命
+  mission_lead: 私たちの使命は、ビットコインキャッシュが5年間で10億人のユーザーの手に渡るよう支援することです。
+  mission_text: >
+    <p>誰でも、またはどのチームであれ、基金に対して資金援助を求めてプロジェクトの提案を出すことができます。その提案は、
+    費用対効果とS.M.A.R.Tの原則に基づいて評価され、資金はより効果的なプロジェクトに配分されます。</p>
+    <p>コミュニティのメンバーは、主体的にプロジェクトを遂行し、完了させることが望まれます。</p>
+  donate_title: 寄付
+  donate_text: これはビットコインキャッシュ基金の公式な募金用アドレスです。 コピーして貼り付けていただくか、お気に入りのウォレットにバーコードをスキャンしていただいて寄付をお願いします。皆さまの寄付で基金は維持されています。
+  team_title: チーム
+  team_role_board_member: 理事
+  team_role_executive_director: エグゼクティブディレクター
+  team_ian_descoteaux_bio: >
+    2010年にビットコインの世界に入り、マイニングファームを設立してから、現在に至るまでマイニングを続けている。
+  team_paul_wasensteiner_bio: >
+    2011年にビットコインの世界に入り、2017年11月にビットコインキャッシュ基金を設立。
+  team_haipo_yang_bio: >
+    マイニングプール「ViaBTC」を設立し、「ZeusMiner」のR＆Dチームを率いた。
+  advisors_title: 顧問
+  advisors_jack_liu_bio: >
+    過去に「OKCoin Group」のチーフストラテジーオフィサーを務め、「OKEx」と「OKLink」の共同設立者。
+  advisors_roger_ver_bio: >
+    世界初のビットコインスタートアップ投資家であり、2011年からビットコインのスタートアッププロジェクトに投資してきた。
+  advisors_peter_rizun_bio: >
+    開発チーム「Bitcoin Unlimited」のチーフサイエンティスト。ビットコインのスケーリング問題を主に研究。
+  advisors_mike_komaransky_bio: >
+    2010年からビットコインの投資家である「Mike」は「DRW」のパートナーであり、2014年から2017年6月まで「Cumberland Mining」で取引責任者を務めた。
+  stay_informed_title: メーリングリストへの参加
+  stay_informed_email_placeholder: name@example.com
+  stay_informed_subscribe_button: 申し込む
+  sponsors_title: スポンサー
+  sponsors_text: >
+    これらのスポンサー企業は、ビットコインキャッシュの普及を私たちと共に推進しています。
+  get_in_touch_title: 基金へのメッセージ
+  get_in_touch_name_placeholder: お名前
+  get_in_touch_email_placeholder: メールアドレス
+  get_in_touch_message_placeholder: メッセージ
+  get_in_touch_send_button: 送信
+  more_to_come_title: 今後の予定
+  more_to_come_text: >
+    現在、基金はさまざまのプロジェクトを遂行しています。今後も複数のプロジェクトが立ち上がる予定です。新しいプロジェクトが立ち上がればこちらにて公表を予定しています。
+  more_to_come_learn: もっと詳しく知る
+  more_to_come_article_title: "プレスリリース：ビットコインキャッシュ基金の発表 - Update 1"
+  more_to_come_article_url: "https://www.yours.org/content/announcing-the-bitcoin-cash-fund---update-1-38f985d0add1/"
+  more_to_come_participate: 基金に参加し、プロジェクトを提案する。
+  copyright_text: Copyright &copy; 2017 Bitcoin Cash Fund
