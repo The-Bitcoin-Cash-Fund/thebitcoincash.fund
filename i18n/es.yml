@@ -1,0 +1,57 @@
+es:
+  locale: es
+  title: El Fondo de Bitcoin Cash
+  description: Un proyecto genuino impulsado por la comunidad para contribuir al aumento de la adopción de Bitcoin Cash.
+  subhead: El <strong>Fondo de Bitcon Cash</strong> es una organización sin ánimo de lucro cuyo objetivo es la distribución de las donaciones a proyectos que promocionen Bitcoin Cash.
+  what_is_bch_title: ¿Qué es Bitcoin Cash?
+  what_is_bch_answer1: Un sistema monetario digital global de persona a persona.
+  what_is_bch_answer2: Una divisa descentralizada no controlada por ninguna persona o entidad.
+  what_is_bch_answer3: Un sistema de pago de alta velocidad y bajo coste.
+  mission_title: Nuestra misión
+  mission_lead: Nuestra misión es ayudar a Bitcoin Cash a servir a mil millones de personas en un plazo de 5 años.
+  mission_text: >
+    <p>Cualquier persona o equipo puede realizar una propuesta para solicitar fondos del
+    BCF (Fondo de Bitcoin Cash). Las propuestas se analizarán basándose en su relación 
+    entre coste e impacto potencial y en los principios S.M.A.R.T, para asegurarnos de 
+    que los fondos se asignan a los proyectos que mayor impacto tendrán.</p>
+    <p>Los miembros de la comunidad deberán organizarse y asumir la responsabilidad de sus 
+    proyectos hasta que se hayan completado.</p>
+  donate_title: Donar
+  donate_text: Esta es la dirección oficial del Fondo de Bitcoin Cash. Simplemente copia y pega la dirección o escanea este código QR con tu monedero de BCH para hacer un donativo.
+  team_title: El equipo
+  team_role_board_member: Miembro del Consejo
+  team_role_executive_director: Director Ejecutivo
+  team_ian_descoteaux_bio: >
+    Entró en el mundo de Bitcoin en 2010 y creó su propia granja de minado, y ha estado minando desde entonces.
+  team_paul_wasensteiner_bio: >
+    Entró en el mundo de Bitcoin en 2011, y fundó el Fondo de Bitcoin Cash en noviembre de 2017.
+  team_haipo_yang_bio: >
+    Fundó la red de minado ViaBTC, y lideró el equipo de I+D de ZeusMiner.
+  advisors_title: Nuestros Asesores
+  advisors_jack_liu_bio: >
+    CTO del Grupo OKCoin en el pasado, cofundador de OKEx y OKLink.
+  advisors_roger_ver_bio: >
+    Primer inversor del mundo en startups relacionadas con Bitcoin; ha estado invirtiendo en ellas desde 2011.
+  advisors_peter_rizun_bio: >
+    Científico jefe de Bitcoin Unlimited, dedicado a la investigación de posibles soluciones para la escala de Bitcoin.
+  advisors_mike_komaransky_bio: >
+    Inversor y defensor de Bitcoin desde 2010, Mike fue socio en DRW y fue Director de Trading en Cumberland Mining desde 2014 hasta junio de 2017.
+  stay_informed_title: Mantente al día
+  stay_informed_email_placeholder: nombre@ejemplo.com
+  stay_informed_subscribe_button: Suscribirme
+  sponsors_title: Patrocinadores
+  sponsors_text: >
+    Estos patrocinadores corporativos comparten nuestros objetivos y están contribuyendo a la adopción de Bitcoin Cash a un ritmo impresionante.
+  get_in_touch_title: Contacta con nosotros
+  get_in_touch_name_placeholder: Nombre
+  get_in_touch_email_placeholder: Email
+  get_in_touch_message_placeholder: Mensaje
+  get_in_touch_send_button: Enviar
+  more_to_come_title: Próximamente más
+  more_to_come_text: >
+    El Fondo ha hecho un trabajo enorme desde su nacimiento hace muy poco tiempo, aunque queda mucho por recorrer. ¡Echa un vistazo a este espacio con frecuencia!
+  more_to_come_learn: Más información
+  more_to_come_article_title: "Comunicado: Presentamos el Fondo de Bitcoin Cash – 1ª actualización"
+  more_to_come_article_url: "https://www.yours.org/content/presentamos-el-fondo-de-bitcoin-cash-750e5935be25/"
+  more_to_come_participate: Participa en el Fondo y elabora una propuesta de financiación para un proyecto
+  copyright_text: Copyright &copy; 2017 Bitcoin Cash Fund
