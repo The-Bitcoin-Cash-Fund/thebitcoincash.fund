@@ -48,7 +48,7 @@ The CSS and Javascript files are modular and kept separate for easy maintenance 
 
 
 
-##Translation
+## Translation
 
 This project does not include a system for translations, but it would be nice to develop with i18n in mind.
 
