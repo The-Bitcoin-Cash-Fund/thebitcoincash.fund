@@ -1,0 +1,22 @@
+{
+  "name": "thebitcoincash.fund",
+  "version": "0.0.1",
+  "homepage": "https://github.com/The-Bitcoin-Cash-Fund/thebitcoincash.fund",
+  "description": "The Bitcoin Cash Fund official website",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Bitcoin-Cash-Fund/thebitcoincash.fund"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-preprocess": "^5.1.0"
+  },
+  "dependencies": {}
+}
