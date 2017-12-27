@@ -1,0 +1,133 @@
+/* Main Background
+------------------------------------------------------------- */
+/*body {
+  background-color: #fff;
+}*/
+
+
+/* Center
+------------------------------------------------------------- */
+@media (max-width: 767px) {
+  .center-xs {
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .center-sm {
+    text-align: center;
+  }
+}
+
+
+/* Reduce margins on small screens
+------------------------------------------------------------- */
+@media (max-width: 767px) {
+  .page-width{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+/* Background Classes
+------------------------------------------------------------- */
+.bg-color {
+  background-color: #141414;
+}
+.bg-chunky {
+  padding: 15px;
+  background-color: #141414;
+}
+.bg-chunky { padding: 15px; }
+@media (min-width: 550px) {
+  .bg-chunky { padding: 30px; }
+}
+@media (min-width: 768px) {
+  .bg-chunky { padding: 50px; }
+}
+@media (min-width: 1200px) {
+  .bg-chunky { padding: 65px; }
+}
+
+
+/* Sidebar
+------------------------------------------------------------- */
+.sidebar {
+  background-color: #141414;
+  padding: 15px;
+}
+@media (max-width: 991px) {
+  .sidebar {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+.sidebar-chunky {
+  background-color: #141414;
+  padding: 20px;
+}
+@media (max-width: 991px) {
+  .sidebar-chunky {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+@media (min-width: 1200px) {
+  .sidebar-chunky {
+    padding: 30px;
+  }
+}
+
+
+/* Margin Top
+------------------------------------------------------------- */
+.margin-top-sm { margin-top: 20px; }
+.margin-top-md { margin-top: 35px; }
+.margin-top-lg { margin-top: 50px; }
+@media (min-width: 768px) {
+  .margin-top-sm { margin-top: 20px; }
+  .margin-top-md { margin-top: 45px; }
+  .margin-top-lg { margin-top: 65px; }
+}
+@media (min-width: 1200px) {
+  .margin-top-sm { margin-top: 30px; }
+  .margin-top-md { margin-top: 55px; }
+  .margin-top-lg { margin-top: 80px; }
+}
+
+
+/* Margin Bottom
+------------------------------------------------------------- */
+.margin-btm-sm { margin-bottom: 20px; }
+.margin-btm-md { margin-bottom: 35px; }
+.margin-btm-lg { margin-bottom: 50px; }
+@media (min-width: 768px) {
+  .margin-btm-sm { margin-bottom: 20px; }
+  .margin-btm-md { margin-bottom: 45px; }
+  .margin-btm-lg { margin-bottom: 65px; }
+}
+@media (min-width: 1200px) {
+  .margin-btm-sm { margin-bottom: 30px; }
+  .margin-btm-md { margin-bottom: 55px; }
+  .margin-btm-lg { margin-bottom: 80px; }
+}
+
+
+/* Full-Width Backgrounds
+* Source: https://css-tricks.com/full-browser-width-bars/
+------------------------------------------------------------- */
+/* prevents scroll bars */
+html, body {
+  overflow-x: hidden;
+}
+/* Adding this class to a row makes the bg extend horizontally
+* Can also be applied to a div inside a container->row->col
+*/
+.full-width-bg {
+  position: relative;
+  margin-left: -9999rem;
+  margin-right: -9999rem;
+  padding-left: 9999rem;
+  padding-right: 9999rem;
+  /*z-index: -1;  */
+}

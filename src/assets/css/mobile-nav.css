@@ -1,0 +1,201 @@
+/* Mobile Side Menu Mechanics
+------------------------------------------------------------- */
+#mobile-nav-panel {
+  position: fixed;
+  z-index: 500;
+  overflow-y: scroll;
+  left: -285px;
+  width: 285px;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+  -webkit-transition: all 250ms ease-in;
+  -moz-transition:    all 250ms ease-in;
+  -o-transition:      all 250ms ease-in;
+  transition:         all 250ms ease-in;
+} 
+body.mobile-nav-open #mobile-nav-panel {
+  left: 0;
+}
+.page-wrap {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+  -webkit-transition: all 250ms ease-in;
+  -moz-transition:    all 250ms ease-in;
+  -o-transition:      all 250ms ease-in;
+  transition:         all 250ms ease-in;
+}
+body.mobile-nav-open .page-wrap {
+  touch-action: none;
+  margin-left: 300px;
+  margin-right: -300px;
+}
+
+
+/* Mobile Side Menu Design
+------------------------------------------------------------- */
+#mobile-nav-panel {
+  background-color: #35a283;
+  padding: 30px 13px 150px 13px;
+}
+
+
+/* Search
+------------------------------------------------------------- */
+/*#mobile-nav-search {
+  display: block;
+  margin-bottom: 40px;
+}
+.mobile-nav-search-img {
+  width: 20px;
+}
+#mobile-nav-search input {
+  color: #444;
+  font-size: 16px;
+  display: inline-block;
+  width: calc(100% - 45px);
+  margin-right: 0;
+  float: left;
+  background-color: #484848;
+  border: 1px solid #696969;
+  border-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  transition: all 75ms ease-out;
+}
+#mobile-nav-search input::-webkit-input-placeholder {
+  color: #a7a7a7;
+}
+#mobile-nav-search input::-moz-placeholder {
+  color: #a7a7a7;
+}
+#mobile-nav-search input:-ms-input-placeholder {
+  color: #a7a7a7;
+}
+#mobile-nav-search input:-moz-placeholder {
+  opacity: 1;
+  color: #a7a7a7;
+}
+#mobile-nav-panel .btn {
+  display: inline-block;
+  width: 45px;
+  float: right;
+  margin: 0;
+  height: 34px;
+  background-color: #931ee0;
+  border: 1px solid #696969;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#mobile-nav-search input:focus {
+  background-color: #fff;
+  outline: none;
+}
+#mobile-nav-search input,
+#mobile-nav-search input:active,
+#mobile-nav-search .btn:active {
+  -webkit-appearance: none;
+  box-shadow: none;
+  outline: none;
+}*/
+
+
+/* Nav List
+------------------------------------------------------------- */
+.mobile-nav {
+  background-color: #35a283;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.mobile-nav-item {
+  display: block;
+  max-height: none;
+  overflow: hidden;
+}
+.mobile-nav-item a {
+  display: block;
+  background-color: #35a283;
+  padding: 13px;
+  margin: 0;
+}
+.mobile-nav-item a:hover,
+.mobile-nav-item a:focus {
+  text-decoration: none;
+}
+.item-closed {
+  max-height: 0px;
+}
+.mobile-nav-expand-btn {
+  width: 16px;
+  height: 16px;
+  float: right;
+  position: relative;
+}
+.mobile-nav-expand-btn span {
+  display: block;
+  position: absolute;
+  background-color: #9a9999;
+  opacity: 1;
+  width: 11px;
+  height: 3px;
+  transition: 250ms ease-in-out 0ms;
+}
+.mobile-nav-expand-btn span:nth-child(1) {
+  top: 6px;
+  left: 2px;
+  transform: rotate(45deg);
+}
+.mobile-nav-expand-btn span:nth-child(2) {
+  top: 6px;
+  left: 8px;
+  transform: rotate(135deg); 
+}
+.mobile-nav-expand-btn.open span {
+  background-color: #525252;
+  width: 20px;
+  top: 4px;
+  left: 0px;
+}
+.mobile-nav-expand-btn.open span:nth-child(1) {
+  transform: rotate(135deg);
+}
+.mobile-nav-expand-btn.open span:nth-child(2) {
+  transform: rotate(45deg); 
+}
+.mobile-nav-item a {
+  color: #fff;
+  font-family: 'Barlow', 'Arial';
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 1px solid #5ecca5;
+  padding-left: 0;
+}
+.mobile-subnav-item a {
+  color: #9a6cc1;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 1px dashed #484848;
+  padding-left: 0.7rem;
+}
+.mobile-sub-subnav-item a {
+  color: #54b18c;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: none;
+  border-bottom: 1px dashed #484848;
+  padding-left: 2rem;
+}
+#mobile-nav-contact-link {
+  border-bottom: 0 !important;
+  padding-left: 35px;
+  background: url(//cdn.shopify.com/s/files/1/2446/5431/t/4/assets/ico-mail-sharp-xs.svg?17925632865738946952) no-repeat 3px center;
+  background-size: 23px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,19 @@
+/* Forms
+------------------------------------------------------------- */
+.form-group label,
+.form-inline label {
+  display: none;
+}
+textarea,
+input[type="text"],
+input[type="submit"],
+input[type="password"],
+input[type="email"] {
+  -webkit-appearance: none;
+}
+.alert {
+  border-radius: 0 !important;
+}
+.form-control, .btn {
+  border-radius: 0 !important;
+}
