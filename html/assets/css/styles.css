@@ -478,6 +478,10 @@ h3 {
   width: 35px;
   height: 35px;
 }
+.contact-sns-img-chat {
+  width: 100px;
+  height: 100px;
+}
 #contact-form {
   padding-top: 50px;
   max-width: 500px;
