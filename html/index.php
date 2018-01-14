@@ -26,7 +26,7 @@
                 <source srcset="/bcf/assets/img/hero_tablet.png" />
                 <img src="/bcf/assets/img/hero_desktop.png" class="img-responsive" style="width:100%;" />
               </picture>
-              <h1 id="hero-title">The Bitcoin Cash Fund</h1>
+              <h1 id="hero-title">The Bitcoin Cash Fund!!</h1>
               <p id="hero-lead">A community-driven, grassroots project to accelerate the adoption of Bitcoin Cash.</p>
             </div>
           </div>
@@ -36,6 +36,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
+              Here we go!
               <p>The <strong>Bitcoin Cash Fund</strong> is a non-profit organisation, with the mission of distributing donated funds to projects that promote Bitcoin Cash.</p>
             </div>
           </div>
