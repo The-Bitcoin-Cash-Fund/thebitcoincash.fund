@@ -10,25 +10,6 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     base: grunt.file.setBase('D:/Software Development/Websites/Bitcoin Cash Fund/'),
 
-    // Copy the required files to the build directory
-    copy: {
-      favicon: {
-        expand: true,
-        cwd: 'src/',
-        src: 'favicon.ico',
-        dest: '.build/'
-      },
-      assets: {
-        expand: true,
-        cwd: 'src/assets/',
-        src: '**',
-        dest: '.build/assets/'
-      }
-    },
-
-    // Clean up...
-    clean: ['.build/*'],
-
     // Watch for changes
     watch: {
       grunt: {
@@ -36,38 +17,28 @@ module.exports = function(grunt) {
         files: ['Gruntfile.js'],
         tasks: ['die'] 
       },
-      copy: {
-        files: [
-          'src/**'
-        ],
-        tasks: ['copy', 'preprocess']
+      ftp: {
+        files: ['src/**/**'],
+        tasks: ['ftp_push']
       }
     },
 
-    // Create a local webserver
-    connect: {
-      task: {
-        options: {
-          port: 3000,
-          base: '.build/'
-        }
-      }
-    },
-
-    // Preprocess 
-    preprocess : {
+    // Push to the FTP Server
+    ftp_push: {
       options: {
-        context : {
-          DEBUG: true,
-          srcDir: 'src/'
-        }
+        authKey: "dev",
+        host: "ftp.solomonpierce.com",
+        dest: "bcf",
+        port: 21
       },
-      html: {
-        cwd: 'src/',
-        src: '**/*.preproc.html',
-        ext: '.html',
-        dest: '.build/',
-        expand: true
+      all: {
+        files: [
+          {
+            expand: true,
+            cwd: 'src',
+            src: ['**/**']
+          }
+        ]
       }
     }
 
@@ -76,15 +47,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.loadNpmTasks('grunt-preprocess');
+  grunt.loadNpmTasks('grunt-newer');
+  grunt.loadNpmTasks('grunt-ftp-push');
 
   grunt.registerTask('die', function() {
     console.log("* * * * * * * * * * * * * * * * * * * * \n\n\n\n\n\n");
     process.exit(code=1);
   });
-  grunt.registerTask('build-live', ['concat', 'uglify', 'imagemin', 'copy']);
-  grunt.registerTask('build-dev',  ['clean', 'copy', 'preprocess']);
-  grunt.registerTask('test', ['clean', 'copy', 'preprocess']);
-  return grunt.registerTask('default', ['build-dev', 'connect', 'watch']);
+  return grunt.registerTask('default', ['ftp_push', 'watch']);
 };
