@@ -1,11 +1,5 @@
 module.exports = function(grunt) {
 
-  var IMAGE_ASSET_PATTERN, IS_PRODUCTION, STATIC_ASSETS_PATTERN;
-  IS_PRODUCTION = grunt.option('env') === 'production';
-  IMAGE_ASSET_PATTERN = '**/*.{png,jpg,jpeg,gif,svg}';
-  STATIC_ASSETS_PATTERN = '**/*.{css,js,scss,css.liquid,js.liquid,scss.liquid,eot,ttf,woff}';
-  DIR_FW = "D:/Software Development/Websites/Bitcoin Cash Fund/";
-
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     base: grunt.file.setBase('D:/Software Development/Websites/Bitcoin Cash Fund/'),
