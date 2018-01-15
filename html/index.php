@@ -1,15 +1,20 @@
+<?php $config = include('_config.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- @include /includes/css.dev.html -->
-    <!-- @include /includes/js.dev.html -->
+    <?php
+    $headInfo = [
+      'title'       => 'The Bitcoin Cash Fund',
+      'description' => 'A community-driven, grassroots project to accelerate the adoption of Bitcoin Cash.',
+      'url'         => 'https://thebitcoincash.fund',
+      'og_img'      => 'https://thebitcoincash.fund/assets/img/bcf_opengraph.jpg'
+    ]; ?>
+    <?php include($config['include_dir'] . 'head.php'); ?>
+    <title><?= $headInfo['title'] ?></title>
   </head>
   <body>
-    <!-- @include /includes/navbar-xs.html -->
-    <!-- @include /includes/navbar-md.html -->
-    <!-- @include /includes/mobile-nav.html -->
+    <?php include($config['include_dir'] . 'nav.php'); ?>
     <div class="page-wrap">
       <div id="hero">
         <div class="container">
@@ -18,13 +23,13 @@
               <picture>
                 <!-- Desktop -->
                 <source media="(min-width: 768px)"
-                        srcset="/bcf/assets/img/hero_desktop.png" />
+                        srcset="<?= $config['img_dir']; ?>hero_desktop.png" />
                 <!-- Tablet -->
                 <source media="(min-width: 550px)"
-                        srcset="/bcf/assets/img/hero_tablet.png" />
+                        srcset="<?= $config['img_dir']; ?>hero_tablet.png" />
                 <!-- Mobile -->
-                <source srcset="/bcf/assets/img/hero_tablet.png" />
-                <img src="/bcf/assets/img/hero_desktop.png" class="img-responsive" style="width:100%;" />
+                <source srcset="<?= $config['img_dir']; ?>hero_tablet.png" />
+                <img src="<?= $config['img_dir']; ?>hero_desktop.png" class="img-responsive" style="width:100%;" />
               </picture>
               <h1 id="hero-title">The Bitcoin Cash Fund!!</h1>
               <p id="hero-lead">A community-driven, grassroots project to accelerate the adoption of Bitcoin Cash.</p>
@@ -36,7 +41,6 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              Here we go!
               <p>The <strong>Bitcoin Cash Fund</strong> is a non-profit organisation, with the mission of distributing donated funds to projects that promote Bitcoin Cash.</p>
             </div>
           </div>
@@ -52,15 +56,15 @@
           </div>
           <div class="row">
             <div class="col-md-4 what-bch-answer">
-              <img src="/bcf/assets/svg/globe.svg" class="bch-business-icon">
+              <img src="<?= $config['svg_dir']; ?>globe.svg" class="bch-business-icon">
               <p>A person-to-person online global digital cash system.</p>
             </div>
             <div class="col-md-4 what-bch-answer">
-              <img src="/bcf/assets/svg/cubes.svg" class="bch-business-icon">
+              <img src="<?= $config['svg_dir']; ?>cubes.svg" class="bch-business-icon">
               <p>A decentralized currency not controlled by any one person.</p>
             </div>
             <div class="col-md-4 what-bch-answer">
-              <img src="/bcf/assets/svg/flash.svg" class="bch-business-icon">
+              <img src="<?= $config['svg_dir']; ?>flash.svg" class="bch-business-icon">
               <p>A secure, high-speed and low-cost payment system.</p>
             </div>
           </div>
@@ -73,10 +77,10 @@
               <picture>
                 <!-- Desktop -->
                 <source media="(min-width: 450px)"
-                        srcset="/bcf/assets/img/mission_desktop.png" />
+                        srcset="<?= $config['img_dir']; ?>mission_desktop.png" />
                 <!-- Mobile -->
-                <source srcset="/bcf/assets/img/mission_desktop.png" />
-                <img id="mission-img" src="/bcf/assets/img/mission_desktop.png" class="img-responsive" style="width:100%;" />
+                <source srcset="<?= $config['img_dir']; ?>mission_desktop.png" />
+                <img id="mission-img" src="<?= $config['img_dir']; ?>mission_desktop.png" class="img-responsive" style="width:100%;" />
               </picture>
             </div>
             <div class="col-md-7">
@@ -98,7 +102,7 @@
               <p class="donate-text">This is the official Bitcoin Cash Fund funding address. Simply copy and paste, or scan the address into your favourite wallet to donate. All donations are welcome.</p>
             </div>
             <div class="col-md-4">
-              <img src="/bcf/assets/img/qr_code.png" id="donate-qr-code" class="img-responsive">
+              <img src="<?= $config['img_dir']; ?>qr_code.png" id="donate-qr-code" class="img-responsive">
             </div>
           </div>
           <div class="row">
@@ -115,7 +119,7 @@
           <div class="row">
             <div class="col-sm-4 col-md-4">
               <div class="team-wrapper">
-                <img src="/bcf/assets/img/team_ian_descoteaux.jpg" class="img-responsive team-photo">
+                <img src="<?= $config['img_dir']; ?>team_ian_descoteaux.jpg" class="img-responsive team-photo">
                 <p class="team-name">Ian Descôteaux</p>
                 <p class="team-role">Board Member</p>
                 <p class="team-bio">Entered the Bitcoin space in 2010 and built up a mining farm and has been mining ever since.</p>
@@ -126,7 +130,7 @@
             </div>
             <div class="col-sm-4 col-md-4">
               <div class="team-wrapper">
-                <img src="/bcf/assets/img/team_paul_wasensteiner.jpg" class="img-responsive team-photo">
+                <img src="<?= $config['img_dir']; ?>team_paul_wasensteiner.jpg" class="img-responsive team-photo">
                 <p class="team-name">Paul Wasensteiner</p>
                 <p class="team-role">Executive Director</p>
                 <p class="team-bio">Entered the Bitcoin space in 2011, and founded the Bitcoin Cash Fund in November 2017.</p>
@@ -137,7 +141,7 @@
             </div>
             <div class="col-sm-4 col-md-4">
               <div class="team-wrapper">
-                <img src="/bcf/assets/img/team_haipo_yang.jpg" class="img-responsive team-photo">
+                <img src="<?= $config['img_dir']; ?>team_haipo_yang.jpg" class="img-responsive team-photo">
                 <p class="team-name">Haipo Yang</p>
                 <p class="team-role">Board Member</p>
                 <p class="team-bio">Founded the highly successful mining pool ViaBTC, and led the R&amp;D team at ZeusMiner. </p>
@@ -156,7 +160,7 @@
           <span class="border"></span>
           <div class="row">
             <div class="col-sm-6 col-lg-3">
-              <div class="team-wrapper"> <img src="/bcf/assets/img/team_jack_liu.jpg" class="img-responsive team-photo">
+              <div class="team-wrapper"> <img src="<?= $config['img_dir']; ?>team_jack_liu.jpg" class="img-responsive team-photo">
                 <p class="team-name">Jack C. Liu</p>
                 <p class="team-bio">Formerly served as Chief Strategy Officer of OKCoin Group, and co-founded OKEx and OKLink.</p>
                 <p class="team-social">
@@ -165,7 +169,7 @@
               </div>
             </div>
             <div class="col-sm-6 col-lg-3">
-              <div class="team-wrapper"><img src="/bcf/assets/img/team_roger_ver.jpg" class="img-responsive team-photo">
+              <div class="team-wrapper"><img src="<?= $config['img_dir']; ?>team_roger_ver.jpg" class="img-responsive team-photo">
                 <p class="team-name">Roger Ver</p>
                 <p class="team-bio">World's first Investor in Bitcoin startups and has been investing in Bitcoin startups since early 2011.</p>
                 <p class="team-social">
@@ -175,7 +179,7 @@
             </div>
             <div class="clearfix visible-sm visible-md"></div>
             <div class="col-sm-6 col-lg-3">
-              <div class="team-wrapper"><img src="/bcf/assets/img/team_peter_rizun.jpg" class="img-responsive team-photo">
+              <div class="team-wrapper"><img src="<?= $config['img_dir']; ?>team_peter_rizun.jpg" class="img-responsive team-photo">
                 <p class="team-name">Dr. Peter R. Rizun</p>
                 <p class="team-bio">Chief Scientist for Bitcoin Unlimited, committed to researching the bottlenecks to Bitcoin scaling.</p>
                 <p class="team-social">
@@ -184,7 +188,7 @@
               </div>
             </div>
             <div class="col-sm-6 col-lg-3">
-              <div class="team-wrapper"><img src="/bcf/assets/img/team_mike_komaransky.jpg" class="img-responsive team-photo">
+              <div class="team-wrapper"><img src="<?= $config['img_dir']; ?>team_mike_komaransky.jpg" class="img-responsive team-photo">
                 <p class="team-name">Mike Komaransky</p>
                 <p class="team-bio">
 
@@ -223,10 +227,9 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-6 col-sm-4"><a href="https://www.bitcoin.com/" target="_blank" class="sponsors-link"><img src="/bcf/assets/img/sponsor-bitcoin.png"></a></div>
-            <div class="col-xs-6 col-sm-4"><a href="https://viabtc.com/" target="_blank" class="sponsors-link"><img src="/bcf/assets/img/sponsor-viabtc.png"></a></div>
-            <div class="col-xs-6 col-sm-4"><a href="https://www.yours.org/" target="_blank" class="sponsors-link"><img src="/bcf/assets/img/sponsor-yours.png"></a></div>
-            <!--<div class="col-xs-6 col-sm-4 col-md-3"><a href="#" target="_blank" class="sponsors-link"><img src="/bcf/assets/img/sponsor-no-img.png"></a></div>-->
+            <div class="col-xs-6 col-sm-4"><a href="https://www.bitcoin.com/" target="_blank" class="sponsors-link"><img src="<?= $config['img_dir']; ?>sponsor-bitcoin.png"></a></div>
+            <div class="col-xs-6 col-sm-4"><a href="https://viabtc.com/" target="_blank" class="sponsors-link"><img src="<?= $config['img_dir']; ?>sponsor-viabtc.png"></a></div>
+            <div class="col-xs-6 col-sm-4"><a href="https://www.yours.org/" target="_blank" class="sponsors-link"><img src="<?= $config['img_dir']; ?>sponsor-yours.png"></a></div>
           </div>
         </div>
       </div>
@@ -237,12 +240,12 @@
               <h2>Get In Touch</h2>
               <span class="border-white"></span>
               <ul id="contact-sns-list">
-                <li><a href="https://www.youtube.com/channel/UC0NQCJDbECWg3jjkmsEDO-A/videos" target="_blank"><img src="/bcf/assets/svg/sns-yt.svg" alt="YouTube" class="contact-sns-img"></a></li>
-                <li><a href="https://twitter.com/BitcoinCashFund" target="_blank"><img src="/bcf/assets/svg/sns-twitter.svg" alt="Twitter" class="contact-sns-img"></a></li>
-                <li><a href="https://www.facebook.com/bitcoincashfund/" target="_blank"><img src="/bcf/assets/svg/sns-fb.svg" alt="Facebook" class="contact-sns-img"></a></li>
-                <li><a href="https://steemit.com/@bitcoincashfund" target="_blank"><img src="/bcf/assets/svg/sns-steemit.svg" alt="Steemit" class="contact-sns-img"></a></li>
-                <li><a href="https://www.reddit.com/r/bitcoincashmarketing" target="_blank"><img src="/bcf/assets/svg/sns-reddit.svg" alt="Reddit" class="contact-sns-img"></a></li>
-                <li><a href="https://www.yours.org/user/bitcoincashfund" target="_blank"><img src="/bcf/assets/svg/sns-yours.svg" alt="Yours" class="contact-sns-img"></a></li>
+                <li><a href="https://www.youtube.com/channel/UC0NQCJDbECWg3jjkmsEDO-A/videos" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-yt.svg" alt="YouTube" class="contact-sns-img"></a></li>
+                <li><a href="https://twitter.com/BitcoinCashFund" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-twitter.svg" alt="Twitter" class="contact-sns-img"></a></li>
+                <li><a href="https://www.facebook.com/bitcoincashfund/" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-fb.svg" alt="Facebook" class="contact-sns-img"></a></li>
+                <li><a href="https://steemit.com/@bitcoincashfund" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-steemit.svg" alt="Steemit" class="contact-sns-img"></a></li>
+                <li><a href="https://www.reddit.com/r/bitcoincashmarketing" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-reddit.svg" alt="Reddit" class="contact-sns-img"></a></li>
+                <li><a href="https://www.yours.org/user/bitcoincashfund" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-yours.svg" alt="Yours" class="contact-sns-img"></a></li>
               </ul>
               <div id="contact-form">
                 <form action="https://formcarry.com/s/r1pJYQNgM" method="POST">
@@ -256,7 +259,7 @@
           </div>
         </div>
       </div>
-      <!-- @include /includes/footer.html -->
+      <?php include($config['include_dir'] . 'footer.php'); ?>
     </div>
   </body>
 </html>

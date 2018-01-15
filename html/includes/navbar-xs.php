@@ -10,7 +10,7 @@
   </button>
   <div id="navbar-xs-brand">
     <a href="/" title="lgnd-drink-dev">
-      <img src="/bcf/assets/img/img-logo-sm.png" alt="lgnd-drink-dev" class="img-responsive">
+      <img src="<?= $config['img_dir']; ?>img-logo-sm.png" alt="Bitcoin Cash Fund" class="img-responsive">
     </a>
   </div>
   <!--

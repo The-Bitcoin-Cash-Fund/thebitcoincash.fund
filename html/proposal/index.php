@@ -1,18 +1,23 @@
+<?php $config = include('../_config.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- @include /includes/css.dev.html -->
-    <!-- @include /includes/js.dev.html -->
+    <?php
+    $headInfo = [
+      'title'       => 'Submit a Proposal',
+      'description' => '',
+      'url'         => '',
+      'og_img'      => ''
+    ]; ?>
+    <?php include($config['include_dir'] . 'head.php'); ?>
+    <title><?= $headInfo['title'] . $config['title_post'] ?></title>
   </head>
   <body>
-    <!-- @include /includes/navbar-xs.html -->
-    <!-- @include /includes/navbar-md.html -->
-    <!-- @include /includes/mobile-nav.html -->
+    <?php include($config['include_dir'] . 'nav.php'); ?>
     <div class="page-wrap">
-      content
-      <!-- @include /includes/footer.html -->
+      <!-- Content -->
+      <?php include($config['include_dir'] . 'footer.php'); ?>
     </div>
   </body>
 </html>
