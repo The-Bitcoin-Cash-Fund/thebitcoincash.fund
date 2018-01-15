@@ -26,7 +26,7 @@ The Bootstrap code has been heavily modified:
 - Most code has been removed. Essentially whats left is the grid, forms, basic text and some helper classes
 - The normalize code has been updated to a more modern version
 - All margin-top's have been removed
-- There is a new breakpoint (xl) added to for displays with widths of 1450+ pixels
+- ~~There is a new breakpoint (xl) added to for displays with widths of 1450+ pixels~~
 
 
 ## Javascript
