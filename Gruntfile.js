@@ -12,8 +12,8 @@ module.exports = function(grunt) {
         tasks: ['die'] 
       },
       ftp: {
-        files: ['src/**/**'],
-        tasks: ['ftp_push']
+        files: ['html/**/**'],
+        tasks: ['ftp_push:all']
       }
     },
 
@@ -22,14 +22,24 @@ module.exports = function(grunt) {
       options: {
         authKey: "dev",
         host: "ftp.solomonpierce.com",
-        dest: "bcf",
+        dest: "bcf/v1",
         port: 21
       },
       all: {
         files: [
           {
             expand: true,
-            cwd: 'src',
+            cwd: 'html',
+            src: ['**/**']
+          }
+        ]
+      },
+      force: {
+        options: { incrementalUpdates: false },
+        files: [
+          {
+            expand: true,
+            cwd: 'html',
             src: ['**/**']
           }
         ]
@@ -38,15 +48,13 @@ module.exports = function(grunt) {
 
   });
 
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-newer');
   grunt.loadNpmTasks('grunt-ftp-push');
 
   grunt.registerTask('die', function() {
     console.log("* * * * * * * * * * * * * * * * * * * * \n\n\n\n\n\n");
     process.exit(code=1);
   });
-  return grunt.registerTask('default', ['ftp_push', 'watch']);
+  grunt.registerTask('force-ftp', ['ftp_push:force', 'watch']);
+  return grunt.registerTask('default', ['ftp_push:all', 'watch']);
 };
