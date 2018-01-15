@@ -47,6 +47,20 @@ The CSS and Javascript files are modular and kept separate for easy maintenance 
 **TODO:** *Give general info on what grunt commands exist for this project (clean, build-dev, etc)*
 
 
+## Grunt Specs
+
+I'm nearly certain I'm going to rely on PHP rather than a complicated build system. The driving force behind this decision is that I want people to be able to get in and make simple changes to the site, without having to install NPM, grunt, etc.
+
+While I transition to PHP, I want to keep a note of my original grunt specs for the build process: Here's what I wanted from grunt:
+
+- a smooth, fast development environment
+- concat and compress separate css files (separated for dev work, compressed for live)
+- concat, minify and compress separate js files (separated for dev work, compressed for live)
+- minify images
+- upload files to dev env on change
+- validate html (https://www.npmjs.com/package/grunt-html-validation)
+- remove all whitespace on live page code
+
 
 ## Translation
 
