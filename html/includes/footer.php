@@ -1,3 +1,19 @@
+<div id="subscribe">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Stay Informed</h2>
+        <span class="border"></span>
+        <form action="https://facebook.us17.list-manage.com/subscribe/post" method="POST" class="form-inline">
+          <input type="hidden" name="u" value="d150e27fa1a1ce16c5c3e1d1e">
+          <input type="hidden" name="id" value="8d0e1cb511">
+          <input type="email" class="form-control input-lg" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="name@example.com">
+          <input type="submit" id="subscribe-btn" class="btn btn-default btn-lg" name="submit" value="Subscribe">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Footer -->
 <a href="#" id="footer-scrollTop-btn" role="button" class="btn">Back to Top</a>
 <footer id="footer-container">
