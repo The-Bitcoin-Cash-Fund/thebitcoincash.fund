@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 use YAML qw'LoadFile';
+use open qw(:std :utf8);
 
 binmode(STDOUT, ":utf8");
 
