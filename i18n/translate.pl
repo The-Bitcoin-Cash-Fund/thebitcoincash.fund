@@ -5,14 +5,20 @@ use open qw(:std :utf8);
 
 binmode(STDOUT, ":utf8");
 
-my $ymlfile = shift or die "YML file not specified";
-my $yml = LoadFile($ymlfile);
-my $lang = (keys %{$yml})[0];
-my $translation = $yml->{$lang};
+my $basefile = shift or die "YML file not specified";
+my $baseyml = LoadFile($basefile);
+my $baselang = (keys %{$baseyml})[0];
+my $base = $baseyml->{$baselang};
+
+my $langfile = shift or die "YML file not specified";
+my $langyml = LoadFile($langfile);
+my $lang = (keys %{$langyml})[0];
+my $translation = $langyml->{$lang};
 
 while (<>) {
-  for my $key (keys %{$translation}) {
-    s/\{\{$key\}\}/$translation->{$key}/g;
-  }
-  print;
+    for my $key (keys %{$base}) {
+	my $text = $translation->{$key} || $base->{$key};
+	s/\{\{$key\}\}/$text/g;
+    }
+    print;
 }
