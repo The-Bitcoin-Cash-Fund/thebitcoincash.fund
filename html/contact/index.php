@@ -16,7 +16,33 @@
   <body>
     <?php include($config['include_dir'] . 'nav.php'); ?>
     <div class="page-wrap">
-      <!-- Content -->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>Get In Touch</h2>
+              <span class="border-white"></span>
+              <ul id="contact-sns-list">
+                <li><a href="https://www.youtube.com/channel/UC0NQCJDbECWg3jjkmsEDO-A/videos" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-yt.svg" alt="YouTube" class="contact-sns-img"></a></li>
+                <li><a href="https://twitter.com/BitcoinCashFund" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-twitter.svg" alt="Twitter" class="contact-sns-img"></a></li>
+                <li><a href="https://www.facebook.com/bitcoincashfund/" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-fb.svg" alt="Facebook" class="contact-sns-img"></a></li>
+                <li><a href="https://steemit.com/@bitcoincashfund" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-steemit.svg" alt="Steemit" class="contact-sns-img"></a></li>
+                <li><a href="https://www.reddit.com/r/bitcoincashmarketing" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-reddit.svg" alt="Reddit" class="contact-sns-img"></a></li>
+                <li><a href="https://www.yours.org/user/bitcoincashfund" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-yours.svg" alt="Yours" class="contact-sns-img"></a></li>
+              </ul>
+              <div id="contact-form">
+                <form action="https://formcarry.com/s/r1pJYQNgM" method="POST">
+                  <input class="form-control input-lg contact-input" type="text" placeholder="Name" name="name">
+                  <input class="form-control input-lg contact-input" type="email" placeholder="Email" name="email">
+                  <textarea class="form-control input-lg contact-input" rows="7" placeholder="Message" name="message"></textarea>
+                  <input id="contact-btn" class="btn btn-lg" type="submit" value="Send">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <?php include($config['include_dir'] . 'footer.php'); ?>
     </div>
   </body>

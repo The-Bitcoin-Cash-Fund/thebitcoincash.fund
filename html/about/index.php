@@ -95,13 +95,28 @@
               <div class="team-wrapper"><img src="<?= $config['img_dir']; ?>team_mike_komaransky.jpg" class="img-responsive team-photo">
                 <p class="team-name">Mike Komaransky</p>
                 <p class="team-bio">
-
                   An investor and advocate of Bitcoin since 2010, Mike was a partner at DRW, and was Head of Trading at Cumberland Mining from 2014 until June 2017.</p>
                 <p class="team-social">
                   <a href="https://twitter.com/mkomaransky" target="_blank">@mkomaransky</a>
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div id="sponsors">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>Sponsors</h2>
+              <span class="border"></span>
+              <p>These corporate sponsors are fully aligned with our goals and are pushing Bitcoin Cash adoption forward at a lightning pace.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-4"><a href="https://www.bitcoin.com/" target="_blank" class="sponsors-link"><img src="<?= $config['img_dir']; ?>sponsor-bitcoin.png"></a></div>
+            <div class="col-xs-6 col-sm-4"><a href="https://viabtc.com/" target="_blank" class="sponsors-link"><img src="<?= $config['img_dir']; ?>sponsor-viabtc.png"></a></div>
+            <div class="col-xs-6 col-sm-4"><a href="https://www.yours.org/" target="_blank" class="sponsors-link"><img src="<?= $config['img_dir']; ?>sponsor-yours.png"></a></div>
           </div>
         </div>
       </div>
