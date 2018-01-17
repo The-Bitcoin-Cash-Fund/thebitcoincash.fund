@@ -1,0 +1,36 @@
+/* Subscribe
+--------------------------------------------*/
+#subscribe {
+  background: #fff581;
+  padding-bottom: 30px;
+  text-align: center;
+}
+#MERGE0 {
+  margin-bottom: 20px;
+}
+#subscribe-btn {
+  background-color: #dc1767;
+  border-color: #fff;
+  color: #fff;
+}
+#subscribe-btn:hover {
+  background-color: #35a283;
+}
+@media (min-width: 550px) {
+  #subscribe {
+    padding-top: 15px;
+  }
+  #MERGE0 {
+    width: 370px;
+    display: inline-block;
+  }
+}
+@media (min-width: 768px) {
+  #subscribe {
+    padding-top: 5px;
+    padding-bottom: 55px;
+  }
+  #MERGE0 {
+    margin-bottom: 0;
+  }
+}

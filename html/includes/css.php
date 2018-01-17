@@ -12,8 +12,14 @@
 <link href="<?= $config['css_dir'] ?>navbar-xs.css" rel="stylesheet" type="text/css" media="all" />
 <link href="<?= $config['css_dir'] ?>navbar-md.css" rel="stylesheet" type="text/css" media="all" />
 <link href="<?= $config['css_dir'] ?>mobile-nav.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?= $config['css_dir'] ?>subscribe.css" rel="stylesheet" type="text/css" media="all" />
 <link href="<?= $config['css_dir'] ?>footer.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Dev includes: Page Specific CSS -->
-<link href="<?= $config['css_dir'] ?>home.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?= $config['css_dir'] ?>about.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?= $config['css_dir'] ?>contact.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?= $config['css_dir'] ?>donate.css" rel="stylesheet" type="text/css" media="all" />
 <link href="<?= $config['css_dir'] ?>faqs.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?= $config['css_dir'] ?>home.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?= $config['css_dir'] ?>proposal.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?= $config['css_dir'] ?>volunteer.css" rel="stylesheet" type="text/css" media="all" />
 <?php } ?>

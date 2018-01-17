@@ -1,3 +1,66 @@
+
+/*
+Styles from Original BCF one-page site
+TODO: evaluate and remove / merge
+--------------------------------------------*/
+#footer {
+  background-color: #dadada;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+#copyright {
+  background-color: #545d5b;
+  color: #acb7b1;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+#footer-content {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.footer-img-link-border {
+  margin-top: 50px;
+}
+.footer-img-link {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  width: 250px;
+  background-color: #fff;
+}
+#footer-links-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #555e5b;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#footer-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#footer-links li {
+  margin-bottom: 10px;
+}
+@media (min-width: 550px) {
+  #footer-content {
+    width: 70%;
+  }
+}
+@media (min-width: 1200px) {
+  #footer-content {
+    width: 450px;
+  }
+}
+
+
 /* Container
 ------------------------------------------------------------- */
 #footer-container {

@@ -1,0 +1,129 @@
+/* Team & Advisors
+--------------------------------------------*/
+#team {
+  background: #e4e4e4 url("../img/bg_team.jpg") center center no-repeat;
+  background-size: cover;
+}
+.team-wrapper {
+  max-width: 250px;
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.team-photo {
+  border-radius: 8px;
+  max-width: 180px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.team-name {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.team-role {
+  color: #35a283;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.team-bio {
+  font-size: 14px;
+}
+.team-social {
+  font-size: 14px;
+  margin-top: -6px;
+}
+.team-social a {
+  text-decoration: none;
+  
+}
+@media (min-width: 550px) {
+  .team-photo {
+    max-width: 225px;
+    margin-bottom: 10px;
+  }
+  .team-wrapper {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+/* Sponsors
+--------------------------------------------*/
+#sponsors {
+  background-color: #fbfbfb;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+#sponsors p {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.sponsors-link {
+  padding: 15px;
+  width: 100%;
+  display: block;
+  background: #fff;
+  border: 1px solid #eee;
+  border-width: 1px 1px 3px 1px;
+  text-align: center;
+  margin-bottom: 36px;
+  -webkit-transition: border-color 250ms ease;
+     -moz-transition: border-color 250ms ease;
+      -ms-transition: border-color 250ms ease;
+       -o-transition: border-color 250ms ease;
+          transition: border-color 250ms ease;
+}
+.sponsors-link:hover {
+  border-bottom: 3px solid #35a283;
+  border-bottom: 3px solid #dc1767;
+}
+.sponsors-link img {
+  max-width: 100%;
+}
+@media (min-width: 550px) {
+  #sponsors p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .sponsors-link {
+    padding: 20px 30px;
+  }
+  .sponsors-link img {
+    max-width: 150px;
+  }
+}
+@media (min-width: 768px) {
+  .sponsors-link {
+    padding: 25px 40px;
+  }
+  .sponsors-link img {
+    max-width: 150px;
+  }
+}
+@media (min-width: 992px) {
+  #sponsors p {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  #sponsors p {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .sponsors-link {
+    padding: 20px 40px;
+  }
+  .sponsors-link img {
+    max-width: 175px;
+  }
+}
