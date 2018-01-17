@@ -1,0 +1,23 @@
+/* FAQ Text
+--------------------------------------------*/
+.faqs-section-heading {
+  text-align: left;
+  padding-bottom: 1.5rem;
+}
+.faqs-section-subhead {
+  text-align: left;
+  padding-bottom: 1.5rem;
+}
+.faqs-qa {
+  color: #35a283;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+.faqs-qa::after {
+  content: ":"
+}
+.faqs-q {
+}
+.faqs-a {
+  margin-bottom: 2rem;
+}
