@@ -38,75 +38,15 @@ body.mobile-nav-open .page-wrap {
 /* Mobile Side Menu Design
 ------------------------------------------------------------- */
 #mobile-nav-panel {
-  background-color: #35a283;
+  background-color: #26775f;
   padding: 30px 13px 150px 13px;
 }
 
 
-/* Search
-------------------------------------------------------------- */
-/*#mobile-nav-search {
-  display: block;
-  margin-bottom: 40px;
-}
-.mobile-nav-search-img {
-  width: 20px;
-}
-#mobile-nav-search input {
-  color: #444;
-  font-size: 16px;
-  display: inline-block;
-  width: calc(100% - 45px);
-  margin-right: 0;
-  float: left;
-  background-color: #484848;
-  border: 1px solid #696969;
-  border-right: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  transition: all 75ms ease-out;
-}
-#mobile-nav-search input::-webkit-input-placeholder {
-  color: #a7a7a7;
-}
-#mobile-nav-search input::-moz-placeholder {
-  color: #a7a7a7;
-}
-#mobile-nav-search input:-ms-input-placeholder {
-  color: #a7a7a7;
-}
-#mobile-nav-search input:-moz-placeholder {
-  opacity: 1;
-  color: #a7a7a7;
-}
-#mobile-nav-panel .btn {
-  display: inline-block;
-  width: 45px;
-  float: right;
-  margin: 0;
-  height: 34px;
-  background-color: #931ee0;
-  border: 1px solid #696969;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-#mobile-nav-search input:focus {
-  background-color: #fff;
-  outline: none;
-}
-#mobile-nav-search input,
-#mobile-nav-search input:active,
-#mobile-nav-search .btn:active {
-  -webkit-appearance: none;
-  box-shadow: none;
-  outline: none;
-}*/
-
-
-/* Nav List
+/* Nav List Main
 ------------------------------------------------------------- */
 .mobile-nav {
-  background-color: #35a283;
+  background-color: #26775f;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -118,8 +58,8 @@ body.mobile-nav-open .page-wrap {
 }
 .mobile-nav-item a {
   display: block;
-  background-color: #35a283;
-  padding: 13px;
+  background-color: #26775f;
+  padding: 16px;
   margin: 0;
 }
 .mobile-nav-item a:hover,
@@ -172,7 +112,7 @@ body.mobile-nav-open .page-wrap {
   font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
-  border-bottom: 1px solid #5ecca5;
+  border-bottom: 1px solid #4a9077;
   padding-left: 0;
 }
 .mobile-subnav-item a {
@@ -194,8 +134,40 @@ body.mobile-nav-open .page-wrap {
 #mobile-nav-contact-link {
   border-bottom: 0 !important;
   padding-left: 35px;
-  background: url(//cdn.shopify.com/s/files/1/2446/5431/t/4/assets/ico-mail-sharp-xs.svg?17925632865738946952) no-repeat 3px center;
+  background: url(http://dev.solomonpierce.com/bcf/v2/assets/svg/ico-mail-round-xs.svg) no-repeat 3px center;
   background-size: 23px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+/* Nav List Secondary
+------------------------------------------------------------- */
+.mobile-nav-secondary {
+  background-color: #35a283;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /*margin-top: 1rem;*/
+}
+.mobile-nav-infoItem {
+  display: block;
+  max-height: none;
+  overflow: hidden;
+}
+.mobile-nav-infoItem a {
+  font-family: 'Barlow', 'Arial';
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  background-color: #35a283;
+  padding: 13px;
+  margin: 0;
+  padding-left: 0;
+  color: #8ce8ce;
+  border-bottom: 1px solid #37b18e;
+}
+.mobile-nav-infoItem a:hover,
+.mobile-nav-infoItem a:focus {
+  text-decoration: none;
 }
