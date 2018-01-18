@@ -10,32 +10,12 @@
   margin: auto;
   margin-bottom: 45px;
 }
-/*
-.aboutHero-heading {
-font-family: 'Montserrat', sans-serif;
-font-weight: 800;
-text-transform: uppercase;
-font-size: 40px;
-line-height: 1.1;
-margin-top: 0;
-margin-bottom: 20px;
-
-}
-*/
 .aboutHero-lead {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.2;
-  /*margin-bottom: 30px;*/
 }
-
-
-
-
-
-
-
 .aboutHero-subhead {
   background-color: #35a283;
   color: #fff;
@@ -57,10 +37,6 @@ margin-bottom: 20px;
 }
 
 
-
-
-
-
 /* Trust
 --------------------------------------------*/
 .aboutTrust {
@@ -79,17 +55,6 @@ margin-bottom: 20px;
 .aboutTrust p {
   text-align: left;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Team & Advisors
