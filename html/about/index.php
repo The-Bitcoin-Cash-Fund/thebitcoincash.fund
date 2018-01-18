@@ -27,7 +27,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <p>The <strong>Bitcoin Cash Fund</strong> is a non-profit organisation, with the mission of distributing donated funds to projects that promote Bitcoin Cash.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
         </div>
