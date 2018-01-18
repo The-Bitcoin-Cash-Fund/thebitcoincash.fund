@@ -16,11 +16,39 @@
   <body>
     <?php include($config['include_dir'] . 'nav.php'); ?>
     <div class="page-wrap">
-      <div class="about-hero">
+      <div class="aboutHero">
         <div class="container">
-          <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive">
+          <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive aboutHero-img">
+          <h1 class="aboutHero-heading">We are passionate and commited to the long-term success of Bitcoin Cash</h1>
+          <p class="aboutHero-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh.</p>
         </div>
       </div>
+      <div class="aboutHero-subhead">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <p>The <strong>Bitcoin Cash Fund</strong> is a non-profit organisation, with the mission of distributing donated funds to projects that promote Bitcoin Cash.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="aboutTrust">
+        <div class="container">
+          <div class="col-md-5">
+            <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive aboutTrust-img"></div>
+          <div class="col-md-7">
+            <h3 class="aboutTrust-heading">Why you should trust us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh, eget lacinia erat lacinia eu. Cras nibh leo, posuere in sodales gravida, viverra vel nibh. In aliquam elit vitae nulla volutpat tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras sed erat placerat, tincidunt augue nec, pulvinar justo. Maecenas sed neque ac nisl elementum elementum non et sem. Sed augue nulla, fermentum nec pellentesque eget, tempor sed massa. Donec tincidunt consequat lectus sit amet cursus. Mauris porta lacus quis varius ornare.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
       <div class="aboutTeam">
         <div class="container">
           <h2>Meet the Team</h2>
@@ -88,7 +116,7 @@
             </div>
             <div class="clearfix visible-sm visible-md"></div>
             <div class="col-sm-6 col-lg-3">
-              <div class="aboutTeam-wrapper"><img src="<?= $config['img_dir']; ?>team_peter_rizun.jpg" class="img-responsive team-photo">
+              <div class="aboutTeam-wrapper"><img src="<?= $config['img_dir']; ?>team_peter_rizun.jpg" class="img-responsive aboutTeam-photo">
                 <p class="aboutTeam-name">Dr. Peter R. Rizun</p>
                 <p class="aboutTeam-bio">Chief Scientist for Bitcoin Unlimited, committed to researching the bottlenecks to Bitcoin scaling.</p>
                 <p class="aboutTeam-social">
@@ -97,7 +125,7 @@
               </div>
             </div>
             <div class="col-sm-6 col-lg-3">
-              <div class="aboutTeam-wrapper"><img src="<?= $config['img_dir']; ?>team_mike_komaransky.jpg" class="img-responsive team-photo">
+              <div class="aboutTeam-wrapper"><img src="<?= $config['img_dir']; ?>team_mike_komaransky.jpg" class="img-responsive aboutTeam-photo">
                 <p class="aboutTeam-name">Mike Komaransky</p>
                 <p class="aboutTeam-bio">
                   An investor and advocate of Bitcoin since 2010, Mike was a partner at DRW, and was Head of Trading at Cumberland Mining from 2014 until June 2017.</p>

@@ -32,10 +32,19 @@ h1, h2, h3, h4, h5, h6, .h1,.h2, .h3, .h4, .h5, .h6 {
   text-transform: uppercase;
 }
 h1 {
-  font-size: 1.8rem;
+  font-size: 30px;
+  line-height: 1.1;
+  font-weight: 800;
   text-align: center;
+  text-transform: uppercase;
   margin: 0 auto 2rem auto;
 }
+/*
+.homeHero-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+*/
 h2 {
   text-align: center;
   font-size: 30px;
@@ -55,12 +64,23 @@ h3 {
   font-size: 2.4rem;
 }
 @media (min-width:768px) {
+  h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
   h2 {
     margin: 0;
     padding-top: 40px;
     padding-bottom: 40px;
   }
 }
+@media (min-width:992px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+
 
 
 /* HR Line
