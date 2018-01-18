@@ -1,6 +1,6 @@
 /* Donate
 --------------------------------------------*/
-#donate {
+.donate {
   background-color: #35a283;
   background: #35a283 url("../img/bg_donate.jpg") center center no-repeat;
   background-size: cover;
@@ -8,18 +8,18 @@
   padding-top: 20px;
   padding-bottom: 40px;
 }
-#donate h2 {
+.donate h2 {
   color: #fff;
 }
 .donate-text {
   text-align: center;
   margin: 40px auto 30px auto;
 }
-#donate-qr-code {
+.donate-qr {
   max-width: 200px;
   margin: auto;
 }
-#donate-address {
+.donate-address {
   background-color: #387b68;
   font-size: 13px;
   font-weight: 700;
@@ -36,35 +36,35 @@
   .donate-text {
     margin: 40px 80px;
   }
-  #donate-address {
+  .donate-address {
     font-size: 14px;
     width: 70%;
   }
 }
 @media (min-width: 768px) {
-  #donate {
+  .donate {
     padding-top: 0;
   }
 }
 @media (min-width: 992px) {
-  #donate-qr-code {
+  .donate-qr {
     max-width: 100%;
     margin-top: 45px;
   }
-  #donate-address {
+  .donate-address {
     font-size: 16px;
   }
   .donate-text,
-  #donate h2 {
+  .donate h2 {
     text-align: left;
     margin-left: 0;
     margin-bottom: 0;
     margin-right: 15px;
   }
-  #donate .border-white {
+  .donate .border-white {
     margin-left: 0;
   }
-  #donate-wrapper {
+  .donate-wrapper {
     width: 780px;
   }
 }

@@ -1,6 +1,6 @@
 /* Contact
 --------------------------------------------*/
-#contact {
+.contact {
   background: #35a283 url("../img/bg_contact.jpg") center center no-repeat;
   background-size: cover;
   color: #fff;
@@ -8,24 +8,24 @@
   padding-bottom: 65px;
   text-align: center;
 }
-#contact h2 {
+.contact h2 {
   color: #fff;
 }
-#contact-sns-list {
+.contact-snsList {
   margin: 0;
   padding: 0;
 }
-#contact-sns-list li {
+.contact-snsList li {
   display: inline-block;
   list-style-type: none;
   margin-right: 10px;
   margin-bottom: 15px;
 }
-.contact-sns-img {
+.contact-snsImg {
   width: 35px;
   height: 35px;
 }
-#contact-form {
+.contact-form {
   padding-top: 50px;
   max-width: 500px;
   margin: auto;
@@ -48,16 +48,16 @@
 .contact-input:-moz-placeholder {
   color: #5dbba0;
 }
-#contact-btn {
+.contact-btn {
   background-color: #dc1767;
   border-color: #fff;
   color: #fff;
 }
-#contact-btn:hover {
+.contact-btn:hover {
   background-color: #35a283;
 }
 @media (min-width: 550px) {
-  .contact-sns-img {
+  .contact-snsImg {
     width: 50px;
     height: 50px;
   }

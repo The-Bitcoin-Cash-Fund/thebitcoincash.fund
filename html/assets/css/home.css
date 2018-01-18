@@ -1,11 +1,11 @@
 /* Hero
 --------------------------------------------*/
-#hero {
+.homeHero {
   padding: 0;
   text-align: center;
   position: relative;
 }
-#hero-title {
+.homeHero-title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
@@ -14,14 +14,14 @@
   margin-top: 0;
   margin-bottom: 20px;
 }
-#hero-lead {
+.homeHero-lead {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.2;
   margin-bottom: 30px;
 }
-#subhead {
+.homeHero-subhead {
   background-color: #35a283;
   color: #fff;
   padding-top: 30px;
@@ -29,132 +29,134 @@
   text-align: center;
 }
 @media (min-width:768px) {
-  #hero-title {
+  .homeHero-title {
     font-size: 50px;
     margin-bottom: 20px;
   }
-  #hero-lead {
+  .homeHero-lead {
     font-size: 30px;
   }
-  #subhead {
+  .homeHero-subhead {
     padding-top: 50px;
     padding-bottom: 40px;
   }
 }
 @media (min-width:992px) {
-  #hero-title {
+  .homeHero-title {
     font-size: 60px;
   }
-  #hero-lead {
+  .homeHero-lead {
     font-size: 30px;
     margin-bottom: 50px;
   }
-  #subhead p {
+  homeHero-subhead p {
     width: 720px;
     margin: auto;
   }
 }
+
+
 /* Bitcoin Cash
 --------------------------------------------*/
-#what-is-bch {
+.homeBch {
   background: #fff url("../img/bg_what_bch.jpg") center center no-repeat;
   background-size: cover;
   padding-top: 30px;
   padding-bottom: 50px;
 }
-.what-bch-answer {
+.homeBch-answer {
   margin: auto;
   text-align: center;
   margin-bottom: 30px;
 }
-.bch-business-icon {
+.homeBch-businessIcon {
   width: 50px;
   height: 50px;
   margin-bottom: 5px;
 }
 @media (min-width: 992px) {
-  #what-is-bch {
+  .homeBch {
     padding-top: 30px;
     padding-bottom: 50px;
   }
-  .bch-business-icon {
+  .homeBch-businessIcon {
     width: 60px;
     height: 60px;
     margin-bottom: 30px;
   }
 }
 @media (min-width: 1200px) {
-  .bch-business-icon {
+  .homeBch-businessIcon {
     width: 75px;
     height: 75px;
     margin-bottom: 35px;
   }
-  .what-bch-answer p {
+  .homeBch-answer p {
     padding: 0 30px;
   }
 }
 @media (max-width: 991px) {
-  .what-bch-answer {
+  .homeBch-answer {
     width: 40%;
   }
 }
 @media (max-width: 767px) {
-  .what-bch-answer {
+  .homeBch-answer {
     width: 60%;
   }
 }
 @media (max-width: 549px) {
-  .what-bch-answer {
+  .homeBch-answer {
     width: 80%;
   }
 }
+
+
 /* Mission
 --------------------------------------------*/
-#mission {
+.homeMission {
   background-color: #e4e4e4;
   color: #313131;
   padding-top: 30px;
   padding-bottom: 40px;
   text-align: center;
 }
-#mission-img {
+.homeMission-img {
   margin: auto;
 }
-#mission-lead {
+.homeMission-lead {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   font-size: 18px;
 }
 @media (min-width: 450px) {
-  #mission {
+  .homeMission {
     padding-bottom: 50px;
   }
-  #mission-img {
+  .homeMission-img {
     max-width: 370px;
   }
 }
 @media (min-width: 550px) {
-  #mission p {
+  .homeMission p {
     margin-left: 60px;
     margin-right: 60px;
   }
 }
 @media (min-width: 992px) {
-  #mission {
+  .homeMission {
     padding-top: 60px;
     text-align: left;
   }
-  #mission h2 {
+  .homeMission h2 {
     text-align: left;
     padding-top: 0;
   }
-  #mission p {
+  .homeMission p {
     margin-left: 0;
     margin-right: 0;
   }
-  #mission .border {
+  .homeMission .border {
     margin-left: 0;
   }
 }
-
-

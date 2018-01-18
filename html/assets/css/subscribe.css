@@ -1,6 +1,6 @@
 /* Subscribe
 --------------------------------------------*/
-#subscribe {
+.subscribe {
   background: #fff581;
   padding-bottom: 30px;
   text-align: center;
@@ -8,16 +8,16 @@
 #MERGE0 {
   margin-bottom: 20px;
 }
-#subscribe-btn {
+.subscribe-btn {
   background-color: #dc1767;
   border-color: #fff;
   color: #fff;
 }
-#subscribe-btn:hover {
+.subscribe-btn:hover {
   background-color: #35a283;
 }
 @media (min-width: 550px) {
-  #subscribe {
+  .subscribe {
     padding-top: 15px;
   }
   #MERGE0 {
@@ -26,7 +26,7 @@
   }
 }
 @media (min-width: 768px) {
-  #subscribe {
+  .subscribe {
     padding-top: 5px;
     padding-bottom: 55px;
   }

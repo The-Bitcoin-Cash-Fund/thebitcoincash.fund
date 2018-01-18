@@ -1,5 +1,5 @@
-/* Basic Styles - FROM SHOPIFY THEME, MUST BE MERGED WITH BCF STLYES
-------------------------------------------------------------- */
+/* Text Styles
+--------------------------------------------*/
 html, body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
@@ -8,58 +8,6 @@ html, body {
   line-height: 1.2;
   text-transform: none;
 }
-.wf-loading {
-  visibility: hidden; /* Hide webfonts while they are loading */
-}
-p, ul, li { 
-  /*color: #d0d6d6;*/
-}
-a {
-  color: #e0c580;
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: #e0c580;
-  text-decoration: none;
-}
-
-/* Heading Font */
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.6rem;
-  font-weight: 400;
-  line-height: 1.2;
-  text-transform: uppercase;}
-h1 {
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 1.2;
-  text-align: center;
-  margin: 0 auto 2rem auto;
-}
-h1 a {
-  margin-bottom: 1rem;
-}
-h1 a:focus,
-h1 a:hover {
-}
-h2 {
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.2;
-  margin: 0.3rem 0 0.2rem 0;
-}
-h3 {
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.2;
-  margin: 0 auto 2rem auto;
-}
-
-
-/* Basic Styles - FROM ONE-PAGE BCF SITE
---------------------------------------------*/
 body {
   color: #555e5b;
   font-size: 16px;
@@ -70,24 +18,37 @@ p {
 }
 a {
   color: #dc1767;
-  /* text-decoration: underline; */
+  text-decoration: none;
 }
 a:hover {
   color: #35a283;
-  /* text-decoration: underline; */
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, .h1,.h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 auto 2rem auto;
 }
 h2 {
-  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 30px;
   letter-spacing: 3px;
   color: #000;
-  font-weight: 400;
-  text-transform: uppercase;
   line-height: 40px;
   margin: 0 15px 30px 15px;
   padding-top: 20px;
   padding-bottom: 10px;
+}
+h3 {
+  font-size: 1.4rem;
+  margin: 0 auto 2rem auto;
 }
 h3 {
   text-align: center;

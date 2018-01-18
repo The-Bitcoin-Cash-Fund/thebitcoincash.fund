@@ -16,7 +16,7 @@
   <body>
     <?php include($config['include_dir'] . 'nav.php'); ?>
     <div class="page-wrap">
-      <div id="hero">
+      <div class="homeHero">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -31,13 +31,13 @@
                 <source srcset="<?= $config['img_dir']; ?>hero_tablet.png" />
                 <img src="<?= $config['img_dir']; ?>hero_desktop.png" class="img-responsive" style="width:100%;" />
               </picture>
-              <h1 id="hero-title">The Bitcoin Cash Fund!!</h1>
-              <p id="hero-lead">A community-driven, grassroots project to accelerate the adoption of Bitcoin Cash.</p>
+              <h1 class="homeHero-title">The Bitcoin Cash Fund!!</h1>
+              <p class="homeHero-lead">A community-driven, grassroots project to accelerate the adoption of Bitcoin Cash.</p>
             </div>
           </div>
         </div>
       </div>
-      <div id="subhead">
+      <div class="homeHero-subhead">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -46,7 +46,7 @@
           </div>
         </div>
       </div>
-      <div id="what-is-bch">
+      <div class="homeBch">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -55,22 +55,22 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4 what-bch-answer">
-              <img src="<?= $config['svg_dir']; ?>globe.svg" class="bch-business-icon">
+            <div class="col-md-4 homeBch-answer">
+              <img src="<?= $config['svg_dir']; ?>globe.svg" class="homeBch-businessIcon">
               <p>A person-to-person online global digital cash system.</p>
             </div>
-            <div class="col-md-4 what-bch-answer">
-              <img src="<?= $config['svg_dir']; ?>cubes.svg" class="bch-business-icon">
+            <div class="col-md-4 homeBch-answer">
+              <img src="<?= $config['svg_dir']; ?>cubes.svg" class="homeBch-businessIcon">
               <p>A decentralized currency not controlled by any one person.</p>
             </div>
-            <div class="col-md-4 what-bch-answer">
-              <img src="<?= $config['svg_dir']; ?>flash.svg" class="bch-business-icon">
+            <div class="col-md-4 homeBch-answer">
+              <img src="<?= $config['svg_dir']; ?>flash.svg" class="homeBch-businessIcon">
               <p>A secure, high-speed and low-cost payment system.</p>
             </div>
           </div>
         </div>
       </div>
-      <div id="mission">
+      <div class="homeMission">
         <div class="container">
           <div class="row">
             <div class="col-md-5">
@@ -80,13 +80,13 @@
                         srcset="<?= $config['img_dir']; ?>mission_desktop.png" />
                 <!-- Mobile -->
                 <source srcset="<?= $config['img_dir']; ?>mission_desktop.png" />
-                <img id="mission-img" src="<?= $config['img_dir']; ?>mission_desktop.png" class="img-responsive" style="width:100%;" />
+                <img src="<?= $config['img_dir']; ?>mission_desktop.png" class="img-responsive homeMission-img" style="width:100%;" />
               </picture>
             </div>
             <div class="col-md-7">
               <h2>Our Mission</h2>
               <span class="border"></span>
-              <p id="mission-lead">Our mission is to help Bitcoin Cash serve one billion users within five years.</p>
+              <p class="homeMission-lead">Our mission is to help Bitcoin Cash serve one billion users within five years.</p>
               <p>Anyone, or any team, can put in a proposal to request funding from the BCF. The proposals will be assessed based on cost versus impact and S.M.A.R.T principles, to make sure funds are allocated where they will have maximum impact.</p>
               <p>Members of the community are encouraged to take ownership of their projects and see them through to completion.</p>
             </div>
