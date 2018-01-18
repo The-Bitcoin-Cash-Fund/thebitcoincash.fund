@@ -9,8 +9,8 @@
     </div>
   </button>
   <div id="navbar-xs-brand">
-    <a href="/" title="lgnd-drink-dev">
-      <img src="<?= $config['img_dir']; ?>img-logo-sm.png" alt="Bitcoin Cash Fund" class="img-responsive">
+    <a href="<?= $config['base_url']; ?>" title="The Bitcoin Cash Fund">
+      <img src="<?= $config['img_dir']; ?>img-logo-sm.png" alt="The Bitcoin Cash Fund" class="img-responsive">
     </a>
   </div>
   <!--
