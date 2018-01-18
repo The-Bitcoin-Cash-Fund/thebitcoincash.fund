@@ -32,23 +32,18 @@
           </div>
         </div>
       </div>
-
-
       <div class="aboutTrust">
         <div class="container">
-          <div class="col-md-5">
-            <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive aboutTrust-img"></div>
-          <div class="col-md-7">
-            <h3 class="aboutTrust-heading">Why you should trust us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh, eget lacinia erat lacinia eu. Cras nibh leo, posuere in sodales gravida, viverra vel nibh. In aliquam elit vitae nulla volutpat tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras sed erat placerat, tincidunt augue nec, pulvinar justo. Maecenas sed neque ac nisl elementum elementum non et sem. Sed augue nulla, fermentum nec pellentesque eget, tempor sed massa. Donec tincidunt consequat lectus sit amet cursus. Mauris porta lacus quis varius ornare.</p>
+          <div class="row">
+            <div class="col-md-5">
+              <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive aboutTrust-img"></div>
+            <div class="col-md-7">
+              <h3 class="aboutTrust-heading">Why you should trust us</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh, eget lacinia erat lacinia eu. Cras nibh leo, posuere in sodales gravida, viverra vel nibh. In aliquam elit vitae nulla volutpat tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras sed erat placerat, tincidunt augue nec, pulvinar justo. Maecenas sed neque ac nisl elementum elementum non et sem. Sed augue nulla, fermentum nec pellentesque eget, tempor sed massa. Donec tincidunt consequat lectus sit amet cursus. Mauris porta lacus quis varius ornare.</p>
+            </div>
           </div>
         </div>
       </div>
-
-
-
-
-
       <div class="aboutTeam">
         <div class="container">
           <h2>Meet the Team</h2>

@@ -157,3 +157,32 @@
     margin-left: 0;
   }
 }
+
+
+/* How Can I help
+--------------------------------------------*/
+.homeHelp {
+}
+.homeHelp-section {
+  margin-bottom: 110px;
+}
+.homeHelp-sectionHeading {
+  text-align: left;
+  text-transform: none;
+  font-size: 1.4rem;
+  margin-bottom: 0.9rem;
+}
+.homeHelp-sectionImg {
+}
+.homeHelp-sectionText {
+  text-align: left;
+}
+.homeHelp-sectionBtn {
+  background-color: #35a283;
+  border-color: #fff;
+  color: #fff;
+}
+.homeHelp-sectionBtn:hover {
+  background-color: #dc1767;
+  color: #fff;
+}

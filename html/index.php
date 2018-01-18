@@ -93,6 +93,42 @@
           </div>
         </div>
       </div>
+      <div class="homeHelp">
+        <div class="container">
+          <h2>How Can I Help?</h2>
+          <span class="border"></span>
+          <div class="row homeHelp-section">
+            <div class="col-md-5">
+              <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive homeHelp-sectionImg">
+            </div>
+            <div class="col-md-7">
+              <h3 class="homeHelp-sectionHeading">Submit a Proposal</h3>
+              <p class="homeHelp-sectionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh, eget lacinia erat lacinia eu. Cras nibh leo, posuere in sodales gravida, viverra vel nibh. In aliquam elit vitae nulla volutpat tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              <a href="#" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
+            </div>
+          </div>
+          <div class="row homeHelp-section">
+            <div class="col-md-5 col-md-push-7">
+              <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive homeHelp-sectionImg">
+            </div>
+            <div class="col-md-7 col-md-pull-5">
+              <h3 class="homeHelp-sectionHeading">Volunteer</h3>
+              <p class="homeHelp-sectionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh, eget lacinia erat lacinia eu. Cras nibh leo, posuere in sodales gravida, viverra vel nibh. In aliquam elit vitae nulla volutpat tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              <a href="#" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
+            </div>
+          </div>
+          <div class="row homeHelp-section">
+            <div class="col-md-5">
+              <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive homeHelp-sectionImg">
+            </div>
+            <div class="col-md-7">
+              <h3 class="homeHelp-sectionHeading">Donate</h3>
+              <p class="homeHelp-sectionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh, eget lacinia erat lacinia eu. Cras nibh leo, posuere in sodales gravida, viverra vel nibh. In aliquam elit vitae nulla volutpat tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              <a href="#" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
       <?php include($config['include_dir'] . 'footer.php'); ?>
     </div>
   </body>
