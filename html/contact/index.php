@@ -8,7 +8,7 @@
       'title'       => 'Contact',
       'description' => '',
       'url'         => '',
-      'og_img'      => ''
+      'og_img'      => 'https://thebitcoincash.fund/assets/img/bcf_opengraph.jpg'
     ]; ?>
     <?php include($config['include_dir'] . 'head.php'); ?>
     <title><?= $headInfo['title'] . $config['title_post'] ?></title>
