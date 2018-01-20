@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h2>Stay Informed</h2>
-        <span class="border"></span>
+        <h2 class="subscribe-heading">Stay Informed</h2>
+        <span class="border subscribe-border"></span>
         <form action="https://facebook.us17.list-manage.com/subscribe/post" method="POST" class="form-inline">
           <input type="hidden" name="u" value="d150e27fa1a1ce16c5c3e1d1e">
           <input type="hidden" name="id" value="8d0e1cb511">

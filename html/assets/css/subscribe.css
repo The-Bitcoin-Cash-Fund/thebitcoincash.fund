@@ -5,16 +5,24 @@
   padding-bottom: 30px;
   text-align: center;
 }
+.subscribe-heading {
+  color: #656138;
+}
+.subscribe-border {
+  background-color: #d4cb69;
+}
 #MERGE0 {
   margin-bottom: 20px;
 }
 .subscribe-btn {
-  background-color: #dc1767;
-  border-color: #fff;
+  background-color: #35a283;
+  border-color: #a7e8d6;
   color: #fff;
 }
 .subscribe-btn:hover {
-  background-color: #35a283;
+  background-color: #dc1767;
+  border-color: #963a5f;
+  color: #fff;
 }
 @media (min-width: 550px) {
   .subscribe {
