@@ -1,3 +1,113 @@
-/* Proposal
+/* Proposal Hero
 --------------------------------------------*/
+.proposalHero {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.proposalHero-img {
+  width: 720px;
+  margin: auto;
+  margin-bottom: 45px;
+}
+.proposalHero-lead {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.proposalHero-subhead {
+  background-color: #2b5e4c;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+@media (min-width:768px) {
+  .proposalHero-subhead {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+}
+@media (min-width:992px) {
+  .proposalHero-subhead p {
+    width: 720px;
+    margin: auto;
+  }
+}
+
+/* Proposal Form
+--------------------------------------------*/
+.proposalForm {
+  background: #35a283 url("../img/bg_contact.jpg") center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 45px;
+  padding-bottom: 65px;
+  text-align: center;
+}
+.proposalForm-input {
+  margin-bottom: 20px;
+  border-color: #77cab2;
+  background-color: #2c715d;
+  color: #fff;
+}
+.proposalForm-input::-webkit-input-placeholder {
+  color: #5dbba0;
+}
+.proposalForm-input::-moz-placeholder {
+  color: #5dbba0;
+}
+.proposalForm-input:-ms-input-placeholder {
+  color: #5dbba0;
+}
+.proposalForm-input:-moz-placeholder {
+  color: #5dbba0;
+}
+.proposalForm-heading {
+  color: #fff;
+  text-align: left;
+  letter-spacing: 0;
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+.proposalForm-text {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.proposalForm-fieldsetHalf {
+  width: 100%;
+  float: left;
+  padding: 0 10px;
+}
+@media (min-width: 768px) {
+  .proposalForm-fieldsetHalf {
+    width: 50%;
+  }
+}
+.proposalForm-fieldset {
+  min-width: 0;
+  border-color: #70c7af;
+  margin-bottom: 35px;
+  text-align: left;
+  padding-bottom: 0;
+}
+.proposalForm-fieldsetLegend {
+  margin-bottom: 5px;
+  color: #fff;
+  text-align: left;
+}
+.proposalForm-checkbox label {
+  color: #b2e4c7;
+}
+.proposalForm-btn {
+  background-color: #dc1767;
+  border-color: #fff;
+  color: #fff;
+  float: left;
+}
+.proposalForm-btn:hover {
+  background-color: #35a283;
+}
 
