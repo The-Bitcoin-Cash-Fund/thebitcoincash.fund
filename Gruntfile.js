@@ -22,7 +22,7 @@ module.exports = function(grunt) {
       options: {
         authKey: "dev",
         host: "ftp.solomonpierce.com",
-        dest: "bcf/v2",
+        dest: "bcf/v3",
         port: 21
       },
       all: {
