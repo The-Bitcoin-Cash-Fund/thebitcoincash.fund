@@ -18,8 +18,8 @@
     <div class="page-wrap">
       <div class="volunteerHero">
         <div class="container">
-          <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive aboutHero-img">
-          <h1 class="volunteerHero-heading">A Call to Action That Is Inviting to Everyone</h1>
+          <img src="<?= $config['img_dir']; ?>hero_volunteer.jpg" class="img-responsive volunteerHero-img">
+          <h1 class="volunteerHero-heading">Volunteer your time for Bitcoin Cash</h1>
           <p class="volunteerHero-lead">But that also emphasizes we are looking for people that are going to take this seriously.</p>
         </div>
       </div>

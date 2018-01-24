@@ -17,12 +17,11 @@
     <?php include($config['include_dir'] . 'nav.php'); ?>
     <div class="page-wrap">
 
-
       <div class="proposalHero">
         <div class="container">
-          <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive aboutHero-img">
-          <h1 class="proposalHero-heading">Make it easy to submit a proposal</h1>
-          <p class="proposalHero-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="<?= $config['img_dir']; ?>hero_proposal.jpg" class="img-responsive proposalHero-img">
+          <h1 class="proposalHero-heading">Do you have a brilliant idea?</h1>
+          <p class="proposalHero-lead">Let us know your idea for how to spread adoption of Bitcoin Cash.</p>
         </div>
       </div>
       <div class="proposalForm">

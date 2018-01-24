@@ -2,11 +2,10 @@
 --------------------------------------------*/
 .volunteerHero {
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 .volunteerHero-img {
-  width: 720px;
   margin: auto;
   margin-bottom: 45px;
 }

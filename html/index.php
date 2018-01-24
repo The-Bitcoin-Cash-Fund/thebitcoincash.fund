@@ -23,13 +23,13 @@
               <picture>
                 <!-- Desktop -->
                 <source media="(min-width: 768px)"
-                        srcset="<?= $config['img_dir']; ?>hero_desktop.png" />
+                        srcset="<?= $config['img_dir']; ?>hero_home.jpg" />
                 <!-- Tablet -->
                 <source media="(min-width: 550px)"
                         srcset="<?= $config['img_dir']; ?>hero_tablet.png" />
                 <!-- Mobile -->
                 <source srcset="<?= $config['img_dir']; ?>hero_tablet.png" />
-                <img src="<?= $config['img_dir']; ?>hero_desktop.png" class="img-responsive" style="width:100%;" />
+                <img src="<?= $config['img_dir']; ?>hero_home.jpg" class="img-responsive" style="width:100%;" />
               </picture>
               <h1 class="homeHero-title">The Bitcoin Cash Fund!!</h1>
               <p class="homeHero-lead">A community-driven, grassroots project to accelerate the adoption of Bitcoin Cash.</p>
@@ -99,7 +99,7 @@
           <span class="border"></span>
           <div class="row homeHelp-section">
             <div class="col-md-5">
-              <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive homeHelp-sectionImg">
+              <img src="<?= $config['img_dir']; ?>proposal_temp.jpg" class="img-responsive homeHelp-sectionImg">
             </div>
             <div class="col-md-7">
               <h3 class="homeHelp-sectionHeading">Submit a Proposal</h3>
@@ -109,7 +109,7 @@
           </div>
           <div class="row homeHelp-section">
             <div class="col-md-5 col-md-push-7">
-              <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive homeHelp-sectionImg">
+              <img src="<?= $config['img_dir']; ?>volunteer_temp.jpg" class="img-responsive homeHelp-sectionImg">
             </div>
             <div class="col-md-7 col-md-pull-5">
               <h3 class="homeHelp-sectionHeading">Volunteer</h3>
@@ -119,7 +119,7 @@
           </div>
           <div class="row homeHelp-section">
             <div class="col-md-5">
-              <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive homeHelp-sectionImg">
+              <img src="<?= $config['img_dir']; ?>donate_temp.jpg" class="img-responsive homeHelp-sectionImg">
             </div>
             <div class="col-md-7">
               <h3 class="homeHelp-sectionHeading">Donate</h3>

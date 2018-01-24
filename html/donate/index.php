@@ -16,6 +16,13 @@
   <body>
     <?php include($config['include_dir'] . 'nav.php'); ?>
     <div class="page-wrap">
+      <div class="donateHero">
+        <div class="container">
+          <img src="<?= $config['img_dir']; ?>hero_donate.jpg" class="img-responsive donateHero-img">
+          <h1 class="donateHero-heading">A donation to the BCF is an investment in your future</h1>
+          <p class="donateHero-lead">Widespread adoption of Bitcoin Cash will result in higher price.</p>
+        </div>
+      </div>
       <div class="donate">
         <div class="container donate-wrapper">
           <div class="row">
