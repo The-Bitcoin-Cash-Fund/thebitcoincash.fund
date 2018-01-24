@@ -35,6 +35,67 @@
   }
 }
 
+
+/* Mission
+--------------------------------------------*/
+.proposalIntro {
+  background-color: #35a283;
+  color: #313131;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.proposalIntro h2 {
+  color: #fff;
+}
+.proposalIntro-border {
+  background-color: #76d0b6;
+}
+.proposalIntro p {
+  color: #fff;
+}
+.proposalIntro-img {
+  margin: auto;
+}
+.proposalIntro-lead {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: #fff;
+}
+@media (min-width: 450px) {
+  .proposalIntro {
+    padding-bottom: 50px;
+  }
+  .proposalIntro-img {
+    max-width: 370px;
+  }
+}
+@media (min-width: 550px) {
+  .proposalIntro p {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+@media (min-width: 992px) {
+  .proposalIntro {
+    padding-top: 60px;
+    text-align: left;
+  }
+  .proposalIntro h2 {
+    text-align: left;
+    padding-top: 0;
+  }
+  .proposalIntro p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .proposalIntro .border {
+    margin-left: 0;
+  }
+}
+
+
 /* Proposal Form
 --------------------------------------------*/
 .proposalForm {

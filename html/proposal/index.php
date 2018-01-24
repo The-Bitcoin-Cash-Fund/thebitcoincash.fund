@@ -24,6 +24,29 @@
           <p class="proposalHero-lead">Let us know your idea for how to spread adoption of Bitcoin Cash.</p>
         </div>
       </div>
+      <div class="proposalIntro">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <picture>
+                <!-- Desktop -->
+                <source media="(min-width: 450px)"
+                        srcset="<?= $config['img_dir']; ?>mission_desktop.png" />
+                <!-- Mobile -->
+                <source srcset="<?= $config['img_dir']; ?>mission_desktop.png" />
+                <img src="<?= $config['img_dir']; ?>mission_desktop.png" class="img-responsive proposalIntro-img" style="width:100%;" />
+              </picture>
+            </div>
+            <div class="col-md-7">
+              <h2>Our Mission</h2>
+              <span class="border proposalIntro-border"></span>
+              <p class="proposalIntro-lead">Our mission is to help Bitcoin Cash serve one billion users within five years.</p>
+              <p>Anyone, or any team, can put in a proposal to request funding from the BCF. The proposals will be assessed based on cost versus impact and S.M.A.R.T principles, to make sure funds are allocated where they will have maximum impact.</p>
+              <p>Members of the community are encouraged to take ownership of their projects and see them through to completion.</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="proposalForm">
         <div class="container">
           <div class="row">
