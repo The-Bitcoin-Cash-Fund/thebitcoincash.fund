@@ -99,8 +99,7 @@
 /* Proposal Form
 --------------------------------------------*/
 .proposalForm {
-  /*background: #35a283 url("../img/bg_contact.jpg") center center no-repeat;*/
-  background-color: #e4e4e4;
+  background: #35a283 url("../img/bg_contact.jpg") center center no-repeat;
   background-size: cover;
   color: #fff;
   padding-top: 45px;
@@ -109,34 +108,33 @@
 }
 .proposalForm-input {
   margin-bottom: 20px;
-  border-color: #ccc;
-  background-color: #fff;
-  color: #3c403f
+  border-color: #77cab2;
+  background-color: #2c715d;
+  color: #fff;
 }
 .proposalForm-input::-webkit-input-placeholder {
-  color: #bbb;
+  color: #5dbba0;
 }
 .proposalForm-input::-moz-placeholder {
-  color: #bbb;
+  color: #5dbba0;
 }
 .proposalForm-input:-ms-input-placeholder {
-  color: #bbb;
+  color: #5dbba0;
 }
 .proposalForm-input:-moz-placeholder {
-  color: #bbb;
+  color: #5dbba0;
 }
 .proposalForm-heading {
-  color: #555e5b;
+  color: #fff;
   text-align: left;
   letter-spacing: 0;
   padding-top: 0;
   padding-bottom: 5px;
 }
 .proposalForm-text {
-  color: #555e5b;
+  color: #fff;
   text-align: left;
   margin-bottom: 15px;
-  line-height: 1.6;
 }
 .proposalForm-fieldsetHalf {
   width: 100%;
