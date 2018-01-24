@@ -1,7 +1,7 @@
 /* Mobile Navbar
 ------------------------------------------------------------- */
 #navbar-xs {
-  background-color: #2b5e4c;
+  background-color: #35a283;
 }
 #navbar-xs-brand {
   display: inline-block;
@@ -29,7 +29,7 @@
 #navbar-xs-cart-toggle.btn {
   border: 0;
   padding: 10px;
-  background-color: #2b5e4c;
+  background-color: #35a283;
   border-radius: 0 !important;
 }
 #navbar-xs-menu-toggle.btn:focus,

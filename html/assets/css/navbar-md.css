@@ -5,7 +5,7 @@
   height: 5px;
 }
 #navbar-md {
-  background-color: #2b5e4c;
+  background-color: #35a283;
   margin-bottom: ;
 }
 #navbar-md-brand {
@@ -59,7 +59,7 @@
   height: 3px;
   bottom: -6px;
   left: 0;
-  background-color: #34a183;
+  background-color: #3bc59e;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
