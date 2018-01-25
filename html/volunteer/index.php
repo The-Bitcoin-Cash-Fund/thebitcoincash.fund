@@ -19,8 +19,17 @@
       <div class="volunteerHero">
         <div class="container">
           <img src="<?= $config['img_dir']; ?>hero_volunteer.jpg" class="img-responsive volunteerHero-img">
-          <h1 class="volunteerHero-heading">Volunteer your time for Bitcoin Cash</h1>
-          <p class="volunteerHero-lead">But that also emphasizes we are looking for people that are going to take this seriously.</p>
+          <h1 class="volunteerHero-heading">Ready to put your skills to use?</h1>
+          <p class="volunteerHero-lead">We've got active projects right now that need the help of talented people like you.</p>
+        </div>
+      </div>
+      <div class="homeHero-subhead">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <p>This is a great opportunity to not only earn some Bitcoin Cash, but also help raise the value of the BCH you already own.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="volunteerForm">

@@ -2,13 +2,12 @@
 --------------------------------------------*/
 .aboutHero {
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 .aboutHero-img {
-  width: 720px;
   margin: auto;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 .aboutHero-lead {
   font-family: 'Montserrat', sans-serif;

@@ -18,7 +18,7 @@
     <div class="page-wrap">
       <div class="aboutHero">
         <div class="container">
-          <img src="<?= $config['img_dir']; ?>no-img.gif" class="img-responsive aboutHero-img">
+          <img src="<?= $config['img_dir']; ?>hero_about.jpg" class="img-responsive aboutHero-img">
           <h1 class="aboutHero-heading">We are passionate and commited to the long-term success of Bitcoin Cash</h1>
           <p class="aboutHero-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh.</p>
         </div>

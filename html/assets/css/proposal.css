@@ -7,7 +7,7 @@
 }
 .proposalHero-img {
   margin: auto;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 .proposalHero-lead {
   font-family: 'Montserrat', sans-serif;
@@ -36,23 +36,14 @@
 }
 
 
-/* Mission
+/* Intro
 --------------------------------------------*/
 .proposalIntro {
-  background-color: #35a283;
-  color: #313131;
+  background-color: #e4e4e4;
+  color: #555e5b;
   padding-top: 30px;
   padding-bottom: 40px;
   text-align: center;
-}
-.proposalIntro h2 {
-  color: #fff;
-}
-.proposalIntro-border {
-  background-color: #76d0b6;
-}
-.proposalIntro p {
-  color: #fff;
 }
 .proposalIntro-img {
   margin: auto;
@@ -61,7 +52,6 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  color: #fff;
 }
 @media (min-width: 450px) {
   .proposalIntro {

@@ -98,33 +98,33 @@
           <h2>How Can I Help?</h2>
           <span class="border"></span>
           <div class="row homeHelp-section">
-            <div class="col-md-5">
+            <div class="col-md-5 homeHelp-imageCol">
               <img src="<?= $config['img_dir']; ?>proposal_temp.jpg" class="img-responsive homeHelp-sectionImg">
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 homeHelp-proposalCol">
               <h3 class="homeHelp-sectionHeading">Submit a Proposal</h3>
               <p class="homeHelp-sectionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh, eget lacinia erat lacinia eu. Cras nibh leo, posuere in sodales gravida, viverra vel nibh. In aliquam elit vitae nulla volutpat tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-              <a href="#" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
+              <a href="<?= $config['base_url']; ?>proposal/" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
             </div>
           </div>
           <div class="row homeHelp-section">
-            <div class="col-md-5 col-md-push-7">
+            <div class="col-md-5 col-md-push-7 homeHelp-imageCol">
               <img src="<?= $config['img_dir']; ?>volunteer_temp.jpg" class="img-responsive homeHelp-sectionImg">
             </div>
-            <div class="col-md-7 col-md-pull-5">
+            <div class="col-md-7 col-md-pull-5 homeHelp-volunteerCol">
               <h3 class="homeHelp-sectionHeading">Volunteer</h3>
               <p class="homeHelp-sectionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh, eget lacinia erat lacinia eu. Cras nibh leo, posuere in sodales gravida, viverra vel nibh. In aliquam elit vitae nulla volutpat tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-              <a href="#" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
+              <a href="<?= $config['base_url']; ?>volunteer/" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
             </div>
           </div>
           <div class="row homeHelp-section">
-            <div class="col-md-5">
+            <div class="col-md-5 homeHelp-imageCol">
               <img src="<?= $config['img_dir']; ?>donate_temp.jpg" class="img-responsive homeHelp-sectionImg">
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 homeHelp-donateCol">
               <h3 class="homeHelp-sectionHeading">Donate</h3>
               <p class="homeHelp-sectionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh, eget lacinia erat lacinia eu. Cras nibh leo, posuere in sodales gravida, viverra vel nibh. In aliquam elit vitae nulla volutpat tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-              <a href="#" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
+              <a href="<?= $config['base_url']; ?>donate/" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
             </div>
           </div>
         </div>

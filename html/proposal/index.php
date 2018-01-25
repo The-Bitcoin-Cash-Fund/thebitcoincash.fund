@@ -31,18 +31,17 @@
               <picture>
                 <!-- Desktop -->
                 <source media="(min-width: 450px)"
-                        srcset="<?= $config['img_dir']; ?>mission_desktop.png" />
+                        srcset="<?= $config['img_dir']; ?>proposal_submit.png" />
                 <!-- Mobile -->
-                <source srcset="<?= $config['img_dir']; ?>mission_desktop.png" />
-                <img src="<?= $config['img_dir']; ?>mission_desktop.png" class="img-responsive proposalIntro-img" style="width:100%;" />
+                <source srcset="<?= $config['img_dir']; ?>proposal_submit.png" />
+                <img src="<?= $config['img_dir']; ?>proposal_submit.png" class="img-responsive proposalIntro-img" style="width:100%;" />
               </picture>
             </div>
             <div class="col-md-7">
-              <h2>Our Mission</h2>
+              <h2>Let's Help Each Other</h2>
               <span class="border proposalIntro-border"></span>
-              <p class="proposalIntro-lead">Our mission is to help Bitcoin Cash serve one billion users within five years.</p>
-              <p>Anyone, or any team, can put in a proposal to request funding from the BCF. The proposals will be assessed based on cost versus impact and S.M.A.R.T principles, to make sure funds are allocated where they will have maximum impact.</p>
-              <p>Members of the community are encouraged to take ownership of their projects and see them through to completion.</p>
+              <p class="proposalIntro-lead">If you have an idea that we believe will genuinely help foster adoption of Bitcoin Cash, we'd like to help you fund it.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida iaculis bibendum. Vivamus posuere justo ac accumsan aliquam. Nam feugiat vestibulum lorem a tristique. Sed sed quam et metus imperdiet fermentum id a felis. Aliquam id pulvinar ligula, eu eleifend velit. Nunc a turpis diam. Aliquam erat volutpat. Nulla tincidunt nisl id metus posuere aliquam. Sed dolor neque, feugiat ut pulvinar quis, venenatis eget metus.</p>
             </div>
           </div>
         </div>

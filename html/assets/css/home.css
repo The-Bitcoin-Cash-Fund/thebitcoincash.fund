@@ -164,7 +164,7 @@
 .homeHelp {
 }
 .homeHelp-section {
-  margin-bottom: 110px;
+  margin-bottom: 90px;
 }
 .homeHelp-sectionHeading {
   text-align: left;
@@ -176,13 +176,88 @@
 }
 .homeHelp-sectionText {
   text-align: left;
+  margin-bottom: 25px;
 }
 .homeHelp-sectionBtn {
-  background-color: #35a283;
+  background-color: #dc1767;
   border-color: #fff;
   color: #fff;
 }
 .homeHelp-sectionBtn:hover {
-  background-color: #dc1767;
+  background-color: #35a283;
   color: #fff;
 }
+.homeHelp-proposalCol,
+.homeHelp-volunteerCol,
+.homeHelp-donateCol {
+  padding-top: 20px;
+}
+
+@media (min-width: 550px) {
+  .homeHelp-imageCol {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .homeHelp-proposalCol,
+  .homeHelp-volunteerCol,
+  .homeHelp-donateCol {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+@media (min-width: 992px) {
+  .homeHelp-section {
+    margin-bottom: 90px;
+  }
+  .homeHelp-proposalCol,
+  .homeHelp-volunteerCol,
+  .homeHelp-donateCol {
+    padding-top: 20px;
+  }
+  .homeHelp-proposalCol,
+  .homeHelp-donateCol {
+    padding-left: 0;
+    padding-right: 200px;
+  }
+  .homeHelp-volunteerCol {
+    padding-right: 20px;
+    padding-left: 200px;
+  }
+  .homeHelp-imageCol {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  .homeHelp-section {
+    margin-bottom: 70px;
+  }
+  .homeHelp-proposalCol,
+  .homeHelp-volunteerCol,
+  .homeHelp-donateCol {
+    padding-top: 70px;
+  }
+  .homeHelp-proposalCol,
+  .homeHelp-donateCol {
+    padding-right: 200px;
+  }
+  .homeHelp-volunteerCol {
+    padding-right: 10px;
+    padding-left: 200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
