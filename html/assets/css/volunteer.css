@@ -8,6 +8,7 @@
 .volunteerHero-img {
   margin: auto;
   margin-bottom: 25px;
+  width: 100%;
 }
 .volunteerHero-lead {
   font-family: 'Montserrat', sans-serif;

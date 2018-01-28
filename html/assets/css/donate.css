@@ -8,6 +8,7 @@
 .donateHero-img {
   margin: auto;
   margin-bottom: 25px;
+  width: 100%;
 }
 .donateHero-lead {
   font-family: 'Montserrat', sans-serif;

@@ -19,7 +19,14 @@
 
       <div class="proposalHero">
         <div class="container">
-          <img src="<?= $config['img_dir']; ?>hero_proposal.jpg" class="img-responsive proposalHero-img">
+          <picture>
+            <!-- Desktop -->
+            <source media="(min-width: 450px)"
+                    srcset="<?= $config['img_dir']; ?>hero_proposal.jpg" />
+            <!-- Mobile -->
+            <source srcset="<?= $config['img_dir']; ?>hero_proposal_mobile.jpg" />
+            <img src="<?= $config['img_dir']; ?>hero_proposal.jpg" class="img-responsive proposalHero-img" />
+          </picture>
           <h1 class="proposalHero-heading">Do you have a brilliant idea?</h1>
           <p class="proposalHero-lead">Let us know your idea for how to spread adoption of Bitcoin Cash.</p>
         </div>

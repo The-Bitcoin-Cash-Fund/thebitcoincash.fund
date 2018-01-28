@@ -8,6 +8,7 @@
 .proposalHero-img {
   margin: auto;
   margin-bottom: 25px;
+  width: 100%;
 }
 .proposalHero-lead {
   font-family: 'Montserrat', sans-serif;

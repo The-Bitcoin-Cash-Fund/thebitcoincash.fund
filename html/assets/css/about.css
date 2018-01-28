@@ -8,6 +8,7 @@
 .aboutHero-img {
   margin: auto;
   margin-bottom: 25px;
+  width: 100%;
 }
 .aboutHero-lead {
   font-family: 'Montserrat', sans-serif;
