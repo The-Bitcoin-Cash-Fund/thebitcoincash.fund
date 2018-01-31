@@ -1,7 +1,7 @@
 /* Footer Container
 ------------------------------------------------------------- */
 .footer-container {
-  background-color: #2b5e4c;
+  background-color: #35a283;
 }
 .footer-content {
   padding-top: 45px;
@@ -13,11 +13,11 @@
 ------------------------------------------------------------- */
 .footer-scrollTop {
   width: 100%;
-  background-color: #fff581;
+  background-color: #2b916e;
   padding: 1rem;
 }
 .footer-scrollTop {
-  color: #000;
+  color: #fff;
 }
 @media (min-width: 768px) {
   .footer-scrollTop {
@@ -45,23 +45,20 @@
     float: left;
     margin-bottom: 30px;
   }
-  .footer-menu1 {
+  .footer-explore {
     width: 14%;
   }
-  .footer-menu2 {
+  .footer-info {
     width: 16%;
   }
-  .footer-snsLinks {
-    width: 21%;
+  .footer-sns {
+    width: 46%;
   }
-  .footer-newsletter {
-    width: 0%;
-  }
-  .footer-contact {
-    width: 25%;
-  }
-  .footer-copyright {
+  .footer-learn {
     width: 24%;
+    text-align: right;
+  }
+  .footer-learn .footer-heading {
     text-align: right;
   }
 }
@@ -75,7 +72,7 @@
   font-size: 1rem;
   line-height: 1;
   margin: 0.8rem 0 0.8rem 0; 
-  color: #35a283;
+  color: #fff581;
   margin-bottom: 0.7rem;
   padding-bottom: 0;
 }
@@ -162,14 +159,14 @@
 
 /* Footer Copyright Bar
 ------------------------------------------------------------- */
-.footer-copyright p {
-  color: #4c4c4c;
-  font-size: 0.8rem;
-  margin-bottom: 0;
-  text-align: center;
-}
 .footer-copyright {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #b5b5b5;
+  background-color: #205a47;
+}
+.footer-copyright p {
+  color: #70a490;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  text-align: center;
 }

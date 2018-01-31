@@ -19,7 +19,7 @@
 <footer class="footer-container">
   <div class="container footer-content">
     <div class="row">
-      <div class="footer-col footer-menu1">
+      <div class="footer-col footer-explore">
         <h3 class="footer-heading">Explore</h3>
         <ul class="footer-linkList">
           <li><a href="<?= $config['base_url']; ?>proposal/">Submit a Proposal</a></li>
@@ -27,7 +27,7 @@
           <li><a href="<?= $config['base_url']; ?>donate/">Donate</a></li>
         </ul>
       </div>
-      <div class="footer-col footer-menu2">
+      <div class="footer-col footer-info">
         <h3 class="footer-heading">Info</h3>
         <ul class="footer-linkList">
           <li><a href="<?= $config['base_url']; ?>about/">About</a></li>
@@ -35,21 +35,31 @@
           <li><a href="<?= $config['base_url']; ?>contact/">Contact</a></li>
         </ul>
       </div>
-      <div class="footer-col footer-snsLinks">
+      <div class="footer-col footer-sns">
         <h3 class="footer-heading">Connect</h3>
-        <a href="#" target="_blank">
-          <img src="//cdn.shopify.com/s/files/1/2446/5431/t/4/assets/icon_instagram_64x64.png?4763073960845624351" alt="Instagram" class="footer-social-icon" />
-        </a>
-        <a href="#" target="_blank">
-          <img src="//cdn.shopify.com/s/files/1/2446/5431/t/4/assets/icon_facebook_64x64.png?4763073960845624351" alt="Facebook" class="footer-social-icon" />
-        </a>
+        <ul class="contact-snsList">
+          <li><a href="https://www.youtube.com/channel/UC0NQCJDbECWg3jjkmsEDO-A/videos" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-yt.svg" alt="YouTube" class="contact-snsImg"></a></li>
+          <li><a href="https://twitter.com/BitcoinCashFund" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-twitter.svg" alt="Twitter" class="contact-snsImg"></a></li>
+          <li><a href="https://www.facebook.com/bitcoincashfund/" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-fb.svg" alt="Facebook" class="contact-snsImg"></a></li>
+          <li><a href="https://steemit.com/@bitcoincashfund" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-steemit.svg" alt="Steemit" class="contact-snsImg"></a></li>
+          <li><a href="https://www.reddit.com/r/bitcoincashmarketing" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-reddit.svg" alt="Reddit" class="contact-snsImg"></a></li>
+          <li><a href="https://www.yours.org/user/bitcoincashfund" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-yours.svg" alt="Yours" class="contact-snsImg"></a></li>
+        </ul>
       </div>
-      <div class="footer-col footer-contact">
-        <h3 class="footer-heading">Get In Touch</h3>
-        <a href="#" class="btn footer-contactBtn">Contact</a>
+      <div class="footer-col footer-learn">
+        <h3 class="footer-heading">Learn More</h3>
+        <ul class="footer-linkList">
+          <li><a href="https://www.bitcoincash.org/" target="_blank">BitcoinCash.org</a></li>
+          <li><a href="https://acceptbitcoin.cash/" target="_blank">Accept Bitcoin Cash Initiative</a></li>
+          <li><a href="https://github.com/dsmurrell/awesome-bitcoin-cash" target="_blank">Awesome Bitcoin Cash</a></li>
+        </ul>
       </div>
-      <div class="footer-col footer-copyright">
-        <p>© 2017 Company Name</p>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Copyright &copy; 2017-2018 Bitcoin Cash Fund</p>
       </div>
     </div>
   </div>

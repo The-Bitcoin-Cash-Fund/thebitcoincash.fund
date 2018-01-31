@@ -22,14 +22,6 @@
             <div class="col-xs-12">
               <h2>Get In Touch</h2>
               <span class="border-white"></span>
-              <ul class="contact-snsList">
-                <li><a href="https://www.youtube.com/channel/UC0NQCJDbECWg3jjkmsEDO-A/videos" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-yt.svg" alt="YouTube" class="contact-snsImg"></a></li>
-                <li><a href="https://twitter.com/BitcoinCashFund" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-twitter.svg" alt="Twitter" class="contact-snsImg"></a></li>
-                <li><a href="https://www.facebook.com/bitcoincashfund/" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-fb.svg" alt="Facebook" class="contact-snsImg"></a></li>
-                <li><a href="https://steemit.com/@bitcoincashfund" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-steemit.svg" alt="Steemit" class="contact-snsImg"></a></li>
-                <li><a href="https://www.reddit.com/r/bitcoincashmarketing" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-reddit.svg" alt="Reddit" class="contact-snsImg"></a></li>
-                <li><a href="https://www.yours.org/user/bitcoincashfund" target="_blank"><img src="<?= $config['svg_dir']; ?>sns-yours.svg" alt="Yours" class="contact-snsImg"></a></li>
-              </ul>
               <div class="contact-form">
                 <form action="https://formcarry.com/s/r1pJYQNgM" method="POST">
                   <input class="form-control input-lg contact-input" type="text" placeholder="Name" name="name">
@@ -42,7 +34,6 @@
           </div>
         </div>
       </div>
-
       <?php include($config['include_dir'] . 'footer.php'); ?>
     </div>
   </body>
