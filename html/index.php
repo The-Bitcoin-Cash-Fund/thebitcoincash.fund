@@ -103,7 +103,7 @@
             </div>
             <div class="col-md-7 homeHelp-proposalCol">
               <h3 class="homeHelp-sectionHeading">Submit a Proposal</h3>
-              <p class="homeHelp-sectionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh, eget lacinia erat lacinia eu. Cras nibh leo, posuere in sodales gravida, viverra vel nibh. In aliquam elit vitae nulla volutpat tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              <p class="homeHelp-sectionText">Do you have a briliant idea of how to promote adoption of Bitcoin Cash? Fill out our proposal form and we may help fund it!</p>
               <a href="<?= $config['base_url']; ?>proposal/" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
             </div>
           </div>
@@ -113,7 +113,7 @@
             </div>
             <div class="col-md-7 col-md-pull-5 homeHelp-volunteerCol">
               <h3 class="homeHelp-sectionHeading">Volunteer</h3>
-              <p class="homeHelp-sectionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh, eget lacinia erat lacinia eu. Cras nibh leo, posuere in sodales gravida, viverra vel nibh. In aliquam elit vitae nulla volutpat tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              <p class="homeHelp-sectionText">We have active projects right now that need help from talented people like you. Volunteering is a great chance to earn a little BCH while increasing the value of the coins you already hold.</p>
               <a href="<?= $config['base_url']; ?>volunteer/" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
             </div>
           </div>
@@ -123,7 +123,7 @@
             </div>
             <div class="col-md-7 homeHelp-donateCol">
               <h3 class="homeHelp-sectionHeading">Donate</h3>
-              <p class="homeHelp-sectionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh, eget lacinia erat lacinia eu. Cras nibh leo, posuere in sodales gravida, viverra vel nibh. In aliquam elit vitae nulla volutpat tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              <p class="homeHelp-sectionText">Want to help out but don't have time to get involved yourself? No problem! Your BCH donations will help tremendously. We aim for complete transparency and accountablity with community donations.</p>
               <a href="<?= $config['base_url']; ?>donate/" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
             </div>
           </div>

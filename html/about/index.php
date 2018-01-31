@@ -26,15 +26,15 @@
             <source srcset="<?= $config['img_dir']; ?>hero_about_mobile.jpg" />
             <img src="<?= $config['img_dir']; ?>hero_about.jpg" class="img-responsive aboutHero-img" />
           </picture>
-          <h1 class="aboutHero-heading">We believe in a future after fiat</h1>
-          <p class="aboutHero-lead">We are passionate and commited to the long-term success of Bitcoin Cash</p>
+          <h1 class="aboutHero-heading">We want the world using Bitcoin Cash</h1>
+          <p class="aboutHero-lead">Which is why we're spreading the word about this legendary crypto currency.</p>
         </div>
       </div>
       <div class="aboutHero-subhead">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>We are passionate group of professionals committed to the long-term success of Bitcoin Cash</p>
             </div>
           </div>
         </div>
@@ -45,8 +45,9 @@
             <div class="col-md-5">
               <img src="<?= $config['img_dir']; ?>about_trust.jpg" class="img-responsive aboutTrust-img"></div>
             <div class="col-md-7">
-              <h3 class="aboutTrust-heading">Why you should trust us</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim nunc nibh, eget lacinia erat lacinia eu. Cras nibh leo, posuere in sodales gravida, viverra vel nibh. In aliquam elit vitae nulla volutpat tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras sed erat placerat, tincidunt augue nec, pulvinar justo. Maecenas sed neque ac nisl elementum elementum non et sem. Sed augue nulla, fermentum nec pellentesque eget, tempor sed massa. Donec tincidunt consequat lectus sit amet cursus. Mauris porta lacus quis varius ornare.</p>
+              <h3 class="aboutTrust-heading">Humble Beginnings</h3>
+              <p>The Bitcoin Cash Fund was formed in the BCH Slack group in late 2017. We knew that pushing adoption of Bitcoin Cash would go a lot smoother with some type of organization. We set out to raise a few hundred dollars to make a short video and ended up with a tremendous outpouring of support from the community.</p>
+              <p>Since then we incorporated as a non-profit organization and have pulled together a small team of hard-working professionals.</p>
             </div>
           </div>
         </div>

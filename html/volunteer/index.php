@@ -43,10 +43,11 @@
         <div class="container">
           <div class="row">
             <div class="col-md-5">
-              <h2 class="volunteerForm-heading">Some Notes</h2>
-              <p class="volunteerForm-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed placerat purus. Suspendisse sed venenatis urna. Aliquam erat volutpat. Nullam pellentesque lectus non enim rhoncus condimentum. Ut ullamcorper in nibh id egestas. Curabitur consectetur egestas suscipit. Donec sit amet lacus nulla. Integer consequat non leo eu gravida. Phasellus facilisis consequat felis sed dictum. Aenean bibendum risus tellus, vitae cursus sem congue vel. Vestibulum id egestas ex, in vestibulum urna. Nullam feugiat nisi vel viverra dignissim.</p>
+              <h2 class="volunteerForm-heading">We need you!</h2>
+              <p class="volunteerForm-text">We need people with skill like the ones listed in the form to volunteer some of their time for projects to bring awareness and adoption of Bitcoin Cash. If this is you get in contact with me, or come and talk to us at chat.thebitcoincash.fund.</p>
+              <p class="volunteerForm-text">We can also budget some amount of funds for work, but priority will be given to people willing to do at least partially volunteer their time.</p>
               <h2 class="volunteerForm-heading">If you don't have skills</h2>
-              <p class="volunteerForm-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed placerat purus. Suspendisse sed venenatis urna. Aliquam erat volutpat. Nullam pellentesque lectus non enim rhoncus condimentum. Ut ullamcorper in nibh id egestas. Curabitur consectetur egestas suscipit. Donec sit amet lacus nulla. Integer consequat non leo eu gravida. Phasellus facilisis consequat felis sed dictum. Aenean bibendum risus tellus, vitae cursus sem congue vel. Vestibulum id egestas ex, in vestibulum urna. Nullam feugiat nisi vel viverra dignissim.</p>
+              <p class="volunteerForm-text">If you don't have any of these skills, that doesn't mean we don't need your help. There are lots of other things that projects need help with (i.e. sending out stickers, handing out leaflets, writing education content etc.).</p>
             </div>
             <div class="col-md-7">
               <form action="#" method="POST">
