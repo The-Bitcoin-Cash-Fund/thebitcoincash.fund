@@ -59,7 +59,7 @@
   <div class="footer-copyright">
     <div class="row">
       <div class="col-xs-12">
-        <p>Copyright &copy; 2017-2018 Bitcoin Cash Fund</p>
+        <p>Copyright &copy; 2017-<?= date("Y"); ?> Bitcoin Cash Fund</p>
       </div>
     </div>
   </div>

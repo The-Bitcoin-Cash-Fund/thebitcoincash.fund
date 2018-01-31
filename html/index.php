@@ -31,7 +31,7 @@
                 <source srcset="<?= $config['img_dir']; ?>hero_tablet.png" />
                 <img src="<?= $config['img_dir']; ?>hero_home.jpg" class="img-responsive" style="width:100%;" />
               </picture>
-              <h1 class="homeHero-title">The Bitcoin Cash Fund!!</h1>
+              <h1 class="homeHero-title">The Bitcoin Cash Fund</h1>
               <p class="homeHero-lead">A community-driven, grassroots project to accelerate the adoption of Bitcoin Cash.</p>
             </div>
           </div>
