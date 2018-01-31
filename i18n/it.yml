@@ -1,0 +1,58 @@
+it:
+  locale: it_IT
+  language: Italiano
+  title: Bitcoin Cash Fund
+  description: Un progetto popolare, voluto e guidato dalla comunità per accelerare l'adozione di Bitcoin Cash.
+  subhead: <strong>Bitcoin Cash Fund</strong> è un'organizzazione no-profit, con la missione di distribuire i fondi raccolti a progetti che promuovono Bitcoin Cash.
+  what_is_bch_title: Cos'è Bitcoin Cash?
+  what_is_bch_answer1: Un sistema globale, da persona a persona, di denaro contante digitale.
+  what_is_bch_answer2: Una moneta decentralizzata che nessuno può controllare.
+  what_is_bch_answer3: Un sistema di pagamento sicuro, ad alta velocità e a basso costo.
+  mission_title: La nostra missione
+  mission_lead: La nostra missione è quella di aiutare Bitcoin Cash ad essere usato da un miliardo di persone entro cinque anni.
+  mission_text: >
+    <p>Chiunque, persona o gruppo, può proporre un progetto da finanziare. La proposta sarà valutata dal Fondo in base al rapporto costi/benefici e i principi S.M.A.R.T, al fine di assicurare che i fondi siano allocati in modo da ottenere il massimo impatto.</p>
+    <p>I membri della community sono invitati a prendere possesso del loro progetto e portarli a compimento.</p>
+  donate_title: Dona
+  donate_text: Questo è l'indirizzo ufficiale per donazioni al Bitcoin Cash Fund. Copia e incolla o scansione il codice e importa l'indirizzo nel tuo wallet preferito per effettuare una donazione. Qualsiasi donazione è ben accetta.
+  team_title: Presentazione del gruppo
+  team_role_board_member: Membro del Board
+  team_role_executive_director: Direttore Esecutivo
+  team_ian_descoteaux_bio: >
+    Entra in contatto con Bitcoin nel 2010 e da allora possiede e gestisce una installazione di miner.
+  team_paul_wasensteiner_bio: >
+    Entra in contatto con Bitcoin nel 2011 e fonda il Bitcoin Cash Fund nel Novembre 2017.
+  team_haipo_yang_bio: >
+    Fonda con grande successo il pool di miner ViaBTC e guida il gruppo R&amp;D di ZeusMiner.
+  advisors_title: I Nostri Consiglieri
+  advisors_jack_liu_bio: >
+    Già Chief Strategy Officer di OKCoin Group e co-fondatore di OKEx e OKLink.
+  advisors_roger_ver_bio: >
+    Primo investitore al mondo in startup in ambito Bitcoin, investe in società Bitcoin fin dall'inizio del 2011.
+  advisors_peter_rizun_bio: >
+    Direttore Tecnico per Bitcoin Unlimited, focalizzato nella ricerca per l'eliminazione degli impedimenti tecnici alla crescita di Bitcoin.
+  advisors_mike_komaransky_bio: >
+    Investitore e promotore di Bitcoin dal 2010, Mike è stato partner in DRW ed è stato Direttore del Trading di Cumberland Mining dal 2014 fino a giugno 2017.
+  stay_informed_title: Resta Informato
+  stay_informed_email_placeholder: name@example.com
+  stay_informed_subscribe_button: Iscriviti
+  sponsors_title: Sponsors
+  sponsors_text: >
+    Questi sponsor sono totalmente allineati con i nostri obiettivi e stanno lavorando sodo per spingere l'adozione di Bitcoin Cash.
+  get_in_touch_title: Resta In Contatto
+  get_in_touch_name_placeholder: Nome
+  get_in_touch_email_placeholder: Email
+  get_in_touch_message_placeholder: Messaggio
+  get_in_touch_send_button: Invia
+  more_to_come_title: In arrivo
+  more_to_come_text: >
+    Questo fondo ha fatto tanto nel breve periodo di attività passato dalla sua nascita e molto deve ancora arrivare. Assicurati di tenere sotto controllo questo spazio!
+  more_to_come_learn: Approfondisci
+  more_to_come_participate: Partecipare al Fondo e proporre progetti da finanziare
+  copyright_text: Copyright &copy; 2017-2018 Bitcoin Cash Fund
+  more_to_come_1_title: "Comunicato stampa: Annuncio di Bitcoin Cash Fund - Aggiornamento 1 (inglese)"
+  more_to_come_1_url: https://www.yours.org/content/announcing-the-bitcoin-cash-fund---update-1-38f985d0add1/
+  more_to_come_2_title: The Bitcoin Cash Fund Weekly report - 15.12.2017
+  more_to_come_2_url: https://www.yours.org/content/bitcoin-cash-fund---weekly-report-15-12-17-21d352a71424/
+  more_to_come_3_title: The Bitcoin Cash Fund Weekly report - 22.12.2017
+  more_to_come_3_url: https://www.yours.org/content/bitcoin-cash-fund---weekly-report-22-12-17-119c8c84e3b1/
