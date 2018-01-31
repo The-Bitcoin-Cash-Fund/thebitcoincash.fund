@@ -24,7 +24,7 @@
                     srcset="<?= $config['img_dir']; ?>hero_volunteer.jpg" />
             <!-- Mobile -->
             <source srcset="<?= $config['img_dir']; ?>hero_volunteer_mobile.jpg" />
-            <img src="<?= $config['img_dir']; ?>hero_volunteer.jpg" class="img-responsive volunteerHero-img" />
+            <img src="<?= $config['img_dir']; ?>hero_volunteer.jpg" class="img-responsive heroImg" />
           </picture>
           <h1 class="volunteerHero-heading">Ready to put your skills to use?</h1>
           <p class="volunteerHero-lead">We've got active projects right now that need the help of talented people like you.</p>

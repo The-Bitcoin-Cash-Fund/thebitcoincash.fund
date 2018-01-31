@@ -24,12 +24,12 @@
                 <!-- Desktop -->
                 <source media="(min-width: 768px)"
                         srcset="<?= $config['img_dir']; ?>hero_home.jpg" />
-                <!-- Tablet -->
+                <!-- Tablet --><!--
                 <source media="(min-width: 550px)"
-                        srcset="<?= $config['img_dir']; ?>hero_tablet.png" />
+                        srcset="<?= $config['img_dir']; ?>hero_home_tablet.jpg" />-->
                 <!-- Mobile -->
-                <source srcset="<?= $config['img_dir']; ?>hero_tablet.png" />
-                <img src="<?= $config['img_dir']; ?>hero_home.jpg" class="img-responsive" style="width:100%;" />
+                <source srcset="<?= $config['img_dir']; ?>hero_home_tablet.jpg" />
+                <img src="<?= $config['img_dir']; ?>hero_home.jpg" class="img-responsive heroImg homeHero-img" />
               </picture>
               <h1 class="homeHero-title">The Bitcoin Cash Fund</h1>
               <p class="homeHero-lead">A community-driven, grassroots project to accelerate the adoption of Bitcoin Cash.</p>

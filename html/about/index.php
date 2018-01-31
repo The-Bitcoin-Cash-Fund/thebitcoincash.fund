@@ -24,7 +24,7 @@
                     srcset="<?= $config['img_dir']; ?>hero_about.jpg" />
             <!-- Mobile -->
             <source srcset="<?= $config['img_dir']; ?>hero_about_mobile.jpg" />
-            <img src="<?= $config['img_dir']; ?>hero_about.jpg" class="img-responsive aboutHero-img" />
+            <img src="<?= $config['img_dir']; ?>hero_about.jpg" class="img-responsive heroImg" />
           </picture>
           <h1 class="aboutHero-heading">We want the world using Bitcoin Cash</h1>
           <p class="aboutHero-lead">Which is why we're spreading the word about this legendary crypto currency.</p>

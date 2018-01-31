@@ -131,3 +131,22 @@ html, body {
   padding-right: 9999rem;
   /*z-index: -1;  */
 }
+
+
+/* Hero Images
+------------------------------------------------------------- */
+.heroImg {
+  margin: auto;
+  margin-bottom: 25px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .heroImg { height: 221.047px; }
+}
+@media (min-width: 992px) {
+  .heroImg { height: 288.594px; }
+}
+@media (min-width: 1200px) {
+  .heroImg { height: 350px; }
+}
+

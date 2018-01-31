@@ -24,7 +24,7 @@
                     srcset="<?= $config['img_dir']; ?>hero_donate.jpg" />
             <!-- Mobile -->
             <source srcset="<?= $config['img_dir']; ?>hero_donate_mobile.jpg" />
-            <img src="<?= $config['img_dir']; ?>hero_donate.jpg" class="img-responsive donateHero-img" />
+            <img src="<?= $config['img_dir']; ?>hero_donate.jpg" class="img-responsive heroImg" />
           </picture>
           <h1 class="donateHero-heading">A donation to the BCF is an investment in your future</h1>
           <p class="donateHero-lead">Widespread adoption of Bitcoin Cash will result in higher price.</p>

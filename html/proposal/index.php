@@ -25,7 +25,7 @@
                     srcset="<?= $config['img_dir']; ?>hero_proposal.jpg" />
             <!-- Mobile -->
             <source srcset="<?= $config['img_dir']; ?>hero_proposal_mobile.jpg" />
-            <img src="<?= $config['img_dir']; ?>hero_proposal.jpg" class="img-responsive proposalHero-img" />
+            <img src="<?= $config['img_dir']; ?>hero_proposal.jpg" class="img-responsive heroImg" />
           </picture>
           <h1 class="proposalHero-heading">Have a brilliant marketing idea?</h1>
           <p class="proposalHero-lead">If you have an idea how to spread adoption of Bitcoin Cash, we'd like to help you fund it.</p>

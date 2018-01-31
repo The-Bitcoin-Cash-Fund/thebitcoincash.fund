@@ -11,6 +11,12 @@
   margin-top: 0;
   margin-bottom: 20px;
 }
+.homeHero-img {
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  width: 100%;
+}
 .homeHero-lead {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -25,10 +31,20 @@
   padding-bottom: 20px;
   text-align: center;
 }
-@media (min-width:768px) {
+@media (min-width: 550px) {
+  .homeHero-img {
+    margin-top: 15px;
+  }
+}
+@media (min-width: 768px) {
   .homeHero-title {
     font-size: 50px;
     margin-bottom: 20px;
+  }
+  .homeHero-img {
+    height: 309.469px;
+    margin-top: 20px;
+    margin-bottom: 35px;
   }
   .homeHero-lead {
     font-size: 30px;
@@ -42,6 +58,9 @@
   .homeHero-title {
     font-size: 60px;
   }
+  .homeHero-img {
+    height: 404.031px;
+  }
   .homeHero-lead {
     font-size: 30px;
     margin-bottom: 50px;
@@ -51,7 +70,11 @@
     margin: auto;
   }
 }
-
+@media (min-width: 1200px) {
+  .homeHero-img {
+    height: 490px;
+  }
+}
 
 /* Bitcoin Cash
 --------------------------------------------*/
