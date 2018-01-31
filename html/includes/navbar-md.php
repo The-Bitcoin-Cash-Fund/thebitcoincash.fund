@@ -9,12 +9,24 @@
     </div>
     <div class="navbar-md-list-wrapper pull-right">
       <ul class="navbar-md-list pull-right">
-        <li class="navbar-md-list-item"><a href="<?= $config['base_url']; ?>about/">About</a></li>
-        <li class="navbar-md-list-item"><a href="<?= $config['base_url']; ?>proposal/">Submit a Proposal</a></li>
-        <li class="navbar-md-list-item"><a href="<?= $config['base_url']; ?>volunteer/">Volunteer</a></li>
-        <li class="navbar-md-list-item"><a href="<?= $config['base_url']; ?>donate/">Donate</a></li>
-        <li class="navbar-md-list-item"><a href="<?= $config['base_url']; ?>faqs/">FAQs</a></li>
-        <li class="navbar-md-list-item"><a href="<?= $config['base_url']; ?>contact/">Contact</a></li>
+        <li class="navbar-md-list-item<?= ($currentPage == 'about') ? ' active' : ''; ?>">
+          <a href="<?= $config['base_url']; ?>about/">About</a>
+        </li>
+        <li class="navbar-md-list-item<?= ($currentPage == 'proposal') ? ' active' : ''; ?>">
+          <a href="<?= $config['base_url']; ?>proposal/">Submit a Proposal</a>
+        </li>
+        <li class="navbar-md-list-item<?= ($currentPage == 'volunteer') ? ' active' : ''; ?>">
+          <a href="<?= $config['base_url']; ?>volunteer/">Volunteer</a>
+        </li>
+        <li class="navbar-md-list-item<?= ($currentPage == 'donate') ? ' active' : ''; ?>">
+          <a href="<?= $config['base_url']; ?>donate/">Donate</a>
+        </li>
+        <li class="navbar-md-list-item<?= ($currentPage == 'faqs') ? ' active' : ''; ?>">
+          <a href="<?= $config['base_url']; ?>faqs/">FAQs</a>
+        </li>
+        <li class="navbar-md-list-item<?= ($currentPage == 'contact') ? ' active' : ''; ?>">
+          <a href="<?= $config['base_url']; ?>contact/">Contact</a>
+        </li>
       </ul>
     </div>
   </div>

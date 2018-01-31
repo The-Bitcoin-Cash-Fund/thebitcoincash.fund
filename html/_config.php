@@ -1,14 +1,25 @@
 <?php
-
 // Get the web server and filesystem base directory
 $base_dir = __DIR__;
 $protocol = empty($_SERVER['HTTPS']) ? 'http' : 'https';
 $domain = $_SERVER['SERVER_NAME'];
-$webRoot = str_replace($_SERVER['PHP_SELF'], '', $_SERVER['SCRIPT_FILENAME']);
+
+$phpSelf = $_SERVER['PHP_SELF'];
+$scriptFilename = $_SERVER['SCRIPT_FILENAME'];
+$webRoot = str_replace($phpSelf, '', $scriptFilename);
+
 $subDir = str_replace($webRoot, '', $base_dir);
-$base_url_full = "${protocol}://${domain}${subDir}";
+$baseUrlFull = "${protocol}://${domain}${subDir}";
 $base_url = $subDir;
 
+$pathWithoutBase = str_replace($base_url, '', $phpSelf);
+$array = explode('/', $pathWithoutBase);
+
+if ($array[1] == 'index.php') {
+  $currentPage = 'home';  
+} else {
+  $currentPage = $array[1];
+}
 
 
 /****************************
@@ -17,7 +28,7 @@ CREATE THE CONFIG ARRAY
 
 return [
   'debug' => true,
-  
+
   // Head meta tag info
   'title_pre'    => '',
   'title_post'   => ' | The Bitcoin Cash Fund',
@@ -31,8 +42,10 @@ return [
   'css_dir'      => $base_url . '/assets/css/',
   'js_dir'       => $base_url . '/assets/js/',
   'img_dir'      => $base_url . '/assets/img/',
-  'svg_dir'      => $base_url . '/assets/svg/'
-  
+  'svg_dir'      => $base_url . '/assets/svg/',
+
+  // Get the current root directoy (minus base_url)
+  'current_page' => $currentPage
 ];
 
 ?>
