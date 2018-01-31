@@ -44,7 +44,7 @@
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <p class="donate-address">3ECKq7onkjnRQR2nNe5uUJp2yMsXRmZavC</p>
+              <p class="donate-address">bitcoincash:pzyjepg4rmm8yx8v0sc6svac255ta2md2y9l0edptq</p>
             </div>
           </div>
         </div>
