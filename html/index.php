@@ -24,9 +24,6 @@
                 <!-- Desktop -->
                 <source media="(min-width: 768px)"
                         srcset="<?= $config['img_dir']; ?>hero_home.jpg" />
-                <!-- Tablet --><!--
-                <source media="(min-width: 550px)"
-                        srcset="<?= $config['img_dir']; ?>hero_home_tablet.jpg" />-->
                 <!-- Mobile -->
                 <source srcset="<?= $config['img_dir']; ?>hero_home_tablet.jpg" />
                 <img src="<?= $config['img_dir']; ?>hero_home.jpg" class="img-responsive heroImg homeHero-img" />
