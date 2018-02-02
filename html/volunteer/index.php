@@ -50,51 +50,52 @@
               <p class="volunteerForm-text">If you don't have any of these skills, that doesn't mean we don't need your help. There are lots of other things that projects need help with (i.e. sending out stickers, handing out leaflets, writing education content etc.).</p>
             </div>
             <div class="col-md-7">
-              <form action="#" method="POST">
-                <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Name" name="name">
-                <input class="form-control input-lg volunteerForm-input" type="email" placeholder="Email" name="email">
+              <form id="volunteerForm-form" action="https://formcarry.com/s/HkK6QYWUG" method="POST">
+              <!--<form id="volunteerForm-form" action="#" method="POST">-->
+                <input id="name" class="form-control input-lg volunteerForm-input" type="text" placeholder="Name" name="Name">
+                <input id="email" class="form-control input-lg volunteerForm-input" type="email" placeholder="Email" name="Email">
                 <fieldset class="volunteerForm-fieldset">
                   <legend class="volunteerForm-fieldsetLegend">Your Skills</legend>
                   <div class="volunteerForm-fieldsetHalf">
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
-                        <input type="checkbox" value="">
+                        <input type="checkbox" value="" name="Project_Management">
                         Project Management
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
-                        <input type="checkbox" value="">
+                        <input type="checkbox" value="" name="Web_Development">
                         Web Development
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
-                        <input type="checkbox" value="">
+                        <input type="checkbox" value="" name="Graphic_Design">
                         Graphic Design
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
-                        <input type="checkbox" value="">
+                        <input type="checkbox" value="" name="Marketing">
                         Marketing
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
-                        <input type="checkbox" value="">
+                        <input type="checkbox" value="" name="Sales">
                         Sales
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
-                        <input type="checkbox" value="">
+                        <input type="checkbox" value="" name="Writing">
                         Writing
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
-                        <input type="checkbox" value="">
+                        <input type="checkbox" value="" name="Business_Onboarding">
                         Business Onboarding
                       </label>
                     </div>
@@ -102,37 +103,37 @@
                   <div class="volunteerForm-fieldsetHalf">
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
-                        <input type="checkbox" value="">
+                        <input type="checkbox" value="" name="Social_Media">
                         Social Media
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
-                        <input type="checkbox" value="">
+                        <input type="checkbox" value="" name="Translation">
                         Translation
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
-                        <input type="checkbox" value="">
+                        <input type="checkbox" value="" name="Videography">
                         Videography
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
-                        <input type="checkbox" value="">
+                        <input type="checkbox" value="" name="Audio">
                         Audio
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
-                        <input type="checkbox" value="">
+                        <input type="checkbox" value="" name="Music">
                         Music
                       </label>
                     </div>
                     <div class="checkbox volunteerForm-checkbox">
                       <label>
-                        <input type="checkbox" value="">
+                        <input type="checkbox" value="" name="Motion_Graphics">
                         Motion Graphics
                       </label>
                     </div>
@@ -143,20 +144,20 @@
                       </label>
                     </div>
                   </div>
-                  <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Other Skills (optional)" name="">
+                  <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Other Skills (optional)" value="" name="Other_Skills">
                 </fieldset>
                 <fieldset class="volunteerForm-fieldset">
                   <legend class="volunteerForm-fieldsetLegend">Portfolio (Optional)</legend>
                   <div class="volunteerForm-fieldsetHalf">
-                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="GitHub" name="">
-                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Website" name="">
+                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="GitHub" value="" name="GitHub">
+                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Website" value="" name="Website">
                   </div>
                   <div class="volunteerForm-fieldsetHalf">
-                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Twitter" name="">
-                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Other" name="">
+                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Twitter" value="" name="Twitter">
+                    <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Other" value="" name="Other">
                   </div>
                 </fieldset>
-                <textarea class="form-control input-lg volunteerForm-input" rows="7" placeholder="Additional Notes" name="message"></textarea>
+                <textarea class="form-control input-lg volunteerForm-input" rows="7" placeholder="Additional Notes" name="Message"></textarea>
                 <input class="btn btn-lg volunteerForm-btn" type="submit" value="Send">
               </form>
             </div>

@@ -67,129 +67,23 @@
               <p class="proposalForm-text">If you have any questions, feel free to contact us or come and talk to us at chat.thebitcoincash.fund</p>
             </div>
             <div class="col-md-7 col-md-pull-5">
-              <form action="#" method="POST">
-                <input class="form-control input-lg proposalForm-input" type="text" placeholder="Name" name="name">
-                <input class="form-control input-lg proposalForm-input" type="email" placeholder="Email" name="email">
-                <input class="form-control input-lg proposalForm-input" type="text" placeholder="Project Name" name="name">
-                <textarea class="form-control input-lg proposalForm-input" rows="4" placeholder="Project Summary" name="message"></textarea>
+              <form action="https://formcarry.com/s/HkK6QYWUG" method="POST">
+                <input class="form-control input-lg proposalForm-input" type="text" placeholder="Name" name="Name">
+                <input class="form-control input-lg proposalForm-input" type="email" placeholder="Email" name="Email">
+                <input class="form-control input-lg proposalForm-input" type="text" placeholder="Project Name" name="Project_Name">
+                <textarea class="form-control input-lg proposalForm-input" rows="4" placeholder="Project Summary" name="Project_Summary"></textarea>
 
-                <textarea class="form-control input-lg proposalForm-input" rows="2" placeholder="Stakeholders (List all people involved. Pseudonyms are ok.)" name="message"></textarea>
+                <textarea class="form-control input-lg proposalForm-input" rows="2" placeholder="Stakeholders (List all people involved. Pseudonyms are ok.)" name="Stakeholders"></textarea>
 
-                <textarea class="form-control input-lg proposalForm-input" rows="4" placeholder="Required Resources (Skills, manpower, connections, etc.)" name="message"></textarea>
+                <textarea class="form-control input-lg proposalForm-input" rows="4" placeholder="Required Resources (Skills, manpower, connections, etc.)" name="Required_Resources"></textarea>
 
-                <textarea class="form-control input-lg proposalForm-input" rows="5" placeholder="Itemized Budget & Funding Schedule" name="message"></textarea>
+                <textarea class="form-control input-lg proposalForm-input" rows="5" placeholder="Itemized Budget & Funding Schedule" name="Itemized_Budget"></textarea>
 
-                <textarea class="form-control input-lg proposalForm-input" rows="5" placeholder="Timeline" name="message"></textarea>
+                <textarea class="form-control input-lg proposalForm-input" rows="5" placeholder="Timeline" name="Timeline"></textarea>
 
-                <textarea class="form-control input-lg proposalForm-input" rows="3" placeholder="Goals (Define who you want to reach, as well as how and why.)" name="message"></textarea>
+                <textarea class="form-control input-lg proposalForm-input" rows="3" placeholder="Goals (Define who you want to reach, as well as how and why.)" name="Goals"></textarea>
 
-                <textarea class="form-control input-lg proposalForm-input" rows="5" placeholder="Additional Info (Optional)" name="message"></textarea>
-
-                <!--
-<fieldset class="proposalForm-fieldset">
-<legend class="proposalForm-fieldsetLegend">Your Skills</legend>
-<div class="proposalForm-fieldsetHalf">
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Project Management
-</label>
-</div>
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Web Development
-</label>
-</div>
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Graphic Design
-</label>
-</div>
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Marketing
-</label>
-</div>
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Sales
-</label>
-</div>
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Writing
-</label>
-</div>
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Business Onboarding
-</label>
-</div>
-</div>
-<div class="proposalForm-fieldsetHalf">
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Social Media
-</label>
-</div>
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Translation
-</label>
-</div>
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Videography
-</label>
-</div>
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Audio
-</label>
-</div>
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Music
-</label>
-</div>
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Motion Graphics
-</label>
-</div>
-<div class="checkbox proposalForm-checkbox">
-<label>
-<input type="checkbox" value="">
-Other (Below)
-</label>
-</div>
-</div>
-<input class="form-control input-lg proposalForm-input" type="text" placeholder="Other Skills (optional)" name="">
-</fieldset>
-<fieldset class="proposalForm-fieldset">
-<legend class="proposalForm-fieldsetLegend">Portfolio (Optional)</legend>
-<div class="proposalForm-fieldsetHalf">
-<input class="form-control input-lg proposalForm-input" type="text" placeholder="GitHub" name="">
-<input class="form-control input-lg proposalForm-input" type="text" placeholder="Website" name="">
-</div>
-<div class="proposalForm-fieldsetHalf">
-<input class="form-control input-lg proposalForm-input" type="text" placeholder="Twitter" name="">
-<input class="form-control input-lg proposalForm-input" type="text" placeholder="Other" name="">
-</div>
-</fieldset>
--->
+                <textarea class="form-control input-lg proposalForm-input" rows="5" placeholder="Additional Info (Optional)" name="Additional_Info"></textarea>
 
                 <input class="btn btn-lg proposalForm-btn" type="submit" value="Submit for Review">
               </form>
