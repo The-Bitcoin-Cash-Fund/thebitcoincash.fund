@@ -1,8 +1,13 @@
 module.exports = function(grunt) {
-
+  // Read basic info from settings.json
+  var BASE_DIR = grunt.file.readJSON("settings.json").base_dir;
+  var FTP_HOST = grunt.file.readJSON("settings.json").ftp_host;
+  var FTP_DEST = grunt.file.readJSON("settings.json").ftp_dest;
+  var FTP_PORT = grunt.file.readJSON("settings.json").ftp_port;
+  
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    base: grunt.file.setBase('D:/Software Development/Websites/Bitcoin Cash Fund/'),
+    base: grunt.file.setBase(BASE_DIR),
 
     // Watch for changes
     watch: {
@@ -21,9 +26,9 @@ module.exports = function(grunt) {
     ftp_push: {
       options: {
         authKey: "dev",
-        host: "ftp.solomonpierce.com",
-        dest: "bcf/v4",
-        port: 21
+        host: FTP_HOST,
+        dest: FTP_DEST,
+        port: FTP_PORT
       },
       all: {
         files: [
@@ -51,10 +56,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-ftp-push');
 
-  grunt.registerTask('die', function() {
-    console.log("* * * * * * * * * * * * * * * * * * * * \n\n\n\n\n\n");
-    process.exit(code=1);
-  });
   grunt.registerTask('force-ftp', ['ftp_push:force', 'watch']);
   return grunt.registerTask('default', ['ftp_push:all', 'watch']);
 };
