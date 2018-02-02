@@ -65,14 +65,18 @@ Most CSS (besides what is taken from Bootstrap) is  written according to the spe
 
 ## JavaScript
 
-Although a JS framework isn't really necessary for this project, a stripped-down version of jQuery is included.
+Although a JS framework isn't really necessary for this project, a stripped-down version of [jQuery](https://github.com/jquery/jquery) is included.
+
+The first line of jquery.custom.js shows how the jQuery file was built. At the time of writing this document it shows:
+
+```
+jQuery JavaScript Library v3.2.2-pre -css/showHide,-effects,-effects/animatedSelector,-effects/Tween
+```
 
 
 ## Build Process
 
-The CSS and Javascript files are modular and kept separate for easy maintenance and debugging. All CSS files are compacted and merged into one large file when built for production.
-
-The site uses the minified files (styles.min.css and scripts.min.js) by default. If you are debugging CSS or JS, change the following line in _config.php:
+The CSS and Javascript files are modular and kept separate for easy maintenance and debugging. The site uses the minified files (styles.min.css and scripts.min.js) by default. If you are debugging CSS or JS, change the following line in _config.php:
 
 ```
 'debug' => false,
@@ -80,14 +84,12 @@ The site uses the minified files (styles.min.css and scripts.min.js) by default.
 
 Setting `debug` to `true` will force the site to include each of the individual CSS and JS files so you can more easily find what you are looking for.
 
-> **NOTE:** Once you have made changes to the CSS or JS, you *must* run the grunt build process below to minify the files with the new changes.
+> **NOTE:** Once you have made changes to the CSS or JS, you *must* run the Grunt build process below to minify the files with the new changes.
 
 
 ## Grunt
 
-The BCF site can be updated and maintained without Grunt. However, making changes to CSS or JS will require that you download the source and rebuild the files.
-
-Here's a brief description of the available grunt tasks:
+The BCF site can be updated and maintained without Grunt. However, making changes to CSS or JS will require that you download the source and rebuild the files. Here's a brief description of the available grunt tasks:
 
 **Grunt:** Running the basic `grunt` command will minify the CSS and JS files to styles.min.css and scripts.min.js respectively.
 
@@ -98,15 +100,13 @@ Here's a brief description of the available grunt tasks:
 
 ### Grunt Settings
 
-Running Grunt will require that you create a settings.json file on your local computer. For obvious reasons this file is excluded from Git.
-
-This is what a complete settings.json file looks like:
+Running Grunt will require that you create a settings.json file on your local computer. For obvious reasons this file is excluded from Git. This is what a complete settings.json file looks like:
 
 ```json
 {
   "base_dir": "D:/Path/To/Project/Root/",
   "ftp_host": "ftp.yoursite.com",
-  "ftp_dest": "ftp/project/path",
+  "ftp_dest": "ftp/path",
   "ftp_port": 21
 }
 
@@ -126,12 +126,8 @@ If you want to use the FTP function, you'll also need to create a .ftpauth file 
 
 ## Translation
 
-This project does not include a system for translations, but it would be nice to develop with i18n in mind.
+This project does not include a system for translations, but it has been develop with i18n in mind.
 
 URL's should be written as  `http://thebitcoincash.fund/en/page/`
 
 > **TODO:** [@m4ktub](https://github.com/m4ktub) has already started the translation process for the original site, so perhaps I can check with him about how to make it easier for someone to translate in the future
-
-
-
-
