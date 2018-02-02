@@ -11,6 +11,7 @@
       'og_img'      => 'https://thebitcoincash.fund/assets/img/bcf_opengraph.jpg'
     ]; ?>
     <?php include($config['include_dir'] . 'head.php'); ?>
+    <?php include($config['include_dir'] . 'form-validation.php'); ?>
     <title><?= $headInfo['title'] . $config['title_post'] ?></title>
   </head>
   <body>
