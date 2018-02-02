@@ -129,7 +129,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-ftp-push');
 
-  grunt.registerTask('compress-css', ['concat', 'cssmin']);
-  grunt.registerTask('force-ftp', ['ftp_push:force', 'watch']);
-  return grunt.registerTask('default', ['ftp_push:all', 'watch']);
+  grunt.registerTask('force-ftp', ['ftp_push:force']);
+  grunt.registerTask('dev', ['concat', 'cssmin', 'uglify', 'ftp_push:all', 'watch']);
+  return grunt.registerTask('default', ['concat', 'cssmin', 'uglify']);
 };

@@ -56,11 +56,11 @@ In the future it shouldn't be difficult to switch to PHP for form submissions. I
 
 The CSS is based on a stripped-down version of [Bootstrap 3](https://getbootstrap.com/docs/3.3/). The Bootstrap code has been heavily modified:
 
-- Most code has been removed. Essentially whats left is the grid, forms, basic text and some helper classes
+- Most code has been removed. Essentially what's left is the grid, forms, basic text and some helper classes
 - The normalize code has been updated to a more modern version
-- All margin-top's have been removed
+- All margin-tops have been removed
 
-Most CSS (besides what is taken from Bootstrap) is  written according to the specs in [Maintainable CSS](https://maintainablecss.com/). Try to stick to the conventions listed in that short guide.
+Most CSS (besides what is taken from Bootstrap) is written according to the specs in [Maintainable CSS](https://maintainablecss.com/). Try to stick to the conventions listed in that short guide.
 
 
 ## JavaScript
@@ -76,7 +76,7 @@ jQuery JavaScript Library v3.2.2-pre -css/showHide,-effects,-effects/animatedSel
 
 ## Build Process
 
-The CSS and Javascript files are modular and kept separate for easy maintenance and debugging. The site uses the minified files (styles.min.css and scripts.min.js) by default. If you are debugging CSS or JS, change the following line in _config.php:
+The CSS and JavaScript files are modular and kept separate for easy maintenance and debugging. The site uses the minified files (styles.min.css and scripts.min.js) by default. If you are debugging CSS or JS, change the following line in _config.php:
 
 ```
 'debug' => false,
@@ -84,12 +84,12 @@ The CSS and Javascript files are modular and kept separate for easy maintenance 
 
 Setting `debug` to `true` will force the site to include each of the individual CSS and JS files so you can more easily find what you are looking for.
 
-> **NOTE:** Once you have made changes to the CSS or JS, you *must* run the Grunt build process below to minify the files with the new changes.
+> **NOTE:** Once you have made changes to the individual CSS or JS files, you *must* run the Grunt build process below to minify the files with the new changes.
 
 
 ## Grunt
 
-The BCF site can be updated and maintained without Grunt. However, making changes to CSS or JS will require that you download the source and rebuild the files. Here's a brief description of the available grunt tasks:
+The BCF site can be updated and maintained without Grunt. However, making changes to CSS or JS will require that you download the source and rebuild the files. Here's a brief description of the available Grunt tasks:
 
 **Grunt:** Running the basic `grunt` command will minify the CSS and JS files to styles.min.css and scripts.min.js respectively.
 
@@ -112,7 +112,7 @@ Running Grunt will require that you create a settings.json file on your local co
 
 ```
 
-If you want to use the FTP function, you'll also need to create a .ftpauth file with the following content:
+If you want to use the FTP function, you'll also need to create an .ftpauth file with the following content:
 
 ```json
 {
@@ -126,8 +126,8 @@ If you want to use the FTP function, you'll also need to create a .ftpauth file 
 
 ## Translation
 
-This project does not include a system for translations, but it has been develop with i18n in mind.
+This project does not include a system for translations, but it has been developed with i18n in mind.
 
-URL's should be written as  `http://thebitcoincash.fund/en/page/`
+URL's should be written as `http://thebitcoincash.fund/en/page/`
 
 > **TODO:** [@m4ktub](https://github.com/m4ktub) has already started the translation process for the original site, so perhaps I can check with him about how to make it easier for someone to translate in the future
