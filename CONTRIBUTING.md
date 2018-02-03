@@ -50,6 +50,7 @@ Forms are currently submitted using [FormCarry.com](https://formcarry.com/).
 
 In the future it shouldn't be difficult to switch to PHP for form submissions. I recommend including and building on the form-securing techniques [listed here](https://css-tricks.com/serious-form-security/). Hopefully something like that will reduce the need for captcha.
 
+> **NOTE:** Form names start with a capital letter so that the results are readable in formcarry.com
 
 
 ## CSS
@@ -65,13 +66,7 @@ Most CSS (besides what is taken from Bootstrap) is written according to the spec
 
 ## JavaScript
 
-Although a JS framework isn't really necessary for this project, a stripped-down version of [jQuery](https://github.com/jquery/jquery) is included.
-
-The first line of jquery.custom.js shows how the jQuery file was built. At the time of writing this document it shows:
-
-```
-jQuery JavaScript Library v3.2.2-pre -css/showHide,-effects,-effects/animatedSelector,-effects/Tween
-```
+Although a JS framework isn't really necessary for this project, [jQuery 3.3.1](https://github.com/jquery/jquery) is included.
 
 
 ## Build Process

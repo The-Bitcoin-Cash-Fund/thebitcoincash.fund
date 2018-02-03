@@ -67,7 +67,7 @@ module.exports = function(grunt) {
       build: {
         files: {
           'html/assets/js/scripts.min.js': [
-          'html/assets/js/jquery.custom.js',
+          'html/assets/js/jquery-3.3.1.js',
           'html/assets/js/jquery.validate.js',
           'html/assets/js/mobile-nav.js',
           'html/assets/js/menu-slider.js'
