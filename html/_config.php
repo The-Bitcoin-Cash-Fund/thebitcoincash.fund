@@ -27,7 +27,7 @@ CREATE THE CONFIG ARRAY
 *****************************/
 
 return [
-  'debug' => true,
+  'debug' => false,
 
   // Head meta tag info
   'title_pre'    => '',

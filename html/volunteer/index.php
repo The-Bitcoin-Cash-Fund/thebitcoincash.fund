@@ -11,8 +11,28 @@
       'og_img'      => 'https://thebitcoincash.fund/assets/img/bcf_opengraph.jpg'
     ]; ?>
     <?php include($config['include_dir'] . 'head.php'); ?>
-    <?php include($config['include_dir'] . 'volunteer-validation.php'); ?>
     <title><?= $headInfo['title'] . $config['title_post'] ?></title>
+    <script>
+      $().ready(function() {
+        $.extend(jQuery.validator.messages, {
+          required: 'This field is required'
+        });
+        $("#volunteerForm-form").validate({
+          /*debug: true,*/
+          rules: {
+            Name: "required",
+            Email: {
+              required: true,
+              email: true
+            }
+          },
+          messages: {
+            Name: "Please enter your name",
+            Email: "Please enter a valid email address"
+          }
+        });
+      });
+    </script>
   </head>
   <body>
     <?php include($config['include_dir'] . 'nav.php'); ?>
@@ -52,9 +72,8 @@
             </div>
             <div class="col-md-7">
               <form id="volunteerForm-form" action="https://formcarry.com/s/HkK6QYWUG" method="POST">
-              <!--<form id="volunteerForm-form" action="#" method="POST">-->
-                <input id="name" class="form-control input-lg volunteerForm-input" type="text" placeholder="Name" name="Name">
-                <input id="email" class="form-control input-lg volunteerForm-input" type="email" placeholder="Email" name="Email">
+                <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Name" name="Name">
+                <input class="form-control input-lg volunteerForm-input" type="email" placeholder="Email" name="Email">
                 <fieldset class="volunteerForm-fieldset">
                   <legend class="volunteerForm-fieldsetLegend">Your Skills</legend>
                   <div class="volunteerForm-fieldsetHalf">

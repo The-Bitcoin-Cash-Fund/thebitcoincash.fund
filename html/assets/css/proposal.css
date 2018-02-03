@@ -90,7 +90,7 @@
   color: #fff;
   padding-top: 45px;
   padding-bottom: 65px;
-  text-align: center;
+  /*text-align: center;*/
 }
 .proposalForm-input {
   margin-bottom: 20px;
@@ -157,3 +157,13 @@
   background-color: #35a283;
 }
 
+
+/* Proposal Form Errors
+--------------------------------------------*/
+#proposalForm-form>label.error {
+  color: #d3d4c4;
+  background-color: #5d3741;
+}
+#proposalForm-form>.form-control.error {
+  border-color: #5d3741;
+}

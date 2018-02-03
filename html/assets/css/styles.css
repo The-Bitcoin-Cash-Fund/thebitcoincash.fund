@@ -3302,6 +3302,24 @@ input[type="email"] {
   box-shadow:         inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 245, 129, 0.6);
 }
 
+
+/* Form Errors
+------------------------------------------------------------- */
+label.error {
+  font-weight: 400;
+  display: block;
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+}
+.form-control.error {
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+  border-width: 3px;
+}
+
 /* Main Background
 ------------------------------------------------------------- */
 /*body {
@@ -4837,7 +4855,7 @@ body.mobile-nav-open .page-wrap {
   color: #fff;
   padding-top: 45px;
   padding-bottom: 65px;
-  text-align: center;
+  /*text-align: center;*/
 }
 .proposalForm-input {
   margin-bottom: 20px;
@@ -4905,6 +4923,16 @@ body.mobile-nav-open .page-wrap {
 }
 
 
+/* Proposal Form Errors
+--------------------------------------------*/
+#proposalForm-form>label.error {
+  color: #d3d4c4;
+  background-color: #5d3741;
+}
+#proposalForm-form>.form-control.error {
+  border-color: #5d3741;
+}
+
 /* Volunteer Hero
 --------------------------------------------*/
 .volunteerHero {
@@ -4938,6 +4966,7 @@ body.mobile-nav-open .page-wrap {
   }
 }
 
+
 /* Volunteer Form
 --------------------------------------------*/
 .volunteerForm {
@@ -4947,7 +4976,7 @@ body.mobile-nav-open .page-wrap {
   color: #fff;
   padding-top: 45px;
   padding-bottom: 65px;
-  text-align: center;
+  /*text-align: center;*/
 }
 .volunteerForm-input {
   margin-bottom: 20px;
@@ -5013,4 +5042,15 @@ body.mobile-nav-open .page-wrap {
 }
 .volunteerForm-btn:hover {
   background-color: #35a283;
+}
+
+
+/* Volunteer Form Errors
+--------------------------------------------*/
+#volunteerForm-form>label.error {
+  color: #fff;
+  background-color: #af5069;
+}
+#volunteerForm-form>.form-control.error {
+  border-color: #af5069;
 }

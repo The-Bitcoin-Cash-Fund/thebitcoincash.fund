@@ -31,6 +31,7 @@
   }
 }
 
+
 /* Volunteer Form
 --------------------------------------------*/
 .volunteerForm {
@@ -40,7 +41,7 @@
   color: #fff;
   padding-top: 45px;
   padding-bottom: 65px;
-  text-align: center;
+  /*text-align: center;*/
 }
 .volunteerForm-input {
   margin-bottom: 20px;
@@ -106,4 +107,15 @@
 }
 .volunteerForm-btn:hover {
   background-color: #35a283;
+}
+
+
+/* Volunteer Form Errors
+--------------------------------------------*/
+#volunteerForm-form>label.error {
+  color: #fff;
+  background-color: #af5069;
+}
+#volunteerForm-form>.form-control.error {
+  border-color: #af5069;
 }

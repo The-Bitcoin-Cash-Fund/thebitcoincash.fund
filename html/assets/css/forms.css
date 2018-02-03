@@ -23,3 +23,21 @@ input[type="email"] {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 245, 129, 0.6);
   box-shadow:         inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 245, 129, 0.6);
 }
+
+
+/* Form Errors
+------------------------------------------------------------- */
+label.error {
+  font-weight: 400;
+  display: block;
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+}
+.form-control.error {
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+  border-width: 3px;
+}

@@ -11,13 +11,38 @@
       'og_img'      => 'https://thebitcoincash.fund/assets/img/bcf_opengraph.jpg'
     ]; ?>
     <?php include($config['include_dir'] . 'head.php'); ?>
-    <?php include($config['include_dir'] . 'form-validation.php'); ?>
     <title><?= $headInfo['title'] . $config['title_post'] ?></title>
+    <script>
+      $().ready(function() {
+        $.extend(jQuery.validator.messages, {
+          required: 'This field is required'
+        });
+        $("#proposalForm-form").validate({
+          /*debug: true,*/
+          rules: {
+            Name: "required",
+            Email: {
+              required: true,
+              email: true
+            },
+            Project_Name: "required",
+            Project_Summary: "required",
+            Required_Resources: "required",
+            Itemized_Budget: "required",
+            Timeline: "required",
+            Goals: "required"
+          },
+          messages: {
+            Name: "Please enter your name",
+            Email: "Please enter a valid email address"
+          }
+        });
+      });
+    </script>
   </head>
   <body>
     <?php include($config['include_dir'] . 'nav.php'); ?>
     <div class="page-wrap">
-
       <div class="proposalHero">
         <div class="container">
           <picture>
@@ -68,33 +93,23 @@
               <p class="proposalForm-text">If you have any questions, feel free to contact us or come and talk to us at chat.thebitcoincash.fund</p>
             </div>
             <div class="col-md-7 col-md-pull-5">
-              <form action="https://formcarry.com/s/HkK6QYWUG" method="POST">
+              <form id="proposalForm-form" action="https://formcarry.com/s/HkK6QYWUG" method="POST">
                 <input class="form-control input-lg proposalForm-input" type="text" placeholder="Name" name="Name">
                 <input class="form-control input-lg proposalForm-input" type="email" placeholder="Email" name="Email">
                 <input class="form-control input-lg proposalForm-input" type="text" placeholder="Project Name" name="Project_Name">
                 <textarea class="form-control input-lg proposalForm-input" rows="4" placeholder="Project Summary" name="Project_Summary"></textarea>
-
                 <textarea class="form-control input-lg proposalForm-input" rows="2" placeholder="Stakeholders (List all people involved. Pseudonyms are ok.)" name="Stakeholders"></textarea>
-
                 <textarea class="form-control input-lg proposalForm-input" rows="4" placeholder="Required Resources (Skills, manpower, connections, etc.)" name="Required_Resources"></textarea>
-
                 <textarea class="form-control input-lg proposalForm-input" rows="5" placeholder="Itemized Budget & Funding Schedule" name="Itemized_Budget"></textarea>
-
                 <textarea class="form-control input-lg proposalForm-input" rows="5" placeholder="Timeline" name="Timeline"></textarea>
-
                 <textarea class="form-control input-lg proposalForm-input" rows="3" placeholder="Goals (Define who you want to reach, as well as how and why.)" name="Goals"></textarea>
-
                 <textarea class="form-control input-lg proposalForm-input" rows="5" placeholder="Additional Info (Optional)" name="Additional_Info"></textarea>
-
                 <input class="btn btn-lg proposalForm-btn" type="submit" value="Submit for Review">
               </form>
             </div>
           </div>
         </div>
       </div>
-
-
-
       <?php include($config['include_dir'] . 'footer.php'); ?>
     </div>
   </body>
