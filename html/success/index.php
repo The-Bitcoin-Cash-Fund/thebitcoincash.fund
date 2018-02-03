@@ -1,4 +1,4 @@
-<?php $config = include('../../_config.php'); ?>
+<?php $config = include('../_config.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
