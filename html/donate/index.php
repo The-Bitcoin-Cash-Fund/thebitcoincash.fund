@@ -20,11 +20,11 @@
         <div class="container">
           <picture>
             <!-- Desktop -->
-            <source media="(min-width: 450px)"
-                    srcset="<?= $config['img_dir']; ?>hero_donate.jpg" />
+            <source media="(min-width: 650px)"
+                    srcset="<?= $config['svg_dir']; ?>donate_hero_desktop.svg" />
             <!-- Mobile -->
-            <source srcset="<?= $config['img_dir']; ?>hero_donate_mobile.jpg" />
-            <img src="<?= $config['img_dir']; ?>hero_donate.jpg" class="img-responsive heroImg" />
+            <source srcset="<?= $config['svg_dir']; ?>donate_hero_mobile.svg" />
+            <img src="<?= $config['svg_dir']; ?>donate_hero_desktop.svg" class="img-responsive heroImg" />
           </picture>
           <h1 class="donateHero-heading">A donation to the BCF is an investment in your future</h1>
           <p class="donateHero-lead">Widespread adoption of Bitcoin Cash will result in higher price.</p>

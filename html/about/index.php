@@ -20,11 +20,11 @@
         <div class="container">
           <picture>
             <!-- Desktop -->
-            <source media="(min-width: 450px)"
-                    srcset="<?= $config['img_dir']; ?>hero_about.jpg" />
+            <source media="(min-width: 650px)"
+                    srcset="<?= $config['svg_dir']; ?>about_hero_desktop.svg" />
             <!-- Mobile -->
-            <source srcset="<?= $config['img_dir']; ?>hero_about_mobile.jpg" />
-            <img src="<?= $config['img_dir']; ?>hero_about.jpg" class="img-responsive heroImg" />
+            <source srcset="<?= $config['svg_dir']; ?>about_hero_mobile.svg" />
+            <img src="<?= $config['svg_dir']; ?>about_hero_desktop.svg" class="img-responsive heroImg" />
           </picture>
           <h1 class="aboutHero-heading">We want the world using Bitcoin Cash</h1>
           <p class="aboutHero-lead">Which is why we're spreading the word about this legendary crypto currency.</p>
@@ -42,9 +42,9 @@
       <div class="aboutTrust">
         <div class="container">
           <div class="row">
-            <div class="col-md-5">
-              <img src="<?= $config['img_dir']; ?>about_trust.jpg" class="img-responsive aboutTrust-img"></div>
-            <div class="col-md-7">
+            <div class="col-md-5 aboutTrust-imgCol">
+              <img src="<?= $config['svg_dir']; ?>about_trust.svg" class="img-responsive aboutTrust-img"></div>
+            <div class="col-md-7 aboutTrust-txtCol">
               <h3 class="aboutTrust-heading">Humble Beginnings</h3>
               <p>The Bitcoin Cash Fund was formed in the BCH Slack group in late 2017. We knew that pushing adoption of Bitcoin Cash would go a lot smoother with some type of organization. We set out to raise a few hundred dollars to make a short video and ended up with a tremendous outpouring of support from the community.</p>
               <p>Since then we incorporated as a non-profit organization and have pulled together a small team of hard-working professionals.</p>

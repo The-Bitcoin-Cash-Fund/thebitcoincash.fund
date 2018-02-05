@@ -23,10 +23,10 @@
               <picture>
                 <!-- Desktop -->
                 <source media="(min-width: 768px)"
-                        srcset="<?= $config['img_dir']; ?>hero_home.jpg" />
+                        srcset="<?= $config['svg_dir']; ?>home_hero_desktop.svg" />
                 <!-- Mobile -->
-                <source srcset="<?= $config['img_dir']; ?>hero_home_tablet.jpg" />
-                <img src="<?= $config['img_dir']; ?>hero_home.jpg" class="img-responsive heroImg homeHero-img" />
+                <source srcset="<?= $config['svg_dir']; ?>home_hero_mobile.svg" />
+                <img src="<?= $config['svg_dir']; ?>home_hero_desktop.svg" class="img-responsive heroImg homeHero-img" />
               </picture>
               <h1 class="homeHero-title">The Bitcoin Cash Fund</h1>
               <p class="homeHero-lead">A community-driven, grassroots project to accelerate the adoption of Bitcoin Cash.</p>
@@ -71,14 +71,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-5">
-              <picture>
-                <!-- Desktop -->
-                <source media="(min-width: 450px)"
-                        srcset="<?= $config['img_dir']; ?>mission_desktop.png" />
-                <!-- Mobile -->
-                <source srcset="<?= $config['img_dir']; ?>mission_desktop.png" />
-                <img src="<?= $config['img_dir']; ?>mission_desktop.png" class="img-responsive homeMission-img" style="width:100%;" />
-              </picture>
+              <img src="<?= $config['svg_dir']; ?>home_mission.svg" class="img-responsive homeMission-img" style="width:100%;" />
             </div>
             <div class="col-md-7">
               <h2>Our Mission</h2>
@@ -96,7 +89,7 @@
           <span class="border"></span>
           <div class="row homeHelp-section">
             <div class="col-md-5 homeHelp-imageCol">
-              <img src="<?= $config['img_dir']; ?>proposal_temp.jpg" class="img-responsive homeHelp-sectionImg">
+              <img src="<?= $config['svg_dir']; ?>home_proposal.svg" class="img-responsive homeHelp-sectionImg">
             </div>
             <div class="col-md-7 homeHelp-proposalCol">
               <h3 class="homeHelp-sectionHeading">Submit a Proposal</h3>
@@ -106,7 +99,7 @@
           </div>
           <div class="row homeHelp-section">
             <div class="col-md-5 col-md-push-7 homeHelp-imageCol">
-              <img src="<?= $config['img_dir']; ?>volunteer_temp.jpg" class="img-responsive homeHelp-sectionImg">
+              <img src="<?= $config['svg_dir']; ?>home_volunteer.svg" class="img-responsive homeHelp-sectionImg">
             </div>
             <div class="col-md-7 col-md-pull-5 homeHelp-volunteerCol">
               <h3 class="homeHelp-sectionHeading">Volunteer</h3>
@@ -116,7 +109,7 @@
           </div>
           <div class="row homeHelp-section">
             <div class="col-md-5 homeHelp-imageCol">
-              <img src="<?= $config['img_dir']; ?>donate_temp.jpg" class="img-responsive homeHelp-sectionImg">
+              <img src="<?= $config['svg_dir']; ?>home_donate.svg" class="img-responsive homeHelp-sectionImg">
             </div>
             <div class="col-md-7 homeHelp-donateCol">
               <h3 class="homeHelp-sectionHeading">Donate</h3>

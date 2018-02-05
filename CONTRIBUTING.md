@@ -19,11 +19,6 @@ My development philosophy is to always use the simplest and most popular technol
 None of my tech choices for this project (PHP, Bootstrap, jQuery in particular) are new or exciting. However, most developers are familiar with them, and they have been thoroughly tested on both modern and legacy browsers.
 
 
-## Server
-
-> **TODO:** Are there any special server notes that developers should be aware of?
-
-
 ## PHP
 
 PHP is used for very basic functions like including headers and footers. It is not and should not be used for much more than that.

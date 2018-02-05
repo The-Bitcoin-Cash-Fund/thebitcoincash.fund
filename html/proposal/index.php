@@ -47,11 +47,11 @@
         <div class="container">
           <picture>
             <!-- Desktop -->
-            <source media="(min-width: 450px)"
-                    srcset="<?= $config['img_dir']; ?>hero_proposal.jpg" />
+            <source media="(min-width: 650px)"
+                    srcset="<?= $config['svg_dir']; ?>proposal_hero_desktop.svg" />
             <!-- Mobile -->
-            <source srcset="<?= $config['img_dir']; ?>hero_proposal_mobile.jpg" />
-            <img src="<?= $config['img_dir']; ?>hero_proposal.jpg" class="img-responsive heroImg" />
+            <source srcset="<?= $config['svg_dir']; ?>proposal_hero_mobile.svg" />
+            <img src="<?= $config['svg_dir']; ?>proposal_hero_desktop.svg" class="img-responsive heroImg" />
           </picture>
           <h1 class="proposalHero-heading">Have a brilliant marketing idea?</h1>
           <p class="proposalHero-lead">If you have an idea how to spread adoption of Bitcoin Cash, we'd like to help you fund it.</p>
@@ -61,14 +61,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-5">
-              <picture>
-                <!-- Desktop -->
-                <source media="(min-width: 450px)"
-                        srcset="<?= $config['img_dir']; ?>proposal_submit.png" />
-                <!-- Mobile -->
-                <source srcset="<?= $config['img_dir']; ?>proposal_submit.png" />
-                <img src="<?= $config['img_dir']; ?>proposal_submit.png" class="img-responsive proposalIntro-img" style="width:100%;" />
-              </picture>
+              <img src="<?= $config['svg_dir']; ?>proposal_submit.svg" class="img-responsive proposalIntro-img" style="width:100%;" />
             </div>
             <div class="col-md-7">
               <h2>What we're looking for</h2>
