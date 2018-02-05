@@ -78,7 +78,7 @@ body.mobile-nav-open .page-wrap {
 .mobile-nav-expand-btn span {
   display: block;
   position: absolute;
-  background-color: #9a9999;
+  background-color: #fff8a7;
   opacity: 1;
   width: 11px;
   height: 3px;
@@ -95,7 +95,7 @@ body.mobile-nav-open .page-wrap {
   transform: rotate(135deg); 
 }
 .mobile-nav-expand-btn.open span {
-  background-color: #525252;
+  background-color: #35a283;
   width: 20px;
   top: 4px;
   left: 0px;
@@ -116,15 +116,16 @@ body.mobile-nav-open .page-wrap {
   padding-left: 0;
 }
 .mobile-subnav-item a {
-  color: #9a6cc1;
-  font-size: 1rem;
+  color: #d0e8c3;
+  font-size: 0.9rem;
   font-weight: 600;
   text-transform: uppercase;
-  border-bottom: 1px dashed #484848;
+  border-bottom: 1px dashed #4a9077;
+  padding: 12px;
   padding-left: 0.7rem;
 }
 .mobile-sub-subnav-item a {
-  color: #54b18c;
+  color: #d0e8c3;
   font-size: 1rem;
   font-weight: 400;
   text-transform: none;
