@@ -35,13 +35,14 @@
 /* Volunteer Form
 --------------------------------------------*/
 .volunteerForm {
-  /*background: #35a283 url("../img/bg_contact.jpg") center center no-repeat;*/
   background-color: #e4e4e4;
   background-size: cover;
   color: #fff;
   padding-top: 45px;
   padding-bottom: 65px;
-  /*text-align: center;*/
+}
+.volunteerForm-txtCol {
+  padding-bottom: 30px;
 }
 .volunteerForm-input {
   margin-bottom: 20px;
@@ -65,8 +66,15 @@
   color: #555e5b;
   text-align: left;
   letter-spacing: 0;
-  padding-top: 0;
-  padding-bottom: 5px;
+  padding: 0;
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+.volunteerForm-heading {
+  margin-top: 50px;
+}
+.volunteerForm-heading:first-child {
+  margin-top: 0;
 }
 .volunteerForm-text {
   color: #555e5b;
@@ -79,11 +87,6 @@
   float: left;
   padding: 0 10px;
 }
-@media (min-width: 768px) {
-  .volunteerForm-fieldsetHalf {
-    width: 50%;
-  }
-}
 .volunteerForm-fieldset {
   min-width: 0;
   border-color: #fff;
@@ -92,9 +95,12 @@
   padding-bottom: 0;
 }
 .volunteerForm-fieldsetLegend {
-  margin-bottom: 5px;
   color: #555e5b;
   text-align: left;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding-left: 7px;
+  padding-right: 10px;
 }
 .volunteerForm-checkbox label {
   color: #555e5b;
@@ -107,6 +113,31 @@
 }
 .volunteerForm-btn:hover {
   background-color: #35a283;
+}
+@media (min-width: 550px) {
+  .volunteerForm-txtCol {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .volunteerForm-frmCol {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (min-width: 768px) {
+  .volunteerForm-fieldsetHalf {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .volunteerForm-txtCol {
+    padding-left: 0;
+    padding-right: 5%;
+  }
+  .volunteerForm-frmCol {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 

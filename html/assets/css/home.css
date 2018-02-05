@@ -188,17 +188,19 @@
 }
 .homeHelp-section {
   margin-bottom: 90px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .homeHelp-sectionHeading {
-  text-align: left;
   text-transform: none;
   font-size: 1.4rem;
   margin-bottom: 0.9rem;
 }
 .homeHelp-sectionImg {
+  padding: 0 10%;
 }
 .homeHelp-sectionText {
-  text-align: left;
   margin-bottom: 25px;
 }
 .homeHelp-sectionBtn {
@@ -215,11 +217,14 @@
 .homeHelp-donateCol {
   padding-top: 20px;
 }
-
 @media (min-width: 550px) {
+  .homeHelp-section {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   .homeHelp-imageCol {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .homeHelp-proposalCol,
   .homeHelp-volunteerCol,
@@ -228,10 +233,22 @@
     padding-right: 15%;
   }
 }
-
+@media (min-width: 768px) {
+  .homeHelp-imageCol {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
 @media (min-width: 992px) {
   .homeHelp-section {
     margin-bottom: 90px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+  }
+  .homeHelp-imageCol {
+    padding-left: 0;
+    padding-right: 0;
   }
   .homeHelp-proposalCol,
   .homeHelp-volunteerCol,
@@ -247,14 +264,16 @@
     padding-right: 20px;
     padding-left: 200px;
   }
+  .homeHelp-sectionHeading,
+  .homeHelp-sectionText,
+  .homeHelp-sectionBtn {
+    text-align: left;
+  }
   .homeHelp-imageCol {
     padding-left: 0;
     padding-right: 0;
   }
 }
-
-
-
 @media (min-width: 1200px) {
   .homeHelp-section {
     margin-bottom: 70px;
@@ -273,14 +292,3 @@
     padding-left: 200px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-

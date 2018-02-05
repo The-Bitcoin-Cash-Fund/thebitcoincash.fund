@@ -60,10 +60,10 @@
       <div class="proposalIntro">
         <div class="container">
           <div class="row">
-            <div class="col-md-5">
-              <img src="<?= $config['svg_dir']; ?>proposal_submit.svg" class="img-responsive proposalIntro-img" style="width:100%;" />
+            <div class="col-md-5 proposalIntro-imgCol">
+              <img src="<?= $config['svg_dir']; ?>proposal_submit.svg" class="img-responsive proposalIntro-img" />
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 proposalIntro-txtCol">
               <h2>What we're looking for</h2>
               <span class="border proposalIntro-border"></span>
               <p class="proposalIntro-lead">We are looking to promote any non-profit project that will help promote the adoption of Bitcoin Cash.</p>
@@ -76,16 +76,25 @@
       <div class="proposalForm">
         <div class="container">
           <div class="row">
-            <div class="col-md-5 col-md-push-7">
+            <div class="col-md-5 col-md-push-7 proposalForm-txtCol">
+              <h2 class="proposalForm-heading">SMART Principles</h2>
+              <p class="proposalForm-text">Use S.M.A.R.T Principles when writing your proposal:</p>
+              <ul class="proposalForm-list">
+                <li><strong>Specific</strong> - Well defined. Clear to anyone that has a basic knowledge of the project.</li>
+                <li><strong>Measurable</strong> - Know if the goal is obtainable. Find out when you have achieved your goal</li>
+                <li><strong>Agreed Upon</strong> - Agreement with all the stakeholders what the goals should be.</li>
+                <li><strong>Realistic</strong> - Within the availability of resources, knowledge and time.</li>
+                <li><strong>Time-bound</strong> - Enough time to achieve the goal. Not too much time, which can affect project performance</li>
+              </ul>
               <h2 class="proposalForm-heading">Example Proposals</h2>
-              <p class="proposalForm-text">To get an idea of how to fill out this form, take a look at these accepted proposals from other community members.</p>
+              <p class="proposalForm-text">To get an idea of how to fill out the form below, take a look at these accepted proposals from other community members.</p>
               <ul class="proposalForm-list">
                 <li><a href="https://github.com/cranau/FPR/blob/f06ec2b38b0ba11f35e669c592c4eef99456a5d2/fpr-0008.md" target="_blank">Bitcoin Cash Tutorial Series</a></li>
                 <li><a href="https://github.com/Wecx/Seatac-Bitcoin-Cash-Acceptance-Initiative/blob/master/BCF-FPR-SeatacBCH.md" target="_blank">Seatac BCH Acceptance Initiative</a></li>
               </ul>
               <p class="proposalForm-text">If you have any questions, feel free to contact us or come and talk to us at chat.thebitcoincash.fund</p>
             </div>
-            <div class="col-md-7 col-md-pull-5">
+            <div class="col-md-7 col-md-pull-5 proposalForm-frmCol">
               <form id="proposalForm-form" action="https://formcarry.com/s/HkK6QYWUG" method="POST">
                 <input class="form-control input-lg proposalForm-input" type="text" placeholder="Name" name="Name">
                 <input class="form-control input-lg proposalForm-input" type="email" placeholder="Email" name="Email">

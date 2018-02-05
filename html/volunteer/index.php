@@ -41,11 +41,11 @@
         <div class="container">
           <picture>
             <!-- Desktop -->
-            <source media="(min-width: 450px)"
-                    srcset="<?= $config['img_dir']; ?>hero_volunteer.jpg" />
+            <source media="(min-width: 650px)"
+                    srcset="<?= $config['svg_dir']; ?>volunteer_hero_desktop.svg" />
             <!-- Mobile -->
-            <source srcset="<?= $config['img_dir']; ?>hero_volunteer_mobile.jpg" />
-            <img src="<?= $config['img_dir']; ?>hero_volunteer.jpg" class="img-responsive heroImg" />
+            <source srcset="<?= $config['svg_dir']; ?>volunteer_hero_mobile.svg" />
+            <img src="<?= $config['svg_dir']; ?>volunteer_hero_desktop.svg" class="img-responsive heroImg" />
           </picture>
           <h1 class="volunteerHero-heading">Ready to put your skills to use?</h1>
           <p class="volunteerHero-lead">We've got active projects right now that need the help of talented people like you.</p>
@@ -63,14 +63,14 @@
       <div class="volunteerForm">
         <div class="container">
           <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5 volunteerForm-txtCol">
               <h2 class="volunteerForm-heading">We need you!</h2>
               <p class="volunteerForm-text">We need people with skill like the ones listed in the form to volunteer some of their time for projects to bring awareness and adoption of Bitcoin Cash. If this is you get in contact with me, or come and talk to us at chat.thebitcoincash.fund.</p>
               <p class="volunteerForm-text">We can also budget some amount of funds for work, but priority will be given to people willing to do at least partially volunteer their time.</p>
               <h2 class="volunteerForm-heading">If you don't have skills</h2>
               <p class="volunteerForm-text">If you don't have any of these skills, that doesn't mean we don't need your help. There are lots of other things that projects need help with (i.e. sending out stickers, handing out leaflets, writing education content etc.).</p>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 volunteerForm-frmCol">
               <form id="volunteerForm-form" action="https://formcarry.com/s/HkK6QYWUG" method="POST">
                 <input class="form-control input-lg volunteerForm-input" type="text" placeholder="Name" name="Name">
                 <input class="form-control input-lg volunteerForm-input" type="email" placeholder="Email" name="Email">

@@ -4137,16 +4137,46 @@ body.mobile-nav-open .page-wrap {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.aboutTrust-imgCol,
+.aboutTrust-txtCol {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .aboutTrust-img {
-  width: 720px;
-  margin: auto;
-  margin-bottom: 45px;
+  width: 240px;
+  margin-bottom: 25px;
 }
 .aboutTrust-heading {
   text-align: left;
+  margin-bottom: 20px;
 }
 .aboutTrust p {
   text-align: left;
+}
+@media (min-width: 550px) {
+  .aboutTrust-imgCol,
+  .aboutTrust-txtCol {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media (min-width: 768px) {
+  .aboutTrust-imgCol,
+  .aboutTrust-txtCol {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+@media (min-width: 992px) {
+  .aboutTrust-imgCol,
+  .aboutTrust-txtCol {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .aboutTrust-img {
+    width: 300px;
+    margin: auto;
+  }
 }
 
 
@@ -4666,17 +4696,19 @@ body.mobile-nav-open .page-wrap {
 }
 .homeHelp-section {
   margin-bottom: 90px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .homeHelp-sectionHeading {
-  text-align: left;
   text-transform: none;
   font-size: 1.4rem;
   margin-bottom: 0.9rem;
 }
 .homeHelp-sectionImg {
+  padding: 0 10%;
 }
 .homeHelp-sectionText {
-  text-align: left;
   margin-bottom: 25px;
 }
 .homeHelp-sectionBtn {
@@ -4693,11 +4725,14 @@ body.mobile-nav-open .page-wrap {
 .homeHelp-donateCol {
   padding-top: 20px;
 }
-
 @media (min-width: 550px) {
+  .homeHelp-section {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   .homeHelp-imageCol {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .homeHelp-proposalCol,
   .homeHelp-volunteerCol,
@@ -4706,10 +4741,22 @@ body.mobile-nav-open .page-wrap {
     padding-right: 15%;
   }
 }
-
+@media (min-width: 768px) {
+  .homeHelp-imageCol {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
 @media (min-width: 992px) {
   .homeHelp-section {
     margin-bottom: 90px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+  }
+  .homeHelp-imageCol {
+    padding-left: 0;
+    padding-right: 0;
   }
   .homeHelp-proposalCol,
   .homeHelp-volunteerCol,
@@ -4725,14 +4772,16 @@ body.mobile-nav-open .page-wrap {
     padding-right: 20px;
     padding-left: 200px;
   }
+  .homeHelp-sectionHeading,
+  .homeHelp-sectionText,
+  .homeHelp-sectionBtn {
+    text-align: left;
+  }
   .homeHelp-imageCol {
     padding-left: 0;
     padding-right: 0;
   }
 }
-
-
-
 @media (min-width: 1200px) {
   .homeHelp-section {
     margin-bottom: 70px;
@@ -4751,17 +4800,6 @@ body.mobile-nav-open .page-wrap {
     padding-left: 200px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* Proposal Hero
 --------------------------------------------*/
@@ -4806,8 +4844,17 @@ body.mobile-nav-open .page-wrap {
   padding-bottom: 40px;
   text-align: center;
 }
+.proposalIntro-imgCol {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.proposalIntro-txtCol {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .proposalIntro-img {
   margin: auto;
+  margin-bottom: 15px;
 }
 .proposalIntro-lead {
   font-family: 'Montserrat', sans-serif;
@@ -4818,20 +4865,40 @@ body.mobile-nav-open .page-wrap {
   .proposalIntro {
     padding-bottom: 50px;
   }
+  .proposalIntro-imgCol {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  .proposalIntro-txtCol {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   .proposalIntro-img {
-    max-width: 370px;
+    margin-bottom: 25px;
   }
 }
 @media (min-width: 550px) {
-  .proposalIntro p {
-    margin-left: 60px;
-    margin-right: 60px;
+  .proposalIntro-imgCol {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .proposalIntro-txtCol {
+    padding-left: 15%;
+    padding-right: 15%;
   }
 }
 @media (min-width: 992px) {
   .proposalIntro {
     padding-top: 60px;
     text-align: left;
+  }
+  .proposalIntro-imgCol {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .proposalIntro-txtCol {
+    padding-left: 0;
+    padding-right: 5%;
   }
   .proposalIntro h2 {
     text-align: left;
@@ -4845,6 +4912,14 @@ body.mobile-nav-open .page-wrap {
     margin-left: 0;
   }
 }
+@media (min-width: 1200px) {
+  .proposalIntro-imgCol {
+    padding-left: 10%;
+  }
+  .proposalIntro-txtCol {
+    padding-right: 10%;
+  }
+}
 
 
 /* Proposal Form
@@ -4855,7 +4930,9 @@ body.mobile-nav-open .page-wrap {
   color: #fff;
   padding-top: 45px;
   padding-bottom: 65px;
-  /*text-align: center;*/
+}
+.proposalForm-txtCol {
+  padding-bottom: 55px;
 }
 .proposalForm-input {
   margin-bottom: 20px;
@@ -4879,23 +4956,35 @@ body.mobile-nav-open .page-wrap {
   color: #fff;
   text-align: left;
   letter-spacing: 0;
-  padding-top: 0;
-  padding-bottom: 5px;
+  padding: 0;
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+.proposalForm-heading {
+  margin-top: 50px;
+}
+.proposalForm-heading:first-child {
+  margin-top: 0;
 }
 .proposalForm-text {
   color: #fff;
   text-align: left;
   margin-bottom: 15px;
 }
+.proposalForm-list {
+  padding-left: 20px;
+}
+.proposalForm-list>li {
+  margin-bottom: 10px;
+}
+.proposalForm-list>li>a {
+  color: #fff;
+  text-decoration: underline;
+}
 .proposalForm-fieldsetHalf {
   width: 100%;
   float: left;
   padding: 0 10px;
-}
-@media (min-width: 768px) {
-  .proposalForm-fieldsetHalf {
-    width: 50%;
-  }
 }
 .proposalForm-fieldset {
   min-width: 0;
@@ -4921,6 +5010,34 @@ body.mobile-nav-open .page-wrap {
 .proposalForm-btn:hover {
   background-color: #35a283;
 }
+@media (min-width: 550px) {
+  .proposalForm-txtCol {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .proposalForm-frmCol {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (min-width: 768px) {
+  .proposalForm-fieldsetHalf {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .proposalForm-txtCol {
+    padding-left: 5%;
+    padding-right: 0;
+  }
+  .proposalForm-frmCol {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+
 
 
 /* Proposal Form Errors
@@ -4970,13 +5087,14 @@ body.mobile-nav-open .page-wrap {
 /* Volunteer Form
 --------------------------------------------*/
 .volunteerForm {
-  /*background: #35a283 url("../img/bg_contact.jpg") center center no-repeat;*/
   background-color: #e4e4e4;
   background-size: cover;
   color: #fff;
   padding-top: 45px;
   padding-bottom: 65px;
-  /*text-align: center;*/
+}
+.volunteerForm-txtCol {
+  padding-bottom: 30px;
 }
 .volunteerForm-input {
   margin-bottom: 20px;
@@ -5000,8 +5118,15 @@ body.mobile-nav-open .page-wrap {
   color: #555e5b;
   text-align: left;
   letter-spacing: 0;
-  padding-top: 0;
-  padding-bottom: 5px;
+  padding: 0;
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+.volunteerForm-heading {
+  margin-top: 50px;
+}
+.volunteerForm-heading:first-child {
+  margin-top: 0;
 }
 .volunteerForm-text {
   color: #555e5b;
@@ -5014,11 +5139,6 @@ body.mobile-nav-open .page-wrap {
   float: left;
   padding: 0 10px;
 }
-@media (min-width: 768px) {
-  .volunteerForm-fieldsetHalf {
-    width: 50%;
-  }
-}
 .volunteerForm-fieldset {
   min-width: 0;
   border-color: #fff;
@@ -5027,9 +5147,12 @@ body.mobile-nav-open .page-wrap {
   padding-bottom: 0;
 }
 .volunteerForm-fieldsetLegend {
-  margin-bottom: 5px;
   color: #555e5b;
   text-align: left;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding-left: 7px;
+  padding-right: 10px;
 }
 .volunteerForm-checkbox label {
   color: #555e5b;
@@ -5042,6 +5165,31 @@ body.mobile-nav-open .page-wrap {
 }
 .volunteerForm-btn:hover {
   background-color: #35a283;
+}
+@media (min-width: 550px) {
+  .volunteerForm-txtCol {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .volunteerForm-frmCol {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (min-width: 768px) {
+  .volunteerForm-fieldsetHalf {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .volunteerForm-txtCol {
+    padding-left: 0;
+    padding-right: 5%;
+  }
+  .volunteerForm-frmCol {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 

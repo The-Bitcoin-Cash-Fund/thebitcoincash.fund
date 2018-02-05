@@ -39,16 +39,46 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.aboutTrust-imgCol,
+.aboutTrust-txtCol {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .aboutTrust-img {
-  width: 720px;
-  margin: auto;
-  margin-bottom: 45px;
+  width: 240px;
+  margin-bottom: 25px;
 }
 .aboutTrust-heading {
   text-align: left;
+  margin-bottom: 20px;
 }
 .aboutTrust p {
   text-align: left;
+}
+@media (min-width: 550px) {
+  .aboutTrust-imgCol,
+  .aboutTrust-txtCol {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media (min-width: 768px) {
+  .aboutTrust-imgCol,
+  .aboutTrust-txtCol {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+@media (min-width: 992px) {
+  .aboutTrust-imgCol,
+  .aboutTrust-txtCol {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .aboutTrust-img {
+    width: 300px;
+    margin: auto;
+  }
 }
 
 

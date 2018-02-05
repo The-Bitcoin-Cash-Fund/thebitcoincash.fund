@@ -41,8 +41,17 @@
   padding-bottom: 40px;
   text-align: center;
 }
+.proposalIntro-imgCol {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.proposalIntro-txtCol {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .proposalIntro-img {
   margin: auto;
+  margin-bottom: 15px;
 }
 .proposalIntro-lead {
   font-family: 'Montserrat', sans-serif;
@@ -53,20 +62,40 @@
   .proposalIntro {
     padding-bottom: 50px;
   }
+  .proposalIntro-imgCol {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  .proposalIntro-txtCol {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   .proposalIntro-img {
-    max-width: 370px;
+    margin-bottom: 25px;
   }
 }
 @media (min-width: 550px) {
-  .proposalIntro p {
-    margin-left: 60px;
-    margin-right: 60px;
+  .proposalIntro-imgCol {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .proposalIntro-txtCol {
+    padding-left: 15%;
+    padding-right: 15%;
   }
 }
 @media (min-width: 992px) {
   .proposalIntro {
     padding-top: 60px;
     text-align: left;
+  }
+  .proposalIntro-imgCol {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .proposalIntro-txtCol {
+    padding-left: 0;
+    padding-right: 5%;
   }
   .proposalIntro h2 {
     text-align: left;
@@ -80,6 +109,14 @@
     margin-left: 0;
   }
 }
+@media (min-width: 1200px) {
+  .proposalIntro-imgCol {
+    padding-left: 10%;
+  }
+  .proposalIntro-txtCol {
+    padding-right: 10%;
+  }
+}
 
 
 /* Proposal Form
@@ -90,7 +127,9 @@
   color: #fff;
   padding-top: 45px;
   padding-bottom: 65px;
-  /*text-align: center;*/
+}
+.proposalForm-txtCol {
+  padding-bottom: 55px;
 }
 .proposalForm-input {
   margin-bottom: 20px;
@@ -114,23 +153,35 @@
   color: #fff;
   text-align: left;
   letter-spacing: 0;
-  padding-top: 0;
-  padding-bottom: 5px;
+  padding: 0;
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+.proposalForm-heading {
+  margin-top: 50px;
+}
+.proposalForm-heading:first-child {
+  margin-top: 0;
 }
 .proposalForm-text {
   color: #fff;
   text-align: left;
   margin-bottom: 15px;
 }
+.proposalForm-list {
+  padding-left: 20px;
+}
+.proposalForm-list>li {
+  margin-bottom: 10px;
+}
+.proposalForm-list>li>a {
+  color: #fff;
+  text-decoration: underline;
+}
 .proposalForm-fieldsetHalf {
   width: 100%;
   float: left;
   padding: 0 10px;
-}
-@media (min-width: 768px) {
-  .proposalForm-fieldsetHalf {
-    width: 50%;
-  }
 }
 .proposalForm-fieldset {
   min-width: 0;
@@ -156,6 +207,34 @@
 .proposalForm-btn:hover {
   background-color: #35a283;
 }
+@media (min-width: 550px) {
+  .proposalForm-txtCol {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .proposalForm-frmCol {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (min-width: 768px) {
+  .proposalForm-fieldsetHalf {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .proposalForm-txtCol {
+    padding-left: 5%;
+    padding-right: 0;
+  }
+  .proposalForm-frmCol {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+
 
 
 /* Proposal Form Errors
