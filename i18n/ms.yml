@@ -1,0 +1,52 @@
+en:
+  locale: ms_MY
+  language: Malay
+  title: The Bitcoin Cash Fund
+  description: A community-driven, grassroots project to accelerate the adoption of Bitcoin Cash.
+  subhead: The <strong>Bitcoin Cash Fund</strong> is a non-profit organisation, with the mission of distributing donated funds to projects that promote Bitcoin Cash.
+  what_is_bch_title: What Is Bitcoin Cash?
+  what_is_bch_answer1: A person-to-person online global digital cash system.
+  what_is_bch_answer2: A decentralized currency not controlled by any one person.
+  what_is_bch_answer3: A secure, high-speed and low-cost payment system.
+  mission_title: Our Mission
+  mission_lead: Our mission is to help Bitcoin Cash serve one billion users within five years.
+  mission_text: >
+    <p>Anyone, or any team, can put in a proposal to request funding from the BCF. The proposals will be assessed based on cost versus impact and S.M.A.R.T principles, to make sure funds are allocated where they will have maximum impact.</p>
+    <p>Members of the community are encouraged to take ownership of their projects and see them through to completion.</p>
+  donate_title: Donate
+  donate_text: This is the official Bitcoin Cash Fund funding address. Simply copy and paste, or scan the address into your favourite wallet to donate. All donations are welcome.
+  team_title: Meet the Team
+  team_role_board_member: Board Member
+  team_role_executive_director: Executive Director
+  team_ian_descoteaux_bio: >
+    Entered the Bitcoin space in 2010 and built up a mining farm and has been mining ever since.
+  team_paul_wasensteiner_bio: >
+    Entered the Bitcoin space in 2011, and founded the Bitcoin Cash Fund in November 2017.
+  team_haipo_yang_bio: >
+    Founded the highly successful mining pool ViaBTC, and led the R&amp;D team at ZeusMiner.
+  advisors_title: Our Advisors
+  advisors_jack_liu_bio: >
+    Formerly served as Chief Strategy Officer of OKCoin Group, and co-founded OKEx and OKLink.
+  advisors_roger_ver_bio: >
+    World's first Investor in Bitcoin startups and has been investing in Bitcoin startups since early 2011.
+  advisors_peter_rizun_bio: >
+    Chief Scientist for Bitcoin Unlimited, committed to researching the bottlenecks to Bitcoin scaling.
+  advisors_mike_komaransky_bio: >
+    An investor and advocate of Bitcoin since 2010, Mike was a partner at DRW, and was Head of Trading at Cumberland Mining from 2014 until June 2017.
+  stay_informed_title: Stay Informed
+  stay_informed_email_placeholder: name@example.com
+  stay_informed_subscribe_button: Subscribe
+  sponsors_title: Sponsors
+  sponsors_text: >
+    These corporate sponsors are fully aligned with our goals and are pushing Bitcoin Cash adoption forward at a lightning pace.
+  get_in_touch_title: Get In Touch
+  get_in_touch_name_placeholder: Name
+  get_in_touch_email_placeholder: Email
+  get_in_touch_message_placeholder: Message
+  get_in_touch_send_button: Send
+  more_to_come_title: More to Come
+  more_to_come_text: >
+    This fund has done tremendous work in the short time it has been around. But there is still much more to come. Be sure to watch this space!
+  more_to_come_learn: Learn More
+  more_to_come_participate: Participate in the Fund and propose a project for funding
+  copyright_text: Copyright &copy; 2017-2018 Bitcoin Cash Fund
