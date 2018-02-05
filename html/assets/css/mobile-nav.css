@@ -4,7 +4,7 @@
   position: fixed;
   z-index: 500;
   overflow-y: scroll;
-  left: -285px;
+  right: -285px;
   width: 285px;
   height: 100%;
   -webkit-overflow-scrolling: touch;
@@ -17,7 +17,7 @@
   transition:         all 250ms ease-in;
 } 
 body.mobile-nav-open #mobile-nav-panel {
-  left: 0;
+  right: 0;
 }
 .page-wrap {
   -webkit-box-sizing: border-box;
@@ -30,8 +30,8 @@ body.mobile-nav-open #mobile-nav-panel {
 }
 body.mobile-nav-open .page-wrap {
   touch-action: none;
-  margin-left: 300px;
-  margin-right: -300px;
+  margin-left: -300px;
+  margin-right: 300px;
 }
 
 
