@@ -18,7 +18,6 @@
           required: 'This field is required'
         });
         $("#proposalForm-form").validate({
-          /*debug: true,*/
           rules: {
             Name: "required",
             Email: {

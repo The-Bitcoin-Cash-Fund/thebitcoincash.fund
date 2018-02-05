@@ -18,7 +18,6 @@
           required: 'This field is required'
         });
         $("#volunteerForm-form").validate({
-          /*debug: true,*/
           rules: {
             Name: "required",
             Email: {
