@@ -5,16 +5,12 @@
 }
 #navbar-xs-brand {
   display: inline-block;
-  height: 60px;
-  width: calc(100% - 120px);
+  width: 134px;
   float: left;
+  margin-left: 10px;
+  margin-top: 6px;
 }
-#navbar-xs-brand > a > img {
-  margin: 11px auto 0 auto;
-  max-height: 40px;
-}
-#navbar-xs-menu-toggle,
-#navbar-xs-cart-toggle {
+#navbar-xs-menu-toggle {
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -22,26 +18,19 @@
 #navbar-xs-menu-toggle {
   float: right;
 }
-#navbar-xs-cart-toggle {
-  float: right;
-}
-#navbar-xs-menu-toggle.btn,
-#navbar-xs-cart-toggle.btn {
+#navbar-xs-menu-toggle.btn {
   border: 0;
   padding: 10px;
   background-color: #35a283;
   border-radius: 0 !important;
 }
-#navbar-xs-menu-toggle.btn:focus,
-#navbar-xs-cart-toggle.btn:focus {
+#navbar-xs-menu-toggle.btn:focus {
   outline: none;
 }
-#navbar-xs-menu-toggle.btn:active,
-#navbar-xs-cart-toggle.btn:active {
+#navbar-xs-menu-toggle.btn:active {
   box-shadow: none;
 }
-#navbar-xs-menu-toggle.open.btn,
-#navbar-xs-cart-toggle.open.btn {
+#navbar-xs-menu-toggle.open.btn {
   background-color: #26775f;
 }
 
@@ -92,7 +81,6 @@
 
 /* Normal Burger Animation
 ------------------------------------------------------------- */
-
 #navbar-xs-menu-toggle.open.btn {
   transition: 0.3s ease-out;
 }

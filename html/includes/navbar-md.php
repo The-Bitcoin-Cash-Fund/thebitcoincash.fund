@@ -4,7 +4,7 @@
   <div class="container">
     <div id="navbar-md-brand" class="pull-left">
       <a href="<?= $config['base_url']; ?>" title="The Bitcoin Cash Fund">
-        <img src="<?= $config['img_dir']; ?>img-logo-md.png" alt="The Bitcoin Cash Fund" class="img-responsive">
+        <img src="<?= $config['svg_dir']; ?>bcf_logo.svg" alt="The Bitcoin Cash Fund" class="img-responsive">
       </a>
     </div>
     <div class="navbar-md-list-wrapper pull-right">

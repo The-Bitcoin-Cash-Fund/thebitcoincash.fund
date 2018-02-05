@@ -3480,43 +3480,32 @@ html, body {
 }
 #navbar-xs-brand {
   display: inline-block;
-  height: 60px;
-  width: calc(100% - 120px);
+  width: 134px;
   float: left;
+  margin-left: 10px;
+  margin-top: 6px;
 }
-#navbar-xs-brand > a > img {
-  margin: 11px auto 0 auto;
-  max-height: 40px;
-}
-#navbar-xs-menu-toggle,
-#navbar-xs-cart-toggle {
+#navbar-xs-menu-toggle {
   display: inline-block;
   height: 60px;
   width: 60px;
 }
 #navbar-xs-menu-toggle {
-  float: left;
-}
-#navbar-xs-cart-toggle {
   float: right;
 }
-#navbar-xs-menu-toggle.btn,
-#navbar-xs-cart-toggle.btn {
+#navbar-xs-menu-toggle.btn {
   border: 0;
   padding: 10px;
   background-color: #35a283;
   border-radius: 0 !important;
 }
-#navbar-xs-menu-toggle.btn:focus,
-#navbar-xs-cart-toggle.btn:focus {
+#navbar-xs-menu-toggle.btn:focus {
   outline: none;
 }
-#navbar-xs-menu-toggle.btn:active,
-#navbar-xs-cart-toggle.btn:active {
+#navbar-xs-menu-toggle.btn:active {
   box-shadow: none;
 }
-#navbar-xs-menu-toggle.open.btn,
-#navbar-xs-cart-toggle.open.btn {
+#navbar-xs-menu-toggle.open.btn {
   background-color: #26775f;
 }
 
@@ -3567,7 +3556,6 @@ html, body {
 
 /* Normal Burger Animation
 ------------------------------------------------------------- */
-
 #navbar-xs-menu-toggle.open.btn {
   transition: 0.3s ease-out;
 }
@@ -3627,7 +3615,7 @@ html, body {
 }
 #navbar-md-brand {
   display: inline;
-  width: 280px;
+  width: 180px;
   height: 66px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -3711,7 +3699,7 @@ html, body {
   position: fixed;
   z-index: 500;
   overflow-y: scroll;
-  left: -285px;
+  right: -285px;
   width: 285px;
   height: 100%;
   -webkit-overflow-scrolling: touch;
@@ -3724,7 +3712,7 @@ html, body {
   transition:         all 250ms ease-in;
 } 
 body.mobile-nav-open #mobile-nav-panel {
-  left: 0;
+  right: 0;
 }
 .page-wrap {
   -webkit-box-sizing: border-box;
@@ -3737,8 +3725,8 @@ body.mobile-nav-open #mobile-nav-panel {
 }
 body.mobile-nav-open .page-wrap {
   touch-action: none;
-  margin-left: 300px;
-  margin-right: -300px;
+  margin-left: -300px;
+  margin-right: 300px;
 }
 
 
@@ -3746,7 +3734,7 @@ body.mobile-nav-open .page-wrap {
 ------------------------------------------------------------- */
 #mobile-nav-panel {
   background-color: #26775f;
-  padding: 30px 13px 150px 13px;
+  padding: 10px 13px 150px 20px;
 }
 
 
@@ -3785,7 +3773,7 @@ body.mobile-nav-open .page-wrap {
 .mobile-nav-expand-btn span {
   display: block;
   position: absolute;
-  background-color: #9a9999;
+  background-color: #fff8a7;
   opacity: 1;
   width: 11px;
   height: 3px;
@@ -3802,7 +3790,7 @@ body.mobile-nav-open .page-wrap {
   transform: rotate(135deg); 
 }
 .mobile-nav-expand-btn.open span {
-  background-color: #525252;
+  background-color: #35a283;
   width: 20px;
   top: 4px;
   left: 0px;
@@ -3823,15 +3811,16 @@ body.mobile-nav-open .page-wrap {
   padding-left: 0;
 }
 .mobile-subnav-item a {
-  color: #9a6cc1;
-  font-size: 1rem;
+  color: #d0e8c3;
+  font-size: 0.9rem;
   font-weight: 600;
   text-transform: uppercase;
-  border-bottom: 1px dashed #484848;
+  border-bottom: 1px dashed #4a9077;
+  padding: 12px;
   padding-left: 0.7rem;
 }
 .mobile-sub-subnav-item a {
-  color: #54b18c;
+  color: #d0e8c3;
   font-size: 1rem;
   font-weight: 400;
   text-transform: none;
@@ -3854,7 +3843,6 @@ body.mobile-nav-open .page-wrap {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  /*margin-top: 1rem;*/
 }
 .mobile-nav-infoItem {
   display: block;
@@ -5035,9 +5023,6 @@ body.mobile-nav-open .page-wrap {
     padding-right: 0;
   }
 }
-
-
-
 
 
 /* Proposal Form Errors

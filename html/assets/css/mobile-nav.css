@@ -39,7 +39,7 @@ body.mobile-nav-open .page-wrap {
 ------------------------------------------------------------- */
 #mobile-nav-panel {
   background-color: #26775f;
-  padding: 30px 13px 150px 13px;
+  padding: 10px 13px 150px 20px;
 }
 
 
@@ -148,7 +148,6 @@ body.mobile-nav-open .page-wrap {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  /*margin-top: 1rem;*/
 }
 .mobile-nav-infoItem {
   display: block;
