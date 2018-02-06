@@ -33,6 +33,7 @@ module.exports = function(grunt) {
           'html/assets/css/faqs.css',
           'html/assets/css/home.css',
           'html/assets/css/proposal.css',
+          'html/assets/css/success.css',
           'html/assets/css/volunteer.css'
         ],
         dest: 'html/assets/css/styles.css',

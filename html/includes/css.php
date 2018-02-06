@@ -21,6 +21,7 @@
 <link href="<?= $config['css_dir'] ?>faqs.css" rel="stylesheet" type="text/css" media="all" />
 <link href="<?= $config['css_dir'] ?>home.css" rel="stylesheet" type="text/css" media="all" />
 <link href="<?= $config['css_dir'] ?>proposal.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?= $config['css_dir'] ?>success.css" rel="stylesheet" type="text/css" media="all" />
 <link href="<?= $config['css_dir'] ?>volunteer.css" rel="stylesheet" type="text/css" media="all" />
 <?php } else { ?>
 <link href="<?= $config['css_dir'] ?>styles.min.css" rel="stylesheet" type="text/css" media="all" />

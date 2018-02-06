@@ -4489,6 +4489,7 @@ body.mobile-nav-open .page-wrap {
   content: ":"
 }
 .faqs-q {
+  font-weight: 700;  
 }
 .faqs-a {
   margin-bottom: 2rem;
@@ -5035,6 +5036,111 @@ body.mobile-nav-open .page-wrap {
   border-color: #5d3741;
 }
 
+/* About Hero
+--------------------------------------------*/
+.successHero {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.successHero-lead {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.successHero-subhead {
+  background-color: #35a283;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+@media (min-width:768px) {
+  .successHero-subhead {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+}
+@media (min-width:992px) {
+  .successHero-subhead p {
+    width: 720px;
+    margin: auto;
+  }
+}
+
+
+/* Join the Chat
+--------------------------------------------*/
+.successChat {
+  background-color: #f6f6f6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.successChat-imgCol,
+.successChat-txtCol {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.successChat-img {
+  width: 240px;
+  margin-bottom: 25px;
+}
+.successChat-heading {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.successChat p {
+  text-align: left;
+}
+.successChat-btn {
+  background-color: #dc1767;
+  border-color: #fff;
+  color: #fff;
+  margin-top: 25px;
+}
+.successChat-btn:hover {
+  background-color: #35a283;
+  color: #fff;
+}
+@media (min-width: 550px) {
+  .successChat-imgCol,
+  .successChat-txtCol {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media (min-width: 768px) {
+  .successChat-imgCol,
+  .successChat-txtCol {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media (min-width: 992px) {
+  .successChat-txtCol {
+    padding-left: 10%;
+    padding-right: 5%;
+  }
+  .successChat-imgCol {
+    padding-left: 0;
+    padding-right: 10%;
+  }
+  .successChat-img {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .successChat-txtCol {
+    padding-left: 13%;
+    padding-right: 2%;
+  }
+  .successChat-imgCol {
+    padding-left: 4%;
+    padding-right: 13%;
+  }
+}
+
 /* Volunteer Hero
 --------------------------------------------*/
 .volunteerHero {
@@ -5072,7 +5178,7 @@ body.mobile-nav-open .page-wrap {
 /* Volunteer Form
 --------------------------------------------*/
 .volunteerForm {
-  background-color: #e4e4e4;
+  background-color: #f6f6f6;
   background-size: cover;
   color: #fff;
   padding-top: 45px;
