@@ -34,7 +34,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-5 col-md-push-7 successChat-imgCol">
-              <img src="<?= $config['svg_dir']; ?>about_trust.svg" class="img-responsive successChat-img"></div>
+              <img src="<?= $config['svg_dir']; ?>success_chat.svg" class="img-responsive successChat-img"></div>
             <div class="col-md-7 col-md-pull-5 successChat-txtCol">
               <h3 class="successChat-heading">Join Our Chat</h3>
               <p>The Bitcoin Cash Fund was formed in the BCH Slack group in late 2017. We knew that pushing adoption of Bitcoin Cash would go a lot smoother with some type of organization. We set out to raise a few hundred dollars to make a short video and ended up with a tremendous outpouring of support from the community.</p>

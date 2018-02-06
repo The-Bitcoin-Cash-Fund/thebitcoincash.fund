@@ -145,6 +145,10 @@ html, body {
   margin-bottom: 25px;
   width: 100%;
 }
+.hero-heading {
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
 .hero-lead {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -154,9 +158,20 @@ html, body {
 .hero-subhead {
   background-color: #35a283;
   color: #fff;
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
-  text-align: center;
+  margin-bottom: 0px;
+}
+@media (min-width: 550px) {
+  .hero-img {
+    margin-bottom: 35px;
+  }
+  .hero-heading,
+  .hero-lead {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 @media (min-width: 768px) {
   .hero-subhead {
@@ -168,6 +183,15 @@ html, body {
   }
 }
 @media (min-width: 992px) {
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .hero-heading,
+  .hero-lead {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   .hero-subhead p {
     width: 720px;
     margin: auto;
@@ -177,7 +201,16 @@ html, body {
   }
 }
 @media (min-width: 1200px) {
+  .hero {
+    padding-top: 50px;
+    padding-bottom: 35px;
+  }
   .hero-img {
     height: 350px;
+  }
+  .hero-heading,
+  .hero-lead {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
