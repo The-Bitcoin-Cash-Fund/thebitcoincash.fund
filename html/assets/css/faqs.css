@@ -1,24 +1,37 @@
 /* FAQ Text
 --------------------------------------------*/
 .faqs-sectionHeading {
-  text-align: left;
-  padding-bottom: 1.5rem;
+  text-align: center;
+  margin: 0;
+  margin-top: 90px;
+  padding-bottom: 11px;
+  color: #fff;
+  background-color: #35a283;
 }
 .faqs-sectionSubhead {
-  text-align: left;
+  text-align: center;
+  background-color: #35a283;
   padding-bottom: 1.5rem;
+  color: #fff;
+  margin-bottom: 35px;
+}
+.faqs-sectionHeading:first-child {
+  margin-top: 0px;
 }
 .faqs-qa {
   color: #35a283;
   font-weight: 700;
   margin-right: 1rem;
+  margin-left: -34px;
 }
 .faqs-qa::after {
   content: ":"
 }
 .faqs-q {
-  font-weight: 700;  
+  font-weight: 700;
+  margin-left: 40px;
 }
 .faqs-a {
   margin-bottom: 2rem;
+  margin-left: 40px;
 }
