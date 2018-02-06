@@ -36,7 +36,7 @@
   <body>
     <?php include($config['include_dir'] . 'nav.php'); ?>
     <div class="page-wrap">
-      <div class="volunteerHero">
+      <div class="hero">
         <div class="container">
           <picture>
             <!-- Desktop -->
@@ -44,13 +44,13 @@
                     srcset="<?= $config['svg_dir']; ?>volunteer_hero_desktop.svg" />
             <!-- Mobile -->
             <source srcset="<?= $config['svg_dir']; ?>volunteer_hero_mobile.svg" />
-            <img src="<?= $config['svg_dir']; ?>volunteer_hero_desktop.svg" class="img-responsive heroImg" />
+            <img src="<?= $config['svg_dir']; ?>volunteer_hero_desktop.svg" class="img-responsive hero-img" />
           </picture>
-          <h1 class="volunteerHero-heading">Ready to put your skills to use?</h1>
-          <p class="volunteerHero-lead">We've got active projects right now that need the help of talented people like you.</p>
+          <h1 class="hero-heading">Ready to put your skills to use?</h1>
+          <p class="hero-lead">We've got active projects right now that need the help of talented people like you.</p>
         </div>
       </div>
-      <div class="homeHero-subhead">
+      <div class="hero-subhead">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">

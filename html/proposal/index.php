@@ -42,7 +42,7 @@
   <body>
     <?php include($config['include_dir'] . 'nav.php'); ?>
     <div class="page-wrap">
-      <div class="proposalHero">
+      <div class="hero">
         <div class="container">
           <picture>
             <!-- Desktop -->
@@ -50,10 +50,10 @@
                     srcset="<?= $config['svg_dir']; ?>proposal_hero_desktop.svg" />
             <!-- Mobile -->
             <source srcset="<?= $config['svg_dir']; ?>proposal_hero_mobile.svg" />
-            <img src="<?= $config['svg_dir']; ?>proposal_hero_desktop.svg" class="img-responsive heroImg" />
+            <img src="<?= $config['svg_dir']; ?>proposal_hero_desktop.svg" class="img-responsive hero-img" />
           </picture>
-          <h1 class="proposalHero-heading">Have a brilliant marketing idea?</h1>
-          <p class="proposalHero-lead">If you have an idea how to spread adoption of Bitcoin Cash, we'd like to help you fund it.</p>
+          <h1 class="hero-heading">Have a brilliant marketing idea?</h1>
+          <p class="hero-lead">If you have an idea how to spread adoption of Bitcoin Cash, we'd like to help you fund it.</p>
         </div>
       </div>
       <div class="proposalIntro">

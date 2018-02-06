@@ -135,18 +135,49 @@ html, body {
 
 /* Hero Images
 ------------------------------------------------------------- */
-.heroImg {
+.hero {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.hero-img {
   margin: auto;
   margin-bottom: 25px;
   width: 100%;
 }
+.hero-lead {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.hero-subhead {
+  background-color: #35a283;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
 @media (min-width: 768px) {
-  .heroImg { height: 221.047px; }
+  .hero-subhead {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .hero-img {
+    height: 221.047px;
+  }
 }
 @media (min-width: 992px) {
-  .heroImg { height: 288.594px; }
+  .hero-subhead p {
+    width: 720px;
+    margin: auto;
+  }
+  .hero-img {
+    height: 288.594px;
+  }
 }
 @media (min-width: 1200px) {
-  .heroImg { height: 350px; }
+  .hero-img {
+    height: 350px;
+  }
 }
-

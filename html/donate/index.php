@@ -16,7 +16,7 @@
   <body>
     <?php include($config['include_dir'] . 'nav.php'); ?>
     <div class="page-wrap">
-      <div class="donateHero">
+      <div class="hero">
         <div class="container">
           <picture>
             <!-- Desktop -->
@@ -24,10 +24,10 @@
                     srcset="<?= $config['svg_dir']; ?>donate_hero_desktop.svg" />
             <!-- Mobile -->
             <source srcset="<?= $config['svg_dir']; ?>donate_hero_mobile.svg" />
-            <img src="<?= $config['svg_dir']; ?>donate_hero_desktop.svg" class="img-responsive heroImg" />
+            <img src="<?= $config['svg_dir']; ?>donate_hero_desktop.svg" class="img-responsive hero-img" />
           </picture>
-          <h1 class="donateHero-heading">A donation to the BCF is an investment in your future</h1>
-          <p class="donateHero-lead">Widespread adoption of Bitcoin Cash will result in higher price.</p>
+          <h1 class="hero-heading">A donation to the BCF is an investment in your future</h1>
+          <p class="hero-lead">Widespread adoption of Bitcoin Cash will result in higher price.</p>
         </div>
       </div>
       <div class="donate">

@@ -16,7 +16,7 @@
   <body>
     <?php include($config['include_dir'] . 'nav.php'); ?>
     <div class="page-wrap">
-      <div class="successHero">
+      <div class="hero">
         <div class="container">
           <picture>
             <!-- Desktop -->
@@ -24,10 +24,10 @@
                     srcset="<?= $config['svg_dir']; ?>success_hero_desktop.svg" />
             <!-- Mobile -->
             <source srcset="<?= $config['svg_dir']; ?>success_hero_mobile.svg" />
-            <img src="<?= $config['svg_dir']; ?>success_hero_desktop.svg" class="img-responsive heroImg" />
+            <img src="<?= $config['svg_dir']; ?>success_hero_desktop.svg" class="img-responsive hero-img" />
           </picture>
-          <h1 class="successHero-heading">Form Submitted succesfully!</h1>
-          <p class="successHero-lead">Now why don't you join our chat?</p>
+          <h1 class="hero-heading">Form Submitted succesfully!</h1>
+          <p class="hero-lead">Now why don't you join our chat?</p>
         </div>
       </div>
       <div class="successChat">

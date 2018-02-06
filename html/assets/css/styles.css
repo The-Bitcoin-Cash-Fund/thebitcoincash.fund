@@ -3457,21 +3457,52 @@ html, body {
 
 /* Hero Images
 ------------------------------------------------------------- */
-.heroImg {
+.hero {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.hero-img {
   margin: auto;
   margin-bottom: 25px;
   width: 100%;
 }
+.hero-lead {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.hero-subhead {
+  background-color: #35a283;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
 @media (min-width: 768px) {
-  .heroImg { height: 221.047px; }
+  .hero-subhead {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .hero-img {
+    height: 221.047px;
+  }
 }
 @media (min-width: 992px) {
-  .heroImg { height: 288.594px; }
+  .hero-subhead p {
+    width: 720px;
+    margin: auto;
+  }
+  .hero-img {
+    height: 288.594px;
+  }
 }
 @media (min-width: 1200px) {
-  .heroImg { height: 350px; }
+  .hero-img {
+    height: 350px;
+  }
 }
-
 
 /* Mobile Navbar
 ------------------------------------------------------------- */
@@ -4086,6 +4117,7 @@ body.mobile-nav-open .page-wrap {
 
 /* About Hero
 --------------------------------------------*/
+/*
 .aboutHero {
   text-align: center;
   padding-top: 35px;
@@ -4116,7 +4148,7 @@ body.mobile-nav-open .page-wrap {
     margin: auto;
   }
 }
-
+*/
 
 /* Trust
 --------------------------------------------*/
@@ -4364,40 +4396,6 @@ body.mobile-nav-open .page-wrap {
     height: 50px;
   }
 }
-
-/* Donate Hero
---------------------------------------------*/
-.donateHero {
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-.donateHero-lead {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.2;
-}
-.donateHero-subhead {
-  background-color: #2b5e4c;
-  color: #fff;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-@media (min-width:768px) {
-  .donateHero-subhead {
-    padding-top: 50px;
-    padding-bottom: 40px;
-  }
-}
-@media (min-width:992px) {
-  .donateHero-subhead p {
-    width: 720px;
-    margin: auto;
-  }
-}
-
 
 /* Donate
 --------------------------------------------*/
@@ -4790,40 +4788,6 @@ body.mobile-nav-open .page-wrap {
   }
 }
 
-/* Proposal Hero
---------------------------------------------*/
-.proposalHero {
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-.proposalHero-lead {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.2;
-}
-.proposalHero-subhead {
-  background-color: #2b5e4c;
-  color: #fff;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-@media (min-width:768px) {
-  .proposalHero-subhead {
-    padding-top: 50px;
-    padding-bottom: 40px;
-  }
-}
-@media (min-width:992px) {
-  .proposalHero-subhead p {
-    width: 720px;
-    margin: auto;
-  }
-}
-
-
 /* Intro
 --------------------------------------------*/
 .proposalIntro {
@@ -5036,40 +5000,6 @@ body.mobile-nav-open .page-wrap {
   border-color: #5d3741;
 }
 
-/* About Hero
---------------------------------------------*/
-.successHero {
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-.successHero-lead {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.2;
-}
-.successHero-subhead {
-  background-color: #35a283;
-  color: #fff;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-@media (min-width:768px) {
-  .successHero-subhead {
-    padding-top: 50px;
-    padding-bottom: 40px;
-  }
-}
-@media (min-width:992px) {
-  .successHero-subhead p {
-    width: 720px;
-    margin: auto;
-  }
-}
-
-
 /* Join the Chat
 --------------------------------------------*/
 .successChat {
@@ -5140,40 +5070,6 @@ body.mobile-nav-open .page-wrap {
     padding-right: 13%;
   }
 }
-
-/* Volunteer Hero
---------------------------------------------*/
-.volunteerHero {
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-.volunteerHero-lead {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.2;
-}
-.volunteerHero-subhead {
-  background-color: #2b5e4c;
-  color: #fff;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-@media (min-width:768px) {
-  .volunteerHero-subhead {
-    padding-top: 50px;
-    padding-bottom: 40px;
-  }
-}
-@media (min-width:992px) {
-  .volunteerHero-subhead p {
-    width: 720px;
-    margin: auto;
-  }
-}
-
 
 /* Volunteer Form
 --------------------------------------------*/
