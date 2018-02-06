@@ -75,7 +75,7 @@
                 <p class="aboutTeam-role">Executive Director</p>
                 <p class="aboutTeam-bio">Entered the Bitcoin space in 2011, and founded the Bitcoin Cash Fund in November 2017.</p>
                 <p class="aboutTeam-social">
-                  <a href="https://twitter.com/__pcd__" target="_blank">@__pcd__</a>
+                  <a href="https://twitter.com/PWasensteiner" target="_blank">@PWasensteiner</a>
                 </p>
               </div>
             </div>
