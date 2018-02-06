@@ -70,6 +70,7 @@ module.exports = function(grunt) {
           'html/assets/js/scripts.min.js': [
           'html/assets/js/jquery-3.3.1.js',
           'html/assets/js/jquery.validate.js',
+          'html/assets/js/clipboard.js',
           'html/assets/js/mobile-nav.js',
           'html/assets/js/menu-slider.js'
           ]

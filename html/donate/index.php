@@ -12,17 +12,14 @@
     ]; ?>
     <?php include($config['include_dir'] . 'head.php'); ?>
     <title><?= $headInfo['title'] . $config['title_post'] ?></title>
-
-
-
-
-    <!-- 2. Include library -->
-    <script src="../assets/js/clipboard.js"></script>
-    <!-- 3. Instantiate clipboard -->
     <script>
       $().ready(function() {
-        var clipboard = new Clipboard('.btn');
+        var clipboard = new Clipboard('.donateAddress-btn');
         clipboard.on('success', function(e) {
+          $('.donateAddress-btn').addClass('donateAddress-btn-success');
+          setTimeout(function () {
+            $(".donateAddress-btn").removeClass("donateAddress-btn-success");
+          },1000);
           console.log(e);
         });
         clipboard.on('error', function(e) {
@@ -30,10 +27,6 @@
         });
       });
     </script>
-
-
-
-
   </head>
   <body>
     <?php include($config['include_dir'] . 'nav.php'); ?>
@@ -54,7 +47,7 @@
       </div>
       <div class="donate">
         <div class="container donate-wrapper">
-          <div class="row">
+          <div class="row donateQr-wrapper">
             <div class="col-md-8">
               <h2>Donate</h2>
               <span class="border-white"></span>
@@ -64,37 +57,18 @@
               <img src="<?= $config['img_dir']; ?>qr_code.png" class="img-responsive donate-qr">
             </div>
           </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <p class="donateAddress">bitcoincash:pzyjepg4rmm8yx8v0sc6svac255ta2md2y9l0edptq</p>
-              <button class="donateAddress-btn" data-clipboard-text="Just because you can doesn't mean you should — clipboard.js">
-                Copy
-              </button>
+          <div class="donateAddress">
+            <div class="donateAddress-address">
+              <span class="donateAddress-addressSpan">bitcoincash:pzyjepg4rmm8yx8v0sc6svac255ta2md2y9l0edptq</span>
             </div>
-          </div>
-          
-          
-          <div class="AccountDepositAddress__AddressContainer-eGdoWi dpEOSO Flex-kFpfAw jvBcNs">
-            <div class="AccountDepositAddress__Address-AWWOH iodXY Flex-kFpfAw jvBcNs">
-              <span class="AccountDepositAddress__StyledText-lklxiu eREHRf Text__Font-QQBaL iLwbvc" color="slateDark">qpeu897t76yjnpppxrma5vn7q5w0muaruc9vd6am7w</span>
-            </div>
-            <div class="AccountDepositAddress__IconContainer-haHcpp gpuOod Flex-kFpfAw kBmCHF">
-              <div class="CopyButton__Container-dMZTx fRcwcJ Flex-kFpfAw ejaNmw">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" class="CopyButton__CopyIcon-fedzrO eJuGCu">
+            <div class="donateAddress-btn" data-clipboard-target=".donateAddress-addressSpan">
+              <div class="donateAddress-btnInner">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" class="donateAddress-copyBtn">
                   <path d="M16 8v8H8v4h12V8h-4zm0-2h6v16H6v-6H0V0h16v6zM2 2v12h12V2H2z"></path>
                 </svg>
-                <div class="CopyButton__Tick-csYhTY cOJOwE SuccessTick__AnimationContainer-lcUplE flCbFf">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.5 1 36 36" class="SuccessTick__Tick-kcsWOu kTeOrK"><path d="M11.6 20l4.3 4.2 10.5-10.4">
-                    </path>
-                  </svg>
-                </div>
               </div>
             </div>
           </div>
-          
-          
-
-
         </div>
       </div>
       <div class="donateChat">
