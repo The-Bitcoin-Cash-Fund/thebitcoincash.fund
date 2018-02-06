@@ -51,7 +51,7 @@
               <h3 class="successChat-heading">Join Our Chat</h3>
               <p>The Bitcoin Cash Fund was formed in the BCH Slack group in late 2017. We knew that pushing adoption of Bitcoin Cash would go a lot smoother with some type of organization. We set out to raise a few hundred dollars to make a short video and ended up with a tremendous outpouring of support from the community.</p>
               <p>Since then we incorporated as a non-profit organization and have pulled together a small team of hard-working professionals.</p>
-              <a href="<?= $config['base_url']; ?>donate/" class="btn btn-lg successChat-btn">Join Us!</a>
+              <a href="https://chat.thebitcoincash.fund/" target="_blank" class="btn btn-lg successChat-btn">Join Us!</a>
             </div>
           </div>
         </div>
