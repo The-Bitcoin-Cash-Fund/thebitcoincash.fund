@@ -4199,9 +4199,15 @@ body.mobile-nav-open .page-wrap {
 
 /* Team & Advisors
 --------------------------------------------*/
-.aboutTeam {
+.aboutExec {
   background: #e4e4e4 url("../img/bg_team.jpg") center center no-repeat;
   background-size: cover;
+}
+.aboutAdvisors {
+  background: #fff;
+}
+.aboutTeam {
+  background: #ececec;
 }
 .aboutTeam-wrapper {
   max-width: 250px;
@@ -4240,8 +4246,12 @@ body.mobile-nav-open .page-wrap {
   margin-top: -6px;
 }
 .aboutTeam-social a {
+  color: #dc1767;
   text-decoration: none;
-
+}
+.aboutTeam-social a:hover {
+  color: #35a283;
+  text-decoration: underline;
 }
 @media (min-width: 550px) {
   .aboutTeam-photo {
@@ -4699,6 +4709,7 @@ body.mobile-nav-open .page-wrap {
   color: #5c7069;
   font-weight: 700;
   margin-left: 40px;
+  cursor: pointer;
 }
 .faqs-a {
   margin-bottom: 2rem;

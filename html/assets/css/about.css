@@ -50,9 +50,15 @@
 
 /* Team & Advisors
 --------------------------------------------*/
-.aboutTeam {
+.aboutExec {
   background: #e4e4e4 url("../img/bg_team.jpg") center center no-repeat;
   background-size: cover;
+}
+.aboutAdvisors {
+  background: #fff;
+}
+.aboutTeam {
+  background: #ececec;
 }
 .aboutTeam-wrapper {
   max-width: 250px;
@@ -91,8 +97,12 @@
   margin-top: -6px;
 }
 .aboutTeam-social a {
+  color: #dc1767;
   text-decoration: none;
-
+}
+.aboutTeam-social a:hover {
+  color: #35a283;
+  text-decoration: underline;
 }
 @media (min-width: 550px) {
   .aboutTeam-photo {

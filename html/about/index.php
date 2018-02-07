@@ -34,7 +34,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <p></p>
+              <p>We've attracted a global team of dedicated, talented individuals with a vested interest in promoting Bitcoin Cash.</p>
             </div>
           </div>
         </div>
@@ -52,9 +52,9 @@
           </div>
         </div>
       </div>
-      <div class="aboutTeam">
+      <div class="aboutExec">
         <div class="container">
-          <h2>Meet the Team</h2>
+          <h2>The Board</h2>
           <span class="border"></span>
           <div class="row">
             <div class="col-sm-4 col-md-4">
@@ -94,7 +94,7 @@
           </div>
         </div>
       </div>
-      <div class="advisors">
+      <div class="aboutAdvisors">
         <div class="container">
           <h2>Our Advisors</h2>
           <span class="border"></span>
@@ -137,6 +137,54 @@
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="aboutTeam">
+        <div class="container">
+          <h2>Meet The Team</h2>
+          <span class="border"></span>
+          <div class="row">
+            <div class="col-sm-4 col-md-4">
+              <div class="aboutTeam-wrapper">
+                <img src="<?= $config['img_dir']; ?>team_monica_rea.jpg" class="img-responsive aboutTeam-photo">
+                <p class="aboutTeam-name">Monica Rea</p>
+                <p class="aboutTeam-role">Event Coordinator</p>
+                <!--
+                <p class="aboutTeam-bio">bio</p>
+                <p class="aboutTeam-social">
+                  <a href="https://twitter.com/username" target="_blank">@username</a>
+                </p>
+                -->
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-4">
+              <div class="aboutTeam-wrapper">
+                <img src="<?= $config['img_dir']; ?>team_aron_levi.jpg" class="img-responsive aboutTeam-photo">
+                <p class="aboutTeam-name">Aron Levi</p>
+                <p class="aboutTeam-role">Sales &amp; Business Development</p>
+                <!--
+                <p class="aboutTeam-bio">bio</p>
+                <p class="aboutTeam-social">
+                  <a href="https://twitter.com/username" target="_blank">@username</a>
+                </p>
+                -->
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-4">
+              <div class="aboutTeam-wrapper">
+                <img src="<?= $config['img_dir']; ?>team_george_samuels.jpg" class="img-responsive aboutTeam-photo">
+                <p class="aboutTeam-name">George Samuels</p>
+                <p class="aboutTeam-role">Community Manager</p>
+                <!--
+                <p class="aboutTeam-bio">bio</p>
+                <p class="aboutTeam-social">
+                  <a href="https://twitter.com/username" target="_blank">@username</a>
+                </p>
+                -->
+              </div>
+            </div>
+            <div class="clearfix visible-md visible-lg"></div>
           </div>
         </div>
       </div>
