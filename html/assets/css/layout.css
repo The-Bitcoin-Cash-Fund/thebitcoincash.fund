@@ -192,6 +192,9 @@ html, body {
     padding-left: 10%;
     padding-right: 10%;
   }
+  .hero-lead {
+    line-height: 1.4;
+  }
   .hero-subhead p {
     width: 720px;
     margin: auto;

@@ -76,9 +76,12 @@
             <div class="col-md-7">
               <h2>Our Mission</h2>
               <span class="border"></span>
-              <p class="homeMission-lead">Our mission is to help Bitcoin Cash serve one billion users within five years.</p>
+              <p class="homeMission-lead">Our mission is to help Bitcoin Cash (BCH) serve one billion users within five years.</p>
+              <p>We believe that the key to success for Bitcoin Cash lies in user adoption. One way to achieve that is to make it easier for merchants to accept BCH. Another is to create open source tools for Bitcoin Cash developers. And of course we'll need to spread the word to end users.</p>
+              <p>The Bitcoin Cash Fund supports community projects that help further these goals. We believe there is a tremendous amount of energy in the BCH community, and we aim to harness that energy and make BCH the currency of the future.</p>
+              <!--
               <p>Anyone, or any team, can put in a proposal to request funding from the BCF. The proposals will be assessed based on cost versus impact and S.M.A.R.T principles, to make sure funds are allocated where they will have maximum impact.</p>
-              <p>Members of the community are encouraged to take ownership of their projects and see them through to completion.</p>
+              <p>Members of the community are encouraged to take ownership of their projects and see them through to completion.</p>-->
             </div>
           </div>
         </div>
@@ -103,7 +106,7 @@
             </div>
             <div class="col-md-7 col-md-pull-5 homeHelp-volunteerCol">
               <h3 class="homeHelp-sectionHeading">Volunteer</h3>
-              <p class="homeHelp-sectionText">We have active projects right now that need help from talented people like you. Volunteering is a great chance to earn a little BCH while increasing the value of the coins you already hold.</p>
+              <p class="homeHelp-sectionText">We have active projects right now that need help from talented people like you. Volunteering is a great chance to earn some Bitcoin Cash while working with like-minded enthusiasts.</p>
               <a href="<?= $config['base_url']; ?>volunteer/" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
             </div>
           </div>
@@ -113,7 +116,7 @@
             </div>
             <div class="col-md-7 homeHelp-donateCol">
               <h3 class="homeHelp-sectionHeading">Donate</h3>
-              <p class="homeHelp-sectionText">Want to help out but don't have time to get involved yourself? No problem! Your BCH donations will help tremendously. We aim for complete transparency and accountablity with community donations.</p>
+              <p class="homeHelp-sectionText">Want to help out but don't have time to get involved yourself? No problem! Your donations are what make this all possible.</p>
               <a href="<?= $config['base_url']; ?>donate/" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
             </div>
           </div>

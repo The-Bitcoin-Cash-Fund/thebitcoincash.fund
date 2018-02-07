@@ -26,15 +26,15 @@
             <source srcset="<?= $config['svg_dir']; ?>about_hero_mobile.svg" />
             <img src="<?= $config['svg_dir']; ?>about_hero_desktop.svg" class="img-responsive hero-img" />
           </picture>
-          <h1 class="hero-heading">We want the world using Bitcoin Cash</h1>
-          <p class="hero-lead">Which is why we're spreading the word about this legendary crypto currency.</p>
+          <h1 class="hero-heading">Bitcoin Cash is the future</h1>
+          <p class="hero-lead">We are passionate group of professionals committed to the long-term success of this legendary crypto currency.</p>
         </div>
       </div>
       <div class="hero-subhead">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <p>We are passionate group of professionals committed to the long-term success of Bitcoin Cash</p>
+              <p></p>
             </div>
           </div>
         </div>
