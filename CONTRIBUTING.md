@@ -45,7 +45,7 @@ Forms are currently submitted using [FormCarry.com](https://formcarry.com/).
 
 In the future it shouldn't be difficult to switch to PHP for form submissions. I recommend including and building on the form-securing techniques [listed here](https://css-tricks.com/serious-form-security/). Hopefully something like that will reduce the need for captcha.
 
-> **NOTE:** Form names start with a capital letter so that the results are readable in formcarry.com
+> **NOTE:** The names of form inputs start with a capital letter so that the results are readable in formcarry.com
 
 
 ## CSS
@@ -61,12 +61,12 @@ Most CSS (besides what is taken from Bootstrap) is written according to the spec
 
 ## JavaScript
 
-Although a JS framework isn't really necessary for this project, [jQuery 3.3.1](https://github.com/jquery/jquery) is included.
+Although a JS framework wasn't really necessary for this project, [jQuery 3.3.1](https://github.com/jquery/jquery) has been included.
 
 
 ## Build Process
 
-The CSS and JavaScript files are modular and kept separate for easy maintenance and debugging. The site uses the minified files (styles.min.css and scripts.min.js) by default. If you are debugging CSS or JS, change the following line in _config.php:
+The CSS and JavaScript files are modular and kept separate for easy maintenance and debugging. The site uses the minified files (*styles.min.css* and *scripts.min.js*) by default. If you are debugging CSS or JS, change the following line in _config.php:
 
 ```
 'debug' => false,
@@ -112,12 +112,3 @@ If you want to use the FTP function, you'll also need to create an .ftpauth file
   }
 }
 ```
-
-
-## Translation
-
-This project does not include a system for translations, but it has been developed with i18n in mind.
-
-URL's should be written as `http://thebitcoincash.fund/en/page/`
-
-> **TODO:** [@m4ktub](https://github.com/m4ktub) has already started the translation process for the original site, so perhaps I can check with him about how to make it easier for someone to translate in the future
