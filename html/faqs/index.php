@@ -12,6 +12,20 @@
     ]; ?>
     <?php include($config['include_dir'] . 'head.php'); ?>
     <title><?= $headInfo['title'] . $config['title_post'] ?></title>
+    <script>
+      $().ready(function() {
+        $('.faqs-q').each(function() {
+          var $this = $(this),
+              state = false,
+              answer = $this.next('.faqs-a').slideUp();
+          $this.click(function() {
+            state = !state;
+            answer.slideToggle(state);
+            $this.toggleClass('active', state);
+          });
+        });
+      });
+    </script>
   </head>
   <body>
     <?php include($config['include_dir'] . 'nav.php'); ?>
