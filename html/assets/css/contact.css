@@ -62,3 +62,74 @@
     height: 50px;
   }
 }
+
+/* Join the Chat
+--------------------------------------------*/
+.contactChat {
+  background-color: #f6f6f6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contactChat-imgCol,
+.contactChat-txtCol {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.contactChat-img {
+  width: 240px;
+  margin-bottom: 25px;
+}
+.contactChat-heading {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.contactChat p {
+  text-align: left;
+}
+.contactChat-btn {
+  background-color: #dc1767;
+  border-color: #fff;
+  color: #fff;
+  margin-top: 25px;
+}
+.contactChat-btn:hover {
+  background-color: #35a283;
+  color: #fff;
+}
+@media (min-width: 550px) {
+  .contactChat-imgCol,
+  .contactChat-txtCol {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media (min-width: 768px) {
+  .contactChat-imgCol,
+  .contactChat-txtCol {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media (min-width: 992px) {
+  .contactChat-txtCol {
+    padding-left: 10%;
+    padding-right: 5%;
+  }
+  .contactChat-imgCol {
+    padding-left: 0;
+    padding-right: 10%;
+  }
+  .contactChat-img {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .contactChat-txtCol {
+    padding-left: 13%;
+    padding-right: 2%;
+  }
+  .contactChat-imgCol {
+    padding-left: 4%;
+    padding-right: 13%;
+  }
+}

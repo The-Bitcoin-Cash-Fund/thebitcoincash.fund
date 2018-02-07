@@ -42,16 +42,15 @@
           </div>
         </div>
       </div>
-      <div class="successChat">
+      <div class="contactChat">
         <div class="container">
           <div class="row">
-            <div class="col-md-5 col-md-push-7 successChat-imgCol">
-              <img src="<?= $config['svg_dir']; ?>success_chat.svg" class="img-responsive successChat-img"></div>
-            <div class="col-md-7 col-md-pull-5 successChat-txtCol">
-              <h3 class="successChat-heading">Join Our Chat</h3>
-              <p>The Bitcoin Cash Fund was formed in the BCH Slack group in late 2017. We knew that pushing adoption of Bitcoin Cash would go a lot smoother with some type of organization. We set out to raise a few hundred dollars to make a short video and ended up with a tremendous outpouring of support from the community.</p>
-              <p>Since then we incorporated as a non-profit organization and have pulled together a small team of hard-working professionals.</p>
-              <a href="https://chat.thebitcoincash.fund/" target="_blank" class="btn btn-lg successChat-btn">Join Us!</a>
+            <div class="col-md-5 col-md-push-7 contactChat-imgCol">
+              <img src="<?= $config['svg_dir']; ?>success_chat.svg" class="img-responsive contactChat-img"></div>
+            <div class="col-md-7 col-md-pull-5 contactChat-txtCol">
+              <h3 class="contactChat-heading">Join Our Chat</h3>
+              <p>The best way to get in touch with us is to join our public chat group. The chat is where we discuss projects, proposals, and all things Bitcoin.</p>
+              <a href="https://chat.thebitcoincash.fund/" target="_blank" class="btn btn-lg contactChat-btn">Join Us!</a>
             </div>
           </div>
         </div>

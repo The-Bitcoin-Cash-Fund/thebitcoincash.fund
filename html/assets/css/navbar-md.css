@@ -38,6 +38,7 @@
 .navbar-md-list-item a {
   position: relative;
   color: #fff;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .navbar-md-list-item a:hover,

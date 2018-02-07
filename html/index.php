@@ -77,11 +77,8 @@
               <h2>Our Mission</h2>
               <span class="border"></span>
               <p class="homeMission-lead">Our mission is to help Bitcoin Cash (BCH) serve one billion users within five years.</p>
-              <p>We believe that the key to success for Bitcoin Cash lies in user adoption. One way to achieve that is to make it easier for merchants to accept BCH. Another is to create open source tools for Bitcoin Cash developers. And of course we'll need to spread the word to end users.</p>
+              <p>We believe that the key to success for Bitcoin Cash lies in making sure it is adopted as a global payment system. To achieve this we need to rapidly grow both business and user adoption in unison to develop a closed-loop economy that benefits everyone.</p>
               <p>The Bitcoin Cash Fund supports community projects that help further these goals. We believe there is a tremendous amount of energy in the BCH community, and we aim to harness that energy and make BCH the currency of the future.</p>
-              <!--
-              <p>Anyone, or any team, can put in a proposal to request funding from the BCF. The proposals will be assessed based on cost versus impact and S.M.A.R.T principles, to make sure funds are allocated where they will have maximum impact.</p>
-              <p>Members of the community are encouraged to take ownership of their projects and see them through to completion.</p>-->
             </div>
           </div>
         </div>
@@ -96,7 +93,7 @@
             </div>
             <div class="col-md-7 homeHelp-proposalCol">
               <h3 class="homeHelp-sectionHeading">Submit a Proposal</h3>
-              <p class="homeHelp-sectionText">Do you have a briliant idea of how to promote adoption of Bitcoin Cash? Fill out our proposal form and we may help fund it!</p>
+              <p class="homeHelp-sectionText">Do you have a brilliant idea of how to promote adoption of Bitcoin Cash? Fill out our proposal form and we may help fund it!</p>
               <a href="<?= $config['base_url']; ?>proposal/" class="btn btn-lg homeHelp-sectionBtn">Learn More</a>
             </div>
           </div>

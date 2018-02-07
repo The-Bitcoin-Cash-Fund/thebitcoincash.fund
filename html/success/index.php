@@ -27,7 +27,7 @@
             <img src="<?= $config['svg_dir']; ?>success_hero_desktop.svg" class="img-responsive hero-img" />
           </picture>
           <h1 class="hero-heading">Form Submitted succesfully!</h1>
-          <p class="hero-lead">Now why don't you join our chat?</p>
+          <p class="hero-lead">Thanks for reaching out.</p>
         </div>
       </div>
       <div class="successChat">
@@ -37,8 +37,8 @@
               <img src="<?= $config['svg_dir']; ?>success_chat.svg" class="img-responsive successChat-img"></div>
             <div class="col-md-7 col-md-pull-5 successChat-txtCol">
               <h3 class="successChat-heading">Join Our Chat</h3>
-              <p>The Bitcoin Cash Fund was formed in the BCH Slack group in late 2017. We knew that pushing adoption of Bitcoin Cash would go a lot smoother with some type of organization. We set out to raise a few hundred dollars to make a short video and ended up with a tremendous outpouring of support from the community.</p>
-              <p>Since then we incorporated as a non-profit organization and have pulled together a small team of hard-working professionals.</p>
+              <p>While waiting for a reply to your submission, why not join the Bitcoin Cash Fund public chat group? This is where we discuss projects, proposals and all things Bitcoin.</p>
+              <p>We're a friendly bunch and we all have one shared mission: to introduce the world to Bitcoin Cash!</p>
               <a href="https://chat.thebitcoincash.fund/" target="_blank" class="btn btn-lg successChat-btn">Join Us!</a>
             </div>
           </div>

@@ -24,13 +24,6 @@
   font-weight: 800;
   font-size: 18px;
 }
-.proposalIntro a {
-  color: #555e5b;
-  text-decoration: underline;
-}
-.proposalIntro a:hover {
-  color: #dc1767;
-}
 @media (min-width: 450px) {
   .proposalIntro {
     padding-bottom: 50px;

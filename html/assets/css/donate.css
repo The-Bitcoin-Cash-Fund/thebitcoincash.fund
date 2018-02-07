@@ -134,70 +134,70 @@
 
 /* Join the Chat
 --------------------------------------------*/
-.donateChat {
+.donateTrans {
   background-color: #f6f6f6;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.donateChat-imgCol,
-.donateChat-txtCol {
+.donateTrans-imgCol,
+.donateTrans-txtCol {
   padding-left: 10%;
   padding-right: 10%;
 }
-.donateChat-img {
+.donateTrans-img {
   width: 240px;
   margin-bottom: 25px;
 }
-.donateChat-heading {
+.donateTrans-heading {
   text-align: left;
   margin-bottom: 20px;
 }
-.donateChat p {
+.donateTrans p {
   text-align: left;
 }
-.donateChat-btn {
+.donateTrans-btn {
   background-color: #dc1767;
   border-color: #fff;
   color: #fff;
   margin-top: 25px;
 }
-.donateChat-btn:hover {
+.donateTrans-btn:hover {
   background-color: #35a283;
   color: #fff;
 }
 @media (min-width: 550px) {
-  .donateChat-imgCol,
-  .donateChat-txtCol {
+  .donateTrans-imgCol,
+  .donateTrans-txtCol {
     padding-left: 15%;
     padding-right: 15%;
   }
 }
 @media (min-width: 768px) {
-  .donateChat-imgCol,
-  .donateChat-txtCol {
+  .donateTrans-imgCol,
+  .donateTrans-txtCol {
     padding-left: 15%;
     padding-right: 15%;
   }
 }
 @media (min-width: 992px) {
-  .donateChat-txtCol {
+  .donateTrans-txtCol {
     padding-left: 10%;
     padding-right: 5%;
   }
-  .donateChat-imgCol {
+  .donateTrans-imgCol {
     padding-left: 0;
     padding-right: 10%;
   }
-  .donateChat-img {
+  .donateTrans-img {
     width: 100%;
   }
 }
 @media (min-width: 1200px) {
-  .donateChat-txtCol {
+  .donateTrans-txtCol {
     padding-left: 13%;
     padding-right: 2%;
   }
-  .donateChat-imgCol {
+  .donateTrans-imgCol {
     padding-left: 4%;
     padding-right: 13%;
   }

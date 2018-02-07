@@ -66,7 +66,9 @@
               <h2>What we're looking for</h2>
               <span class="border proposalIntro-border"></span>
               <p class="proposalIntro-lead">We are looking to promote any non-profit project that will help promote the adoption of Bitcoin Cash.</p>
-              <p>Examples of projects we're funding now are Bitcoin Cash video tutorials, a BCH-specific JavaScript library and a "business onboarding info pack". We've previously funded the incredible <a href="https://txhighway.com/" target="_blank">TX Highway</a> as well as Bitcoin Cash meetups all over the world.</p>
+              <p>
+                Examples of projects we're funding now are Bitcoin Cash video tutorials, a BCH-specific JavaScript library and an info pack to help businesses adopt BCH. We've previously funded the incredible <a href="https://txhighway.com/" target="_blank">TX Highway</a>, as well as Bitcoin Cash meetups all over the world.
+              </p>
               <p>If you have an idea like this that you think will help make Bitcoin Cash the future of money, submit the form below and we'll evaluate your proposal.</p>
             </div>
           </div>

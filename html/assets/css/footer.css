@@ -91,6 +91,7 @@
 .footer-linkList li,
 .footer-linkList li a {
   color: #fff;
+  font-weight: 400;
 }
 .footer-linkList li a {
   text-decoration: underline;

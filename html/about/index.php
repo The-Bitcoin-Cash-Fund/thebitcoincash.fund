@@ -46,8 +46,8 @@
               <img src="<?= $config['svg_dir']; ?>about_trust.svg" class="img-responsive aboutTrust-img"></div>
             <div class="col-md-7 aboutTrust-txtCol">
               <h3 class="aboutTrust-heading">Humble Beginnings</h3>
-              <p>The Bitcoin Cash Fund was formed in the BCH Slack group in late 2017. We knew that pushing adoption of Bitcoin Cash would go a lot smoother with some type of organization. We set out to raise a few hundred dollars to make a short video and ended up with a tremendous outpouring of support from the community.</p>
-              <p>Since then we incorporated as a non-profit organization and have pulled together a small team of hard-working professionals.</p>
+              <p>The Bitcoin Cash Fund was formed in a Bitcoin Cash chat group in 2017. It was started by a simple request to the community to crowdfund a short promo video for Bitcoin Cash. The outpouring of support across the industry was phenomenal, and it became crystal clear that there was a need for an organisation to take on this role permanently.</p>
+              <p>Since then we have incorporated as a non-profit organization and have pulled together a small team of hard-working professionals distributed across the globe to get things done.</p>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@
                 <img src="<?= $config['img_dir']; ?>team_haipo_yang.jpg" class="img-responsive aboutTeam-photo">
                 <p class="aboutTeam-name">Haipo Yang</p>
                 <p class="aboutTeam-role">Board Member</p>
-                <p class="aboutTeam-bio">Founded the highly successful mining pool ViaBTC, and led the R&amp;D aboutTeam at ZeusMiner. </p>
+                <p class="aboutTeam-bio">Founded the highly successful mining pool ViaBTC, and led the R&amp;D team at ZeusMiner. </p>
                 <p class="aboutTeam-social">
                   <a href="https://twitter.com/yhaiyang" target="_blank">@yhaiyang</a>
                 </p>

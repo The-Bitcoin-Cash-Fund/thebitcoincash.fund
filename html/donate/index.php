@@ -42,7 +42,7 @@
             <img src="<?= $config['svg_dir']; ?>donate_hero_desktop.svg" class="img-responsive hero-img" />
           </picture>
           <h1 class="hero-heading">A donation to the BCF is an investment in your future</h1>
-          <p class="hero-lead">Widespread adoption of Bitcoin Cash will result in higher price.</p>
+          <p class="hero-lead">If we succeed, so does everyone.</p>
         </div>
       </div>
       <div class="donate">
@@ -71,16 +71,15 @@
           </div>
         </div>
       </div>
-      <div class="donateChat">
+      <div class="donateTrans">
         <div class="container">
           <div class="row">
-            <div class="col-md-5 col-md-push-7 donateChat-imgCol">
-              <img src="<?= $config['svg_dir']; ?>donate_transparency.svg" class="img-responsive donateChat-img"></div>
-            <div class="col-md-7 col-md-pull-5 donateChat-txtCol">
-              <h3 class="donateChat-heading">Transparency</h3>
-              <p>The Bitcoin Cash Fund was formed in the BCH Slack group in late 2017. We knew that pushing adoption of Bitcoin Cash would go a lot smoother with some type of organization. We set out to raise a few hundred dollars to make a short video and ended up with a tremendous outpouring of support from the community.</p>
-              <p>Since then we incorporated as a non-profit organization and have pulled together a small team of hard-working professionals.</p>
-              <a href="<?= $config['base_url']; ?>donate/" class="btn btn-lg donateChat-btn">Join Us!</a>
+            <div class="col-md-5 col-md-push-7 donateTrans-imgCol">
+              <img src="<?= $config['svg_dir']; ?>donate_transparency.svg" class="img-responsive donateTrans-img"></div>
+            <div class="col-md-7 col-md-pull-5 donateTrans-txtCol">
+              <h3 class="donateTrans-heading">Transparency</h3>
+              <p>It's important that we are as transparent and accountable with your donations as possible. We are achieving that by making our entire spending history visible. If you are concerned about the use of funds, please take a look at the block explorer below and look to see where funds are being allocated.</p>
+              <a href="#" class="btn btn-lg donateTrans-btn">Explore The BCF Address</a>
             </div>
           </div>
         </div>

@@ -17,12 +17,13 @@ p {
   margin-bottom: 10px;
 }
 a {
-  color: #dc1767;
+  color: #468e6f;
+  font-weight: 600;
   text-decoration: none;
 }
 a:hover {
-  color: #35a283;
-  text-decoration: none;
+  color: #dc1767;
+  text-decoration: underline;
 }
 h1, h2, h3, h4, h5, h6, .h1,.h2, .h3, .h4, .h5, .h6 {
   font-family: 'Montserrat', sans-serif;
