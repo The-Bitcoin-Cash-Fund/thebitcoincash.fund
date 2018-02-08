@@ -18,7 +18,7 @@
 .contact-snsList li {
   display: inline-block;
   list-style-type: none;
-  margin-right: 10px;
+  margin-right: 7px;
   margin-bottom: 15px;
 }
 .contact-snsImg {
@@ -56,12 +56,26 @@
 .contact-btn:hover {
   background-color: #35a283;
 }
+@media (min-width: 400px) {
+  .contact-snsList li {
+    margin-right: 10px;
+  }
+  .contact-snsImg-bcfChat {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
 @media (min-width: 550px) {
   .contact-snsImg {
     width: 50px;
     height: 50px;
   }
+  .contact-snsImg-bcfChat {
+    width: 80px !important;
+    height: 80px !important;
+  }
 }
+
 
 /* Join the Chat
 --------------------------------------------*/

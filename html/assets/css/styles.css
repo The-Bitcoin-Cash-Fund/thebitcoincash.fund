@@ -4028,10 +4028,10 @@ body.mobile-nav-open .page-wrap {
     width: 16%;
   }
   .footer-sns {
-    width: 46%;
+    width: 54%;
   }
   .footer-learn {
-    width: 24%;
+    width: 16%;
     text-align: right;
   }
   .footer-learn .footer-heading {
@@ -4102,6 +4102,7 @@ body.mobile-nav-open .page-wrap {
 
 /* Social Icons
 ------------------------------------------------------------- */
+/*
 .footer-snsIcon {
   margin-right: 15px;
   margin-bottom: 15px;
@@ -4111,6 +4112,7 @@ body.mobile-nav-open .page-wrap {
     width: 32px;
   }
 }
+*/
 
 
 /* Contact Button
@@ -4203,10 +4205,10 @@ body.mobile-nav-open .page-wrap {
   background: #e4e4e4 url("../img/bg_team.jpg") center center no-repeat;
   background-size: cover;
 }
-.aboutAdvisors {
+.aboutTeam {
   background: #fff;
 }
-.aboutTeam {
+.aboutAdvisors {
   background: #ececec;
 }
 .aboutTeam-wrapper {
@@ -4266,79 +4268,6 @@ body.mobile-nav-open .page-wrap {
   }
 }
 
-
-/* Sponsors
---------------------------------------------*/
-.aboutSponsors {
-  background-color: #fbfbfb;
-  padding-top: 30px;
-  padding-bottom: 40px;
-}
-.aboutSponsors p {
-  margin-bottom: 50px;
-  text-align: center;
-}
-.aboutSponsors-link {
-  padding: 15px;
-  width: 100%;
-  display: block;
-  background: #fff;
-  border: 1px solid #eee;
-  border-width: 1px 1px 3px 1px;
-  text-align: center;
-  margin-bottom: 36px;
-  -webkit-transition: border-color 250ms ease;
-  -moz-transition: border-color 250ms ease;
-  -ms-transition: border-color 250ms ease;
-  -o-transition: border-color 250ms ease;
-  transition: border-color 250ms ease;
-}
-.aboutSponsors-link:hover {
-  border-bottom: 3px solid #35a283;
-  border-bottom: 3px solid #dc1767;
-}
-.aboutSponsors-link img {
-  max-width: 100%;
-}
-@media (min-width: 550px) {
-  .aboutSponsors p {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .aboutSponsors-link {
-    padding: 20px 30px;
-  }
-  .aboutSponsors-link img {
-    max-width: 150px;
-  }
-}
-@media (min-width: 768px) {
-  .aboutSponsors-link {
-    padding: 25px 40px;
-  }
-  .aboutSponsors-link img {
-    max-width: 150px;
-  }
-}
-@media (min-width: 992px) {
-  .aboutSponsors p {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-}
-@media (min-width: 1200px) {
-  .aboutSponsors p {
-    padding-left: 200px;
-    padding-right: 200px;
-  }
-  .aboutSponsors-link {
-    padding: 20px 40px;
-  }
-  .aboutSponsors-link img {
-    max-width: 175px;
-  }
-}
-
 /* Contact
 --------------------------------------------*/
 .contact {
@@ -4359,7 +4288,7 @@ body.mobile-nav-open .page-wrap {
 .contact-snsList li {
   display: inline-block;
   list-style-type: none;
-  margin-right: 10px;
+  margin-right: 7px;
   margin-bottom: 15px;
 }
 .contact-snsImg {
@@ -4397,12 +4326,26 @@ body.mobile-nav-open .page-wrap {
 .contact-btn:hover {
   background-color: #35a283;
 }
+@media (min-width: 400px) {
+  .contact-snsList li {
+    margin-right: 10px;
+  }
+  .contact-snsImg-bcfChat {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
 @media (min-width: 550px) {
   .contact-snsImg {
     width: 50px;
     height: 50px;
   }
+  .contact-snsImg-bcfChat {
+    width: 80px !important;
+    height: 80px !important;
+  }
 }
+
 
 /* Join the Chat
 --------------------------------------------*/
@@ -4686,7 +4629,8 @@ body.mobile-nav-open .page-wrap {
   margin-bottom: 50px;
 }
 .faqs-sectionHeading {
-  background-color: #f6f6f6;
+  background-color: #35a283;
+  color: #fff;
   text-align: center;
   margin: 0;
   margin-top: 60px;
@@ -4798,6 +4742,7 @@ body.mobile-nav-open .page-wrap {
     height: 490px;
   }
 }
+
 
 /* Bitcoin Cash
 --------------------------------------------*/
@@ -5015,6 +4960,80 @@ body.mobile-nav-open .page-wrap {
     padding-left: 200px;
   }
 }
+
+
+/* Sponsors
+--------------------------------------------*/
+.homeSponsors {
+  background-color: #fbfbfb;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.homeSponsors p {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.homeSponsors-link {
+  padding: 15px;
+  width: 100%;
+  display: block;
+  background: #fff;
+  border: 1px solid #eee;
+  border-width: 1px 1px 3px 1px;
+  text-align: center;
+  margin-bottom: 36px;
+  -webkit-transition: border-color 250ms ease;
+  -moz-transition: border-color 250ms ease;
+  -ms-transition: border-color 250ms ease;
+  -o-transition: border-color 250ms ease;
+  transition: border-color 250ms ease;
+}
+.homeSponsors-link:hover {
+  border-bottom: 3px solid #35a283;
+  border-bottom: 3px solid #dc1767;
+}
+.homeSponsors-link img {
+  max-width: 100%;
+}
+@media (min-width: 550px) {
+  .homeSponsors p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .homeSponsors-link {
+    padding: 20px 30px;
+  }
+  .homeSponsors-link img {
+    max-width: 150px;
+  }
+}
+@media (min-width: 768px) {
+  .homeSponsors-link {
+    padding: 25px 40px;
+  }
+  .homeSponsors-link img {
+    max-width: 150px;
+  }
+}
+@media (min-width: 992px) {
+  .homeSponsors p {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .homeSponsors p {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .homeSponsors-link {
+    padding: 20px 40px;
+  }
+  .homeSponsors-link img {
+    max-width: 175px;
+  }
+}
+
 
 /* Intro
 --------------------------------------------*/

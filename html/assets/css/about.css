@@ -54,10 +54,10 @@
   background: #e4e4e4 url("../img/bg_team.jpg") center center no-repeat;
   background-size: cover;
 }
-.aboutAdvisors {
+.aboutTeam {
   background: #fff;
 }
-.aboutTeam {
+.aboutAdvisors {
   background: #ececec;
 }
 .aboutTeam-wrapper {
@@ -114,78 +114,5 @@
     margin: auto;
     margin-bottom: 40px;
     text-align: center;
-  }
-}
-
-
-/* Sponsors
---------------------------------------------*/
-.aboutSponsors {
-  background-color: #fbfbfb;
-  padding-top: 30px;
-  padding-bottom: 40px;
-}
-.aboutSponsors p {
-  margin-bottom: 50px;
-  text-align: center;
-}
-.aboutSponsors-link {
-  padding: 15px;
-  width: 100%;
-  display: block;
-  background: #fff;
-  border: 1px solid #eee;
-  border-width: 1px 1px 3px 1px;
-  text-align: center;
-  margin-bottom: 36px;
-  -webkit-transition: border-color 250ms ease;
-  -moz-transition: border-color 250ms ease;
-  -ms-transition: border-color 250ms ease;
-  -o-transition: border-color 250ms ease;
-  transition: border-color 250ms ease;
-}
-.aboutSponsors-link:hover {
-  border-bottom: 3px solid #35a283;
-  border-bottom: 3px solid #dc1767;
-}
-.aboutSponsors-link img {
-  max-width: 100%;
-}
-@media (min-width: 550px) {
-  .aboutSponsors p {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .aboutSponsors-link {
-    padding: 20px 30px;
-  }
-  .aboutSponsors-link img {
-    max-width: 150px;
-  }
-}
-@media (min-width: 768px) {
-  .aboutSponsors-link {
-    padding: 25px 40px;
-  }
-  .aboutSponsors-link img {
-    max-width: 150px;
-  }
-}
-@media (min-width: 992px) {
-  .aboutSponsors p {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-}
-@media (min-width: 1200px) {
-  .aboutSponsors p {
-    padding-left: 200px;
-    padding-right: 200px;
-  }
-  .aboutSponsors-link {
-    padding: 20px 40px;
-  }
-  .aboutSponsors-link img {
-    max-width: 175px;
   }
 }

@@ -72,7 +72,7 @@
               <div class="aboutTeam-wrapper">
                 <img src="<?= $config['img_dir']; ?>team_paul_wasensteiner.jpg" class="img-responsive aboutTeam-photo">
                 <p class="aboutTeam-name">Paul Wasensteiner</p>
-                <p class="aboutTeam-role">Executive Director</p>
+                <p class="aboutTeam-role">Board Member</p>
                 <p class="aboutTeam-bio">Entered the Bitcoin space in 2011, and founded the Bitcoin Cash Fund in November 2017.</p>
                 <p class="aboutTeam-social">
                   <a href="https://twitter.com/PWasensteiner" target="_blank">@PWasensteiner</a>
@@ -88,6 +88,81 @@
                 <p class="aboutTeam-social">
                   <a href="https://twitter.com/yhaiyang" target="_blank">@yhaiyang</a>
                 </p>
+              </div>
+            </div>
+            <div class="clearfix visible-md visible-lg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="aboutTeam">
+        <div class="container">
+          <h2>Meet The Team</h2>
+          <span class="border"></span>
+          <div class="row">
+            <div class="col-sm-4 col-md-4">
+              <div class="aboutTeam-wrapper">
+                <img src="<?= $config['img_dir']; ?>team_paul_wasensteiner.jpg" class="img-responsive aboutTeam-photo">
+                <p class="aboutTeam-name">Paul Wasensteiner</p>
+                <p class="aboutTeam-role">Executive Director</p>
+                <!--
+                <p class="aboutTeam-bio">Entered the Bitcoin space in 2011, and founded the Bitcoin Cash Fund in November 2017.</p>
+                <p class="aboutTeam-social">
+                <a href="https://twitter.com/PWasensteiner" target="_blank">@PWasensteiner</a>
+                </p>
+                -->
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-4">
+              <div class="aboutTeam-wrapper">
+                <img src="<?= $config['img_dir']; ?>team_ian_descoteaux.jpg" class="img-responsive aboutTeam-photo">
+                <p class="aboutTeam-name">Ian Descôteaux</p>
+                <p class="aboutTeam-role">Technical Director</p>
+                <!--
+                <p class="aboutTeam-bio">Entered the Bitcoin space in 2010 and built up a mining farm and has been mining ever since.</p>
+                <p class="aboutTeam-social">
+                  <a href="https://twitter.com/checksum0" target="_blank">@checksum0</a>
+                </p>
+                -->
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-4">
+              <div class="aboutTeam-wrapper">
+                <img src="<?= $config['img_dir']; ?>team_monica_rea.jpg" class="img-responsive aboutTeam-photo">
+                <p class="aboutTeam-name">Monica Rea</p>
+                <p class="aboutTeam-role">Event Coordinator</p>
+                <!--
+                <p class="aboutTeam-bio">bio</p>
+                <p class="aboutTeam-social">
+                <a href="https://twitter.com/username" target="_blank">@username</a>
+                </p>
+                -->
+              </div>
+            </div>
+            <div class="clearfix visible-sm visible-md visible-lg"></div>
+            <div class="col-sm-4 col-md-4">
+              <div class="aboutTeam-wrapper">
+                <img src="<?= $config['img_dir']; ?>team_aron_levi.jpg" class="img-responsive aboutTeam-photo">
+                <p class="aboutTeam-name">Aron Levi</p>
+                <p class="aboutTeam-role">Sales &amp; Business Development</p>
+                <!--
+                <p class="aboutTeam-bio">bio</p>
+                <p class="aboutTeam-social">
+                <a href="https://twitter.com/username" target="_blank">@username</a>
+                </p>
+                -->
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-4">
+              <div class="aboutTeam-wrapper">
+                <img src="<?= $config['img_dir']; ?>team_george_samuels.jpg" class="img-responsive aboutTeam-photo">
+                <p class="aboutTeam-name">George Samuels</p>
+                <p class="aboutTeam-role">Community Manager</p>
+                <!--
+                <p class="aboutTeam-bio">bio</p>
+                <p class="aboutTeam-social">
+                <a href="https://twitter.com/username" target="_blank">@username</a>
+                </p>
+                -->
               </div>
             </div>
             <div class="clearfix visible-md visible-lg"></div>
@@ -137,70 +212,6 @@
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="aboutTeam">
-        <div class="container">
-          <h2>Meet The Team</h2>
-          <span class="border"></span>
-          <div class="row">
-            <div class="col-sm-4 col-md-4">
-              <div class="aboutTeam-wrapper">
-                <img src="<?= $config['img_dir']; ?>team_monica_rea.jpg" class="img-responsive aboutTeam-photo">
-                <p class="aboutTeam-name">Monica Rea</p>
-                <p class="aboutTeam-role">Event Coordinator</p>
-                <!--
-                <p class="aboutTeam-bio">bio</p>
-                <p class="aboutTeam-social">
-                  <a href="https://twitter.com/username" target="_blank">@username</a>
-                </p>
-                -->
-              </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-              <div class="aboutTeam-wrapper">
-                <img src="<?= $config['img_dir']; ?>team_aron_levi.jpg" class="img-responsive aboutTeam-photo">
-                <p class="aboutTeam-name">Aron Levi</p>
-                <p class="aboutTeam-role">Sales &amp; Business Development</p>
-                <!--
-                <p class="aboutTeam-bio">bio</p>
-                <p class="aboutTeam-social">
-                  <a href="https://twitter.com/username" target="_blank">@username</a>
-                </p>
-                -->
-              </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-              <div class="aboutTeam-wrapper">
-                <img src="<?= $config['img_dir']; ?>team_george_samuels.jpg" class="img-responsive aboutTeam-photo">
-                <p class="aboutTeam-name">George Samuels</p>
-                <p class="aboutTeam-role">Community Manager</p>
-                <!--
-                <p class="aboutTeam-bio">bio</p>
-                <p class="aboutTeam-social">
-                  <a href="https://twitter.com/username" target="_blank">@username</a>
-                </p>
-                -->
-              </div>
-            </div>
-            <div class="clearfix visible-md visible-lg"></div>
-          </div>
-        </div>
-      </div>
-      <div class="aboutSponsors">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h2>Sponsors</h2>
-              <span class="border"></span>
-              <p>These corporate sponsors are fully aligned with our goals and are pushing Bitcoin Cash adoption forward at a lightning pace.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-6 col-sm-4"><a href="https://www.bitcoin.com/" target="_blank" class="aboutSponsors-link"><img src="<?= $config['img_dir']; ?>sponsor-bitcoin.png"></a></div>
-            <div class="col-xs-6 col-sm-4"><a href="https://viabtc.com/" target="_blank" class="aboutSponsors-link"><img src="<?= $config['img_dir']; ?>sponsor-viabtc.png"></a></div>
-            <div class="col-xs-6 col-sm-4"><a href="https://www.yours.org/" target="_blank" class="aboutSponsors-link"><img src="<?= $config['img_dir']; ?>sponsor-yours.png"></a></div>
           </div>
         </div>
       </div>

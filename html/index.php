@@ -119,6 +119,22 @@
           </div>
         </div>
       </div>
+      <div class="homeSponsors">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>Sponsors</h2>
+              <span class="border"></span>
+              <p>These corporate sponsors are fully aligned with our goals and are pushing Bitcoin Cash adoption forward at a lightning pace.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-4"><a href="https://www.bitcoin.com/" target="_blank" class="homeSponsors-link"><img src="<?= $config['img_dir']; ?>sponsor-bitcoin.png"></a></div>
+            <div class="col-xs-6 col-sm-4"><a href="https://viabtc.com/" target="_blank" class="homeSponsors-link"><img src="<?= $config['img_dir']; ?>sponsor-viabtc.png"></a></div>
+            <div class="col-xs-6 col-sm-4"><a href="https://www.yours.org/" target="_blank" class="homeSponsors-link"><img src="<?= $config['img_dir']; ?>sponsor-yours.png"></a></div>
+          </div>
+        </div>
+      </div>
       <?php include($config['include_dir'] . 'footer.php'); ?>
     </div>
   </body>

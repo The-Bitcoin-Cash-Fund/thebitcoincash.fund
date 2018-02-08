@@ -52,10 +52,10 @@
     width: 16%;
   }
   .footer-sns {
-    width: 46%;
+    width: 54%;
   }
   .footer-learn {
-    width: 24%;
+    width: 16%;
     text-align: right;
   }
   .footer-learn .footer-heading {
@@ -126,6 +126,7 @@
 
 /* Social Icons
 ------------------------------------------------------------- */
+/*
 .footer-snsIcon {
   margin-right: 15px;
   margin-bottom: 15px;
@@ -135,6 +136,7 @@
     width: 32px;
   }
 }
+*/
 
 
 /* Contact Button
