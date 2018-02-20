@@ -72,7 +72,8 @@ module.exports = function(grunt) {
           'html/assets/js/jquery.validate.js',
           'html/assets/js/clipboard.js',
           'html/assets/js/mobile-nav.js',
-          'html/assets/js/menu-slider.js'
+          'html/assets/js/menu-slider.js',
+          'html/assets/js/language-select.js'
           ]
         }
       }

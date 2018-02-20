@@ -1,6 +1,6 @@
 {
   "name": "thebitcoincash.fund",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/The-Bitcoin-Cash-Fund/thebitcoincash.fund",
   "description": "The Bitcoin Cash Fund official website",
   "main": "Gruntfile.js",

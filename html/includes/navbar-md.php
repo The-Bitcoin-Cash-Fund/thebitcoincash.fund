@@ -9,6 +9,7 @@
     </div>
     <div class="navbar-md-list-wrapper pull-right">
       <ul class="navbar-md-list pull-right">
+        
         <li class="navbar-md-list-item<?= ($currentPage == 'about') ? ' active' : ''; ?>">
           <a href="<?= $config['base_url']; ?>about/">About</a>
         </li>
@@ -27,6 +28,38 @@
         <li class="navbar-md-list-item<?= ($currentPage == 'contact') ? ' active' : ''; ?>">
           <a href="<?= $config['base_url']; ?>contact/">Contact</a>
         </li>
+
+        <li class="languageSelect">
+          <div class="languageSelect-opener">
+            <span class="languageSelect-openerLine"></span>
+            <img src="<?= $config['svg_dir']; ?>language_select.svg" alt="" class="languageSelect-openerIcon">
+            <img src="<?= $config['svg_dir']; ?>language_select_caret.svg" class="languageSelect-openerCaret">
+          </div>
+          <ul class="languageSelect-list">
+            <li class="languageSelect-listItem">
+              <a href="<?= $config['base_url']; ?>en/">English</a>
+            </li>
+            <li class="languageSelect-listItem">
+              <a href="<?= $config['base_url']; ?>es/">Español</a>
+            </li>
+            <li class="languageSelect-listItem">
+              <a href="<?= $config['base_url']; ?>it/">Italiano</a>
+            </li>
+            <li class="languageSelect-listItem">
+              <a href="<?= $config['base_url']; ?>nl/">Nederlands</a>
+            </li>
+            <li class="languageSelect-listItem">
+              <a href="<?= $config['base_url']; ?>pt-PT/">Português</a>
+            </li>
+            <li class="languageSelect-listItem">
+              <a href="<?= $config['base_url']; ?>ja/">日本語</a>
+            </li>
+            <li class="languageSelect-listItem">
+              <a href="<?= $config['base_url']; ?>zh/">中文</a>
+            </li>          
+          </ul>
+        </li>
+
       </ul>
     </div>
   </div>
