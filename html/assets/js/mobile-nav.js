@@ -30,9 +30,13 @@ $(document).ready(function () {
     var preopenedItems = $('.preopen').length;
 
     if (preopenedItems > 1) {
-      console.log('Pre-opening subnav item failed. More than one items are tagged with .preopen class.');
+      if (debugPreopen) {
+        console.log('Pre-opening subnav item failed. More than one items are tagged with .preopen class.');
+      }
     } else if (preopenedItems === 0) {
-      console.log('Pre-opening subnav item failed. No items are tagged with .preopen class.');
+      if (debugPreopen) {
+        console.log('Pre-opening subnav item failed. No items are tagged with .preopen class.');
+      }
     } else if (preopenedItems === 1) {
       if (debugPreopen) {
         console.log('Found exactly one item with class preopen.');
